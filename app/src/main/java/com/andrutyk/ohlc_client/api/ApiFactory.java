@@ -11,6 +11,7 @@ import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
 import retrofit2.Retrofit;
+import retrofit2.adapter.rxjava.RxJavaCallAdapterFactory;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
@@ -30,12 +31,13 @@ public class ApiFactory {
         return new Retrofit.Builder()
                 .baseUrl(API_ENDPOINT)
                 .addConverterFactory(GsonConverterFactory.create(GSON))
+                .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .client(CLIENT)
                 .build();
     }
 
     @NonNull
-    public static OHLCService getOHLCService(){
+    public static OHLCService getOHLCService() {
         return getRetrofit().create(OHLCService.class);
     }
 }

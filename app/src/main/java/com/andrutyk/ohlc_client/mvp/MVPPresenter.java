@@ -8,5 +8,6 @@ import android.os.Bundle;
  */
 public interface MVPPresenter {
     void onSearchClick();
+
     void onStop();
 }

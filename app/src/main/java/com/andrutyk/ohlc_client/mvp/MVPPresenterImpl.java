@@ -32,8 +32,8 @@ public class MVPPresenterImpl implements MVPPresenter {
             subscription.unsubscribe();
         }
 
-        subscription = mvpModel.request("")
-                .subscribe(new Observer<List<OHLCModel>>() {
+        subscription = mvpModel.request(view.getQuery())
+                .subscribe(new Observer<OHLCModel>() {
                     @Override
                     public void onCompleted() {
 
@@ -45,11 +45,11 @@ public class MVPPresenterImpl implements MVPPresenter {
                     }
 
                     @Override
-                    public void onNext(List<OHLCModel> data) {
-                        if (data != null && !data.isEmpty()) {
-                            view.showList(data);
+                    public void onNext(OHLCModel data) {
+                        if (data != null) {
+                            view.showData(data);
                         } else {
-                            view.showEmptyList();
+                            view.showEmptyData();
                         }
                     }
                 });

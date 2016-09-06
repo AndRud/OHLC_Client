@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">OHLC_Client</string>
+
+    <!-- DataProvider resources -->
+    <string-array name="data_provider_array">
+        <item>quandl</item>
+    </string-array>
 </resources>

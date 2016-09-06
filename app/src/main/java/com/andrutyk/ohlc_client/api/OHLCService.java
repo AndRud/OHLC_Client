@@ -3,6 +3,7 @@ package com.andrutyk.ohlc_client.api;
 import java.util.List;
 
 import retrofit2.http.GET;
+import retrofit2.http.Path;
 import retrofit2.http.Query;
 import rx.Observable;
 
@@ -11,6 +12,6 @@ import rx.Observable;
  */
 public interface OHLCService {
 
-    @GET("/api/v3/datasets/WIKI/AAPL.json?start_date=1985-05-01&end_date=1997-07-01&order=asc&column_index=4&collapse=quarterly&transformation=rdiff")
-    Observable<List<OHLCModel>> ohlcRequest();
+    @GET("/api/v3/datasets/WIKI/{dataSet}/data.json?start_date=2015-05-24&end_date=2015-05-28")
+    Observable<OHLCModel> ohlcRequest(@Path("dataSet") String dataSet, @Query("api_key") String api_key);
 }

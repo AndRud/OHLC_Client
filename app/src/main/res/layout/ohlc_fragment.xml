@@ -7,17 +7,32 @@
     <Spinner
         android:id="@+id/spDataProvider"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></Spinner>
-
-    <EditText
-        android:id="@+id/etQuery"
-        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/ivSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@mipmap/search"
+            android:padding="5dp" />
+
+        <EditText
+            android:id="@+id/etQuery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/ivSearch" />
+
+    </RelativeLayout>
 
     <TextView
         android:id="@+id/tvTest"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:textColor="@color/colorAccent" />
+        android:textAppearance="?android:attr/textAppearanceMedium" />
 </LinearLayout>

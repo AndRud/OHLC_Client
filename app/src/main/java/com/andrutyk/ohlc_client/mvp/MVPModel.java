@@ -11,5 +11,6 @@ import rx.Observable;
  */
 public interface MVPModel {
     Observable<List<OHLCModel>> changeText();
-    Observable<List<OHLCModel>> request(String query);
+
+    Observable<OHLCModel> request(String query);
 }
