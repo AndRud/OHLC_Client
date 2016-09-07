@@ -23,9 +23,9 @@ public class MVPModelImpl implements MVPModel {
     }
 
     @Override
-    public Observable<OHLCModel> request(String dataSet) {
+    public Observable<OHLCModel> request(String dataSet, String startDate, String endDate) {
         OHLCService ohlcService = ApiFactory.getOHLCService();
-        return ohlcService.ohlcRequest(dataSet, API_KEY)
+        return ohlcService.ohlcRequest(dataSet, API_KEY, startDate, endDate)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());
     }

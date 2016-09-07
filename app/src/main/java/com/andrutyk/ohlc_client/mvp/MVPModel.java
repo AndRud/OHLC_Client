@@ -12,5 +12,5 @@ import rx.Observable;
 public interface MVPModel {
     Observable<List<OHLCModel>> changeText();
 
-    Observable<OHLCModel> request(String query);
+    Observable<OHLCModel> request(String query, String startDate, String endDate);
 }

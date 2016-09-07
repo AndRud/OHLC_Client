@@ -3,10 +3,13 @@ package com.andrutyk.ohlc_client.main_fragment;
 import android.app.Fragment;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.AutoCompleteTextView;
 import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
@@ -33,10 +36,16 @@ public class OHLCFragment extends Fragment implements MVPView {
     Spinner spDataProvider;
 
     @BindView(R.id.etQuery)
-    EditText etQuery;
+    AutoCompleteTextView etQuery;
 
     @BindView(R.id.ivSearch)
     ImageView ivSearch;
+
+    @BindView(R.id.rvData)
+    RecyclerView rvData;
+
+    private RecyclerView.Adapter adapter;
+    private RecyclerView.LayoutManager layoutManager;
 
     private MVPPresenter presenter;
 
@@ -55,12 +64,23 @@ public class OHLCFragment extends Fragment implements MVPView {
                 R.array.data_provider_array, android.R.layout.simple_spinner_item);
         arrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spDataProvider.setAdapter(arrayAdapter);
+
+        rvData.setHasFixedSize(true);
+        layoutManager = new LinearLayoutManager(getActivity());
+        rvData.setLayoutManager(layoutManager);
+
+        String[] tickers = getActivity().getResources().getStringArray(R.array.tickers_array);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(),
+                android.R.layout.simple_dropdown_item_1line, tickers);
+        etQuery.setAdapter(adapter);
+
         return view;
     }
 
     @Override
-    public void showData(OHLCModel OHLCData) {
-
+    public void showData(OHLCModel ohlcData) {
+        adapter = new OHLCAdapter(ohlcData.getDatasetData().getData());
+        rvData.setAdapter(adapter);
     }
 
     @Override
@@ -74,8 +94,18 @@ public class OHLCFragment extends Fragment implements MVPView {
     }
 
     @Override
-    public String getQuery() {
+    public String getDataSet() {
         return etQuery.getText().toString();
+    }
+
+    @Override
+    public String getStartDate() {
+        return "2015-05-24";
+    }
+
+    @Override
+    public String getEndDate() {
+        return "2015-05-28";
     }
 
     @OnClick(R.id.ivSearch)

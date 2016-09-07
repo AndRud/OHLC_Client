@@ -12,6 +12,9 @@ import rx.Observable;
  */
 public interface OHLCService {
 
-    @GET("/api/v3/datasets/WIKI/{dataSet}/data.json?start_date=2015-05-24&end_date=2015-05-28")
-    Observable<OHLCModel> ohlcRequest(@Path("dataSet") String dataSet, @Query("api_key") String api_key);
+    @GET("/api/v3/datasets/WIKI/{dataSet}/data.json")
+    Observable<OHLCModel> ohlcRequest(@Path("dataSet") String dataSet,
+                                      @Query("api_key") String api_key,
+                                      @Query("start_date") String start_date,
+                                      @Query("end_date") String end_date);
 }

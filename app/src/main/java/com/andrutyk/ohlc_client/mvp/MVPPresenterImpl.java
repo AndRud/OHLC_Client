@@ -32,7 +32,8 @@ public class MVPPresenterImpl implements MVPPresenter {
             subscription.unsubscribe();
         }
 
-        subscription = mvpModel.request(view.getQuery())
+        subscription = mvpModel.request(view.getDataSet(), view.getStartDate(),
+                view.getEndDate())
                 .subscribe(new Observer<OHLCModel>() {
                     @Override
                     public void onCompleted() {

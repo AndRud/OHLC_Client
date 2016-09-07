@@ -4,5 +4,2952 @@
     <!-- DataProvider resources -->
     <string-array name="data_provider_array">
         <item>quandl</item>
+        <item>google</item>
+        <item>yahoo</item>
+        <item>quotemedia</item>
+    </string-array>
+
+    <!-- DataProvider resources -->
+    <string-array name="tickers_array">
+        <item>AAL,"American Airlines Group, Inc."</item>
+        <item>AAMC,"Altisource Asset Management Corp"</item>
+        <item>AAN,"Aaron's,  Inc."</item>
+        <item>AAOI,"Applied Optoelectronics, Inc."</item>
+        <item>AAON,"AAON, Inc."</item>
+        <item>AAPL,"Apple Inc. (AAPL)"</item>
+        <item>AAP,"Advance Auto Parts Inc"</item>
+        <item>AAT,"American Assets Trust, Inc."</item>
+        <item>AAWW,"Atlas Air Worldwide Holdings"</item>
+        <item>AA,"Alcoa Inc."</item>
+        <item>ABAX,"ABAXIS, Inc."</item>
+        <item>ABBV,"AbbVie Inc."</item>
+        <item>ABCB,"Ameris Bancorp"</item>
+        <item>ABCO,"The Advisory Board Company"</item>
+        <item>ABC,"AmerisourceBergen Corporation"</item>
+        <item>ABG,"Asbury Automotive Group Inc"</item>
+        <item>ABMD,"ABIOMED, Inc."</item>
+        <item>ABM,"ABM Industries Incorporated"</item>
+        <item>ABT,"Abbott Laboratories"</item>
+        <item>ACAD,"ACADIA Pharmaceuticals Inc."</item>
+        <item>ACAS,"American Capital, Ltd."</item>
+        <item>ACAT,"Arctic Cat Inc."</item>
+        <item>ACCO,"Acco Brands Corporation"</item>
+        <item>ACC,"American Campus Communities Inc"</item>
+        <item>ACET,"Aceto Corporation"</item>
+        <item>ACE,"Ace Limited"</item>
+        <item>ACFN,"Acorn Energy, Inc."</item>
+        <item>ACGL,"Arch Capital Group Ltd."</item>
+        <item>ACHC,"Acadia Healthcare Company, Inc."</item>
+        <item>ACHN,"Achillion Pharmaceuticals, Inc."</item>
+        <item>ACIW,"ACI Worldwide, Inc."</item>
+        <item>ACI,"Arch Coal, Inc."</item>
+        <item>ACLS,"Axcelis Technologies, Inc."</item>
+        <item>ACM,"Aecom Technology Corporation"</item>
+        <item>ACN,"Accenture plc."</item>
+        <item>ACOR,"Acorda Therapeutics, Inc."</item>
+        <item>ACRE,"Ares Commercial Real Estate Corporation"</item>
+        <item>ACRX,"AcelRx Pharmaceuticals, Inc."</item>
+        <item>ACTG,"Acacia Research Corporation"</item>
+        <item>ACW,"Accuride Corporation New"</item>
+        <item>ACXM,"Acxiom Corporation"</item>
+        <item>ADBE,"Adobe Systems Incorporated"</item>
+        <item>ADC,"Agree Realty Corporation"</item>
+        <item>ADI,"Analog Devices, Inc."</item>
+        <item>ADMS,"Adamas Pharmaceuticals, Inc."</item>
+        <item>ADM,"Archer-Daniels-Midland Company"</item>
+        <item>ADP,"Automatic Data Processing, Inc."</item>
+        <item>ADSK,"Autodesk, Inc."</item>
+        <item>ADS,"Alliance Data Systems Corporation"</item>
+        <item>ADTN,"ADTRAN, Inc."</item>
+        <item>ADT,"ADT Corporation"</item>
+        <item>ADUS,"Addus HomeCare Corporation"</item>
+        <item>AEC,"Associated Estates Realty Corporation"</item>
+        <item>AEE,"Ameren Corporation"</item>
+        <item>AEGN,"Aegion Corp"</item>
+        <item>AEGR,"Aegerion Pharmaceuticals, Inc."</item>
+        <item>AEIS,"Advanced Energy Industries, Inc."</item>
+        <item>AEL,"American Equity Investment Life Holding Company"</item>
+        <item>AEO,"American Eagle Outfitters, Inc."</item>
+        <item>AEPI,"AEP Industries Inc."</item>
+        <item>AEP,"American Electric Power Company, Inc."</item>
+        <item>AERI,"Aerie Pharmaceuticals, Inc."</item>
+        <item>AES,"The AES Corporation"</item>
+        <item>AET,"Aetna Inc."</item>
+        <item>AE,"Adams Resources &amp;amp; Energy, Inc."</item>
+        <item>AFAM,"Almost Family Inc"</item>
+        <item>AFFX,"Affymetrix, Inc."</item>
+        <item>AFG,"American Financial Group, Inc."</item>
+        <item>AFH,"Atlas Financial Holdings, Inc."</item>
+        <item>AFL,"Aflac Incorporated"</item>
+        <item>AFOP,"Alliance Fiber Optic Products, Inc."</item>
+        <item>AFSI,"AmTrust Financial Services, Inc."</item>
+        <item>AF,"Astoria Financial Corporation"</item>
+        <item>AGCO,"AGCO Corporation"</item>
+        <item>AGEN,"Agenus Inc."</item>
+        <item>AGII,"Argo Group International Holdings, Ltd."</item>
+        <item>AGIO,"Agios Pharmaceuticals, Inc."</item>
+        <item>AGM,"Federal Agricultural Mortgage Corporation"</item>
+        <item>AGNC,"American Capital Agency Corp."</item>
+        <item>AGN,"Allergen plc"</item>
+        <item>AGO,"Assured Guaranty Ltd."</item>
+        <item>AGTC,"Applied Genetic Technologies Corporation"</item>
+        <item>AGX,"Argan, Inc."</item>
+        <item>AGYS,"Agilysys, Inc."</item>
+        <item>AHC,"A.H. Belo Corporation"</item>
+        <item>AHH,"Armada Hoffler Properties, Inc."</item>
+        <item>AHL,"Aspen Insurance Holdings Limited"</item>
+        <item>AHP,"Ashford Hospitality Prime, Inc."</item>
+        <item>AHS,"AMN Healthcare Services Inc"</item>
+        <item>AHT,"Ashford Hospitality Trust Inc"</item>
+        <item>AIG,"American International Group, Inc."</item>
+        <item>AIMC,"Altra Industrial Motion Corp."</item>
+        <item>AINV,"Apollo Investment Corporation"</item>
+        <item>AIN,"Albany International Corporation"</item>
+        <item>AIQ,"Alliance HealthCare Services, Inc."</item>
+        <item>AIRM,"Air Methods Corporation"</item>
+        <item>AIR,"AAR Corp."</item>
+        <item>AIT,"Applied Industrial Technologies, Inc."</item>
+        <item>AIV,"Apartment Investment and Management Company"</item>
+        <item>AIZ,"Assurant, Inc."</item>
+        <item>AI,"Arlington Asset Investment Corp"</item>
+        <item>AJG,"Arthur J. Gallagher &amp;amp; Co."</item>
+        <item>AKAM,"Akamai Technologies, Inc."</item>
+        <item>AKAO,"Achaogen, Inc."</item>
+        <item>AKBA,"Akebia Therapeutics, Inc."</item>
+        <item>AKRX,"Akorn, Inc."</item>
+        <item>AKR,"Acadia Realty Trust"</item>
+        <item>AKS,"AK Steel Holding Corporation"</item>
+        <item>ALB,"Albemarle Corporation"</item>
+        <item>ALCO,"Alico, Inc."</item>
+        <item>ALDR,"Alder BioPharmaceuticals, Inc."</item>
+        <item>ALEX,"Alexander &amp; Baldwin Holdings, Inc."</item>
+        <item>ALE,"Allete, Inc."</item>
+        <item>ALGN,"Align Technology, Inc."</item>
+        <item>ALGT,"Allegiant Travel Company"</item>
+        <item>ALG,"Alamo Group, Inc."</item>
+        <item>ALIM,"Alimera Sciences, Inc."</item>
+        <item>ALJ,"Alon USA Energy, Inc."</item>
+        <item>ALKS,"Alkermes plc"</item>
+        <item>ALK,"Alaska Air Group, Inc."</item>
+        <item>ALLE,"Allegion plc"</item>
+        <item>ALL,"Allstate Corporation"</item>
+        <item>ALNY,"Alnylam Pharmaceuticals, Inc."</item>
+        <item>ALOG,"Analogic Corporation"</item>
+        <item>ALR,"Alere Inc."</item>
+        <item>ALSN,"Allison Transmission Holdings, Inc."</item>
+        <item>ALTR,"Altera Corporation"</item>
+        <item>ALXN,"Alexion Pharmaceuticals, Inc."</item>
+        <item>ALX,"Alexander's, Inc."</item>
+        <item>AL,"Air Lease Corporation"</item>
+        <item>AMAG,"AMAG Pharmaceuticals, Inc."</item>
+        <item>AMAT,"Applied Materials, Inc."</item>
+        <item>AMBA,"Ambarella, Inc."</item>
+        <item>AMBC,"Ambac Financial Group, Inc."</item>
+        <item>AMBR,"Amber Road, Inc."</item>
+        <item>AMCC,"Applied Micro Circuits Corporation"</item>
+        <item>AMCX,"AMC Networks Inc."</item>
+        <item>AMC,"AMC Entertainment Holdings, Inc."</item>
+        <item>AMD,"Advanced Micro Devices, Inc."</item>
+        <item>AMED,"Amedisys Inc"</item>
+        <item>AME,"AMTEK, Inc."</item>
+        <item>AMGN,"Amgen Inc."</item>
+        <item>AMG,"Affiliated Managers Group, Inc."</item>
+        <item>AMKR,"Amkor Technology, Inc."</item>
+        <item>AMNB,"American National Bankshares, Inc."</item>
+        <item>AMPE,"Ampio Pharmaceuticals, Inc."</item>
+        <item>AMP,"AMERIPRISE FINANCIAL SERVICES, INC."</item>
+        <item>AMRC,"Ameresco, Inc."</item>
+        <item>AMRI,"Albany Molecular Research, Inc."</item>
+        <item>AMRS,"Amyris, Inc."</item>
+        <item>AMSC,"American Superconductor Corporation"</item>
+        <item>AMSF,"AMERISAFE, Inc."</item>
+        <item>AMSG,"Amsurg Corp."</item>
+        <item>AMSWA,"American Software, Inc."</item>
+        <item>AMTD,"TD Ameritrade Holding Corporation"</item>
+        <item>AMTG,"Apollo Residential Mortgage, Inc."</item>
+        <item>AMT,"American Tower Corporation"</item>
+        <item>AMWD,"American Woodmark Corporation"</item>
+        <item>AMZN,"Amazon.com, Inc."</item>
+        <item>ANAC,"Anacor Pharmaceuticals, Inc."</item>
+        <item>ANAD,"ANADIGICS, Inc."</item>
+        <item>ANAT,"American National Insurance Company"</item>
+        <item>ANCX,"Access National Corporation"</item>
+        <item>ANDE,"The Andersons, Inc."</item>
+        <item>ANF,"Abercrombie &amp; Fitch Company"</item>
+        <item>ANGI,"Angie's List, Inc."</item>
+        <item>ANGO,"AngioDynamics, Inc."</item>
+        <item>ANH,"Anworth Mortgage Asset  Corporation"</item>
+        <item>ANIK,"Anika Therapeutics Inc."</item>
+        <item>ANIP,"ANI Pharmaceuticals, Inc."</item>
+        <item>ANN,"ANN INC."</item>
+        <item>ANR,"Alpha Natural Resources, inc."</item>
+        <item>ANSS,"ANSYS, Inc."</item>
+        <item>ANTM,"Untitled Dataset 2014-12-09 22:16:10"</item>
+        <item>AN,"AutoNation, Inc."</item>
+        <item>AOI,"Alliance One International, Inc."</item>
+        <item>AON,"Aon plc"</item>
+        <item>AOSL,"Alpha and Omega Semiconductor Limited"</item>
+        <item>AOS,"Smith"</item>
+        <item>APAM,"Artisan Partners Asset Management Inc."</item>
+        <item>APA,"Apache Corporation"</item>
+        <item>APC,"Anadarko Petroleum Corporation"</item>
+        <item>APD,"Air Products and Chemicals, Inc."</item>
+        <item>APEI,"American Public Education, Inc."</item>
+        <item>APH,"Amphenol Corporation"</item>
+        <item>APOG,"Apogee Enterprises, Inc."</item>
+        <item>APOL,"Apollo Education Group, Inc."</item>
+        <item>APP,"American Apparel Inc"</item>
+        <item>AP,"Ampco-Pittsburgh Corporation"</item>
+        <item>ARAY,"Accuray Incorporated"</item>
+        <item>ARCB,"ArcBest Corporation"</item>
+        <item>ARCC,"Ares Capital Corporation"</item>
+        <item>ARCW,"ARC Group Worldwide, Inc."</item>
+        <item>ARC,"ARC Document Solutions, Inc."</item>
+        <item>AREX,"Approach Resources Inc."</item>
+        <item>ARE,"Alexandria Real Estate Equities, Inc."</item>
+        <item>ARG,"Airgas, Inc."</item>
+        <item>ARIA,"ARIAD Pharmaceuticals, Inc."</item>
+        <item>ARII,"American Railcar Industries, Inc."</item>
+        <item>ARI,"Apollo Commercial Real Estate Finance"</item>
+        <item>ARNA,"Arena Pharmaceuticals, Inc."</item>
+        <item>AROW,"Arrow Financial Corporation"</item>
+        <item>ARO,"Aeropostale Inc"</item>
+        <item>ARPI,"American Residential Properties, Inc."</item>
+        <item>ARQL,"ArQule, Inc."</item>
+        <item>ARRS,"ARRIS Group, Inc."</item>
+        <item>ARRY,"Array BioPharma Inc."</item>
+        <item>ARR,"ARMOUR Residential REIT, Inc."</item>
+        <item>ARTNA,"Artesian Resources Corporation"</item>
+        <item>ARWR,"Arrowhead Research Corporation"</item>
+        <item>ARW,"Arrow Electronics, Inc."</item>
+        <item>ASCMA,"Ascent Capital Group, Inc."</item>
+        <item>ASC,"Ardmore Shipping Corporation"</item>
+        <item>ASEI,"American Science and Engineering, Inc."</item>
+        <item>ASGN,"On Assignment, Inc."</item>
+        <item>ASH,"Ashland Inc."</item>
+        <item>ASNA,"Ascena Retail Group, Inc."</item>
+        <item>ASPS,"Altisource Portfolio Solutions S.A."</item>
+        <item>ASTE,"Astec Industries, Inc."</item>
+        <item>ATEC,"Alphatec Holdings, Inc."</item>
+        <item>ATEN,"Untitled Dataset 2014-07-28 20:51:48"</item>
+        <item>ATHN,"athenahealth, Inc."</item>
+        <item>ATLO,"Ames National Corporation"</item>
+        <item>ATML,"Atmel Corporation"</item>
+        <item>ATNI,"Atlantic Tele-Network, Inc."</item>
+        <item>ATNM,"Cactus Ventures, Inc."</item>
+        <item>ATNY,"API Technologies Corp."</item>
+        <item>ATO,"Atmos Energy Corporation"</item>
+        <item>ATRC,"AtriCure, Inc."</item>
+        <item>ATRI,"ATRION Corporation"</item>
+        <item>ATRO,"Astronics Corporation"</item>
+        <item>ATRS,"Antares Pharma, Inc."</item>
+        <item>ATR,"AptarGroup, Inc."</item>
+        <item>ATSG,"Air Transport Services Group, Inc"</item>
+        <item>ATU,"Actuant Corporation"</item>
+        <item>ATVI,"Activision Blizzard, Inc"</item>
+        <item>ATW,"Atwood Oceanics, Inc."</item>
+        <item>AT,"Atlantic Power Corporation"</item>
+        <item>AVAV,"AeroVironment, Inc."</item>
+        <item>AVA,"Avista Corporation"</item>
+        <item>AVB,"AvalonBay Communities, Inc."</item>
+        <item>AVD,"American Vanguard Corporation"</item>
+        <item>AVEO,"AVEO Pharmaceuticals, Inc."</item>
+        <item>AVGO,"Avago Technologies Limited"</item>
+        <item>AVG,"AVG Technologies N.V."</item>
+        <item>AVHI,"A V Homes, Inc."</item>
+        <item>AVID,"Avid Technology, Inc."</item>
+        <item>AVNW,"Aviat Networks, Inc."</item>
+        <item>AVT,"Avnet, Inc."</item>
+        <item>AVX,"AVX Corporation"</item>
+        <item>AVY,"Avery Dennison Corporation"</item>
+        <item>AWAY,"HomeAway, Inc."</item>
+        <item>AWH,"Allied World Assurance Company Holdings, AG"</item>
+        <item>AWI,"Armstrong World Industries Inc"</item>
+        <item>AWK,"American Water Works"</item>
+        <item>AWR,"American States Water Company"</item>
+        <item>AXAS,"Abraxas Petroleum Corporation"</item>
+        <item>AXDX,"Accelerate Diagnostics, Inc."</item>
+        <item>AXE,"Anixter International Inc."</item>
+        <item>AXLL,"Axiall Corporation"</item>
+        <item>AXL,"American Axle &amp; Manufacturing Holdings, Inc."</item>
+        <item>AXP,"American Express Company"</item>
+        <item>AXS,"Axis Capital Holdings Limited"</item>
+        <item>AYI,"Acuity Brands Inc"</item>
+        <item>AYR,"Aircastle Limited"</item>
+        <item>AZO,"AutoZone, Inc."</item>
+        <item>AZPN,"Aspen Technology, Inc."</item>
+        <item>AZZ,"AZZ Incorporated"</item>
+        <item>A,"Agilent Technologies, Inc."</item>
+        <item>BABY,"Natus Medical Incorporated"</item>
+        <item>BAC,"Bank of America Corporation"</item>
+        <item>BAGR,"Diversified Restaurant Holdings, Inc."</item>
+        <item>BAH,"Booz Allen Hamilton Holding Corporation"</item>
+        <item>BALT,"Baltic Trading Limited"</item>
+        <item>BANC,"Banc of California, Inc."</item>
+        <item>BANF,"BancFirst Corporation"</item>
+        <item>BANR,"Banner Corporation"</item>
+        <item>BAS,"Basic Energy Services, Inc."</item>
+        <item>BAX,"Baxter International Inc."</item>
+        <item>BA,"Boeing Company"</item>
+        <item>BBBY,"Bed Bath &amp; Beyond Inc."</item>
+        <item>BBCN,"BBCN Bancorp, Inc."</item>
+        <item>BBGI,"Beasley Broadcast Group, Inc."</item>
+        <item>BBG,"Bill Barrett Corporation"</item>
+        <item>BBOX,"Black Box Corporation"</item>
+        <item>BBRG,"Bravo Brio Restaurant Group, Inc."</item>
+        <item>BBSI,"Barrett Business Services, Inc."</item>
+        <item>BBT,"BB&amp;T Corporation"</item>
+        <item>BBW,"Build-A-Bear Workshop, Inc."</item>
+        <item>BBX,"BBX Capital Corporation"</item>
+        <item>BBY,"Best Buy Co., Inc."</item>
+        <item>BCC,"Boise Cascade, L.L.C."</item>
+        <item>BCEI,"Bonanza Creek Energy, Inc."</item>
+        <item>BCOR,"Blucora, Inc."</item>
+        <item>BCOV,"Brightcove Inc."</item>
+        <item>BCO,"Brink's Company"</item>
+        <item>BCPC,"Balchem Corporation"</item>
+        <item>BCRX,"BioCryst Pharmaceuticals, Inc."</item>
+        <item>BCR,"C.R. Bard, Inc."</item>
+        <item>BC,"Brunswick Corporation"</item>
+        <item>BDBD,"Boulder Brands, Inc."</item>
+        <item>BDC,"Belden Inc"</item>
+        <item>BDE,"Black Diamond, Inc."</item>
+        <item>BDGE,"Bridge Bancorp, Inc."</item>
+        <item>BDN,"Brandywine Realty Trust"</item>
+        <item>BDSI,"BioDelivery Sciences International, Inc."</item>
+        <item>BDX,"Becton, Dickinson and Company"</item>
+        <item>BEAT,"BioTelemetry, Inc."</item>
+        <item>BEAV,"B/E Aerospace, Inc."</item>
+        <item>BEBE,"bebe stores, inc."</item>
+        <item>BECN,"Beacon Roofing Supply, Inc."</item>
+        <item>BEE,"Strategic Hotels &amp; Resorts Inc"</item>
+        <item>BELFB,"Bel Fuse Inc."</item>
+        <item>BEN,"Franklin Resources, Inc."</item>
+        <item>BERY,"BPC Acquisition Corp"</item>
+        <item>BF_B,"Brown Forman Corporation"</item>
+        <item>BFAM,"Bright Horizons Family Solutions Inc."</item>
+        <item>BFIN,"BankFinancial Corporation"</item>
+        <item>BFS,"Saul Centers, Inc."</item>
+        <item>BGCP,"BGC Partners, Inc."</item>
+        <item>BGC,"General Cable Corporation"</item>
+        <item>BGFV,"Big 5 Sporting Goods Corporation"</item>
+        <item>BGG,"Briggs &amp; Stratton Corporation"</item>
+        <item>BGS,"B&amp;G Foods, Inc."</item>
+        <item>BG,"Bunge Limited"</item>
+        <item>BHB,"Bar Harbor Bankshares, Inc."</item>
+        <item>BHE,"Benchmark Electronics, Inc."</item>
+        <item>BHI,"Baker Hughes Incorporated"</item>
+        <item>BHLB,"Berkshire Hills Bancorp, Inc."</item>
+        <item>BH,"Biglari Holdings Inc."</item>
+        <item>BIDU,"Baidu, Inc."</item>
+        <item>BID,"Sotheby's"</item>
+        <item>BIG,"Big Lots, Inc."</item>
+        <item>BIIB,"Biogen Idec Inc."</item>
+        <item>BIOL,"Biolase, Inc."</item>
+        <item>BIOS,"BioScrip, Inc."</item>
+        <item>BIO,"Bio-Rad Laboratories, Inc."</item>
+        <item>BJRI,"BJ's Restaurants, Inc."</item>
+        <item>BKCC,"BlackRock Kelso Capital Corporation"</item>
+        <item>BKD,"Brookdale Senior Living Inc."</item>
+        <item>BKE,"Buckle, Inc."</item>
+        <item>BKH,"Black Hills Corporation"</item>
+        <item>BKMU,"Bank Mutual Corporation"</item>
+        <item>BKS,"Barnes &amp; Noble, Inc."</item>
+        <item>BKU,"BankUnited, Inc."</item>
+        <item>BK,"Bank Of New York Mellon Corporation"</item>
+        <item>BLDR,"Builders FirstSource, Inc."</item>
+        <item>BLKB,"Blackbaud, Inc."</item>
+        <item>BLK,"BlackRock, Inc."</item>
+        <item>BLL,"Ball Corporation"</item>
+        <item>BLMN,"Bloomin' Brands, Inc."</item>
+        <item>BLOX,"Infoblox Inc."</item>
+        <item>BLT,"Blount International, Inc."</item>
+        <item>BLUE,"bluebird bio, Inc."</item>
+        <item>BLX,"Banco Latinoamericano de Comercio Exterior, S.A."</item>
+        <item>BMI,"Badger Meter, Inc."</item>
+        <item>BMRC,"Bank of Marin Bancorp"</item>
+        <item>BMRN,"BioMarin Pharmaceutical Inc."</item>
+        <item>BMR,"(BMR) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>BMS,"Bemis Company, Inc."</item>
+        <item>BMTC,"Bryn Mawr Bank Corporation"</item>
+        <item>BMY,"Bristol-Myers Squibb Company"</item>
+        <item>BNCL,"Beneficial Mutual Bancorp, Inc."</item>
+        <item>BNCN,"BNC Bancorp"</item>
+        <item>BNFT,"Benefitfocus, Inc."</item>
+        <item>BOBE,"Bob Evans Farms, Inc."</item>
+        <item>BOFI,"BofI Holding, Inc."</item>
+        <item>BOH,"Bank of Hawaii Corporation"</item>
+        <item>BOKF,"BOK Financial Corporation"</item>
+        <item>BONT,"The Bon-Ton Stores, Inc."</item>
+        <item>BOOM,"Dynamic Materials Corporation"</item>
+        <item>BPFH,"Boston Private Financial Holdings, Inc."</item>
+        <item>BPI,"Bridgepoint Education, Inc."</item>
+        <item>BPOP,"Popular, Inc."</item>
+        <item>BPTH,"Bio-Path Holdings Inc"</item>
+        <item>BP,"BP p.l.c."</item>
+        <item>BRCD,"Brocade Communications Systems, Inc."</item>
+        <item>BRCM,"Broadcom Corporation"</item>
+        <item>BRC,"Brady Corporation"</item>
+        <item>BREW,"Craft Brew Alliance, Inc."</item>
+        <item>BRK_A,"Berkshire Hathaway Inc."</item>
+        <item>BRKL,"Brookline Bancorp, Inc."</item>
+        <item>BRKR,"Bruker Corporation"</item>
+        <item>BRKS,"Brooks Automation, Inc."</item>
+        <item>BRLI,"Bio-Reference Laboratories, Inc."</item>
+        <item>BRO,"Brown &amp; Brown, Inc."</item>
+        <item>BRSS,"Global Brass and Copper Holdings, Inc."</item>
+        <item>BRS,"Bristow Group Inc"</item>
+        <item>BRT,"(BRT) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>BR,"Broadridge Financial Solutions, Inc."</item>
+        <item>BSET,"Bassett Furniture Industries, Incorporated"</item>
+        <item>BSFT,"BroadSoft, Inc."</item>
+        <item>BSRR,"Sierra Bancorp"</item>
+        <item>BSTC,"BioSpecifics Technologies Corp"</item>
+        <item>BSX,"Boston Scientific Corporation"</item>
+        <item>BTH,"Blyth, Inc."</item>
+        <item>BTU,"Peabody Energy Corporation"</item>
+        <item>BTX,"BioTime, Inc."</item>
+        <item>BURL,"Burlington Stores, Inc."</item>
+        <item>BUSE,"First Busey Corporation"</item>
+        <item>BV,"Bazaarvoice, Inc."</item>
+        <item>BWA,"BorgWarner Inc."</item>
+        <item>BWINB,"Baldwin &amp; Lyons, Inc."</item>
+        <item>BWLD,"Buffalo Wild Wings, Inc."</item>
+        <item>BXC,"BlueLinx Holdings Inc."</item>
+        <item>BXLT,"Untitled Dataset 2015-07-01 21:45:47"</item>
+        <item>BXP,"Boston Properties, Inc."</item>
+        <item>BXS,"BancorpSouth, Inc."</item>
+        <item>BYD,"Boyd Gaming Corporation"</item>
+        <item>BZH,"Beazer Homes USA, Inc."</item>
+        <item>B,"Barnes Group, Inc."</item>
+        <item>CAB,"Cabela's Inc"</item>
+        <item>CACB,"Cascade Bancorp"</item>
+        <item>CACC,"Credit Acceptance Corporation"</item>
+        <item>CACI,"CACI International, Inc."</item>
+        <item>CACQ,"Caesars Acquisition Company"</item>
+        <item>CAC,"Camden National Corporation"</item>
+        <item>CAG,"ConAgra Foods, Inc."</item>
+        <item>CAH,"Cardinal Health, Inc."</item>
+        <item>CAKE,"The Cheesecake Factory Incorporated"</item>
+        <item>CALD,"Callidus Software, Inc."</item>
+        <item>CALL,"magicJack VocalTec Ltd"</item>
+        <item>CALM,"Cal-Maine Foods, Inc."</item>
+        <item>CALX,"Calix, Inc"</item>
+        <item>CAMP,"CalAmp Corp."</item>
+        <item>CAM,"Cameron International Corporation"</item>
+        <item>CAP,"Cai International, Inc."</item>
+        <item>CARA,"Cara Therapeutics, Inc."</item>
+        <item>CARB,"Carbonite, Inc."</item>
+        <item>CAR,"Avis Budget Group, Inc."</item>
+        <item>CASH,"Meta Financial Group, Inc."</item>
+        <item>CASS,"Cass Information Systems, Inc"</item>
+        <item>CASY,"Caseys General Stores, Inc."</item>
+        <item>CAS,"Castle"</item>
+        <item>CATM,"Cardtronics, Inc."</item>
+        <item>CATO,"Cato Corporation"</item>
+        <item>CATY,"Cathay General Bancorp"</item>
+        <item>CAT,"Caterpillar, Inc."</item>
+        <item>CAVM,"Cavium, Inc."</item>
+        <item>CA,"CA Inc."</item>
+        <item>CBB,"Cincinnati Bell Inc"</item>
+        <item>CBF,"Capital Bank Financial Corp."</item>
+        <item>CBG,"CBRE Group, Inc."</item>
+        <item>CBI,"Chicago Bridge &amp; Iron Company N.V."</item>
+        <item>CBK,"Christopher &amp; Banks Corporation"</item>
+        <item>CBL,"CBL &amp; Associates Properties, Inc."</item>
+        <item>CBM,"Cambrex Corporation"</item>
+        <item>CBOE,"CBOE Holdings, Inc."</item>
+        <item>CBPX,"Continental Building Products, Inc."</item>
+        <item>CBRL,"Cracker Barrel Old Country Store, Inc."</item>
+        <item>CBR,"Ciber, Inc."</item>
+        <item>CBSH,"Commerce Bancshares, Inc."</item>
+        <item>CBS,"CBS Corporation"</item>
+        <item>CBT,"Cabot Corporation"</item>
+        <item>CBU,"Community Bank System, Inc."</item>
+        <item>CBZ,"CBIZ, Inc."</item>
+        <item>CB,"Chubb Corporation"</item>
+        <item>CCBG,"Capital City Bank Group"</item>
+        <item>CCC,"Calgon Carbon Corporation"</item>
+        <item>CCE,"Coca-Cola Enterprises, Inc."</item>
+        <item>CCF,"Chase Corporation"</item>
+        <item>CCG,"Campus Crest Communities, Inc."</item>
+        <item>CCI,"Crown Castle International Corporation"</item>
+        <item>CCK,"Crown Holdings, Inc."</item>
+        <item>CCL,"Carnival Corporation"</item>
+        <item>CCMP,"Cabot Microelectronics Corporation"</item>
+        <item>CCNE,"CNB Financial Corporation"</item>
+        <item>CCOI,"Cogent Communications Holdings, Inc."</item>
+        <item>CCO,"Clear Channel Outdoor Holdings, Inc."</item>
+        <item>CCRN,"Cross Country Healthcare, Inc."</item>
+        <item>CCXI,"ChemoCentryx, Inc."</item>
+        <item>CDE,"Coeur Mining, Inc."</item>
+        <item>CDI,"CDI Corporation"</item>
+        <item>CDNS,"Cadence Design Systems, Inc."</item>
+        <item>CDR,"Cedar Realty Trust, Inc."</item>
+        <item>CEB,"The Corporate Executive Board Company"</item>
+        <item>CECE,"CECO Environmental Corp."</item>
+        <item>CECO,"Career Education Corporation"</item>
+        <item>CELG,"Celgene Corporation"</item>
+        <item>CEMP,"Cempra, Inc."</item>
+        <item>CENTA,"Central Garden &amp; Pet Company"</item>
+        <item>CENX,"Century Aluminum Company"</item>
+        <item>CERN,"Cerner Corporation"</item>
+        <item>CERS,"Cerus Corporation"</item>
+        <item>CETV,"Central European Media Enterprises Ltd."</item>
+        <item>CEVA,"CEVA, Inc."</item>
+        <item>CE,"Celanese Corporation"</item>
+        <item>CFFI,"C&amp;F Financial Corporation"</item>
+        <item>CFFN,"Capitol Federal Financial, Inc."</item>
+        <item>CFI,"Culp, Inc."</item>
+        <item>CFNB,"California First National Bancorp"</item>
+        <item>CFNL,"Cardinal Financial Corporation"</item>
+        <item>CFR,"Cullen/Frost Bankers, Inc."</item>
+        <item>CFX,"Colfax Corporation"</item>
+        <item>CF,"CF Industries Holdings, Inc."</item>
+        <item>CGI,"Celadon Group, Inc."</item>
+        <item>CGNX,"Cognex Corporation"</item>
+        <item>CHCO,"City Holding Company"</item>
+        <item>CHDN,"Churchill Downs, Incorporated"</item>
+        <item>CHD,"Church &amp; Dwight Company, Inc."</item>
+        <item>CHEF,"The Chefs' Warehouse, Inc."</item>
+        <item>CHE,"Chemed Corp."</item>
+        <item>CHFC,"Chemical Financial Corporation"</item>
+        <item>CHFN,"Charter Financial Corp."</item>
+        <item>CHGG,"Chegg, Inc."</item>
+        <item>CHH,"Choice Hotels International, Inc."</item>
+        <item>CHKP,"Check Point Software Technologies Ltd."</item>
+        <item>CHK,"Chesapeake Energy Corporation"</item>
+        <item>CHMG,"Chemung Financial Corp"</item>
+        <item>CHMT,"Chemtura Corp."</item>
+        <item>CHRW,"C.H. Robinson Worldwide, Inc."</item>
+        <item>CHSP,"Chesapeake Lodging Trust"</item>
+        <item>CHS,"Chico's FAS, Inc."</item>
+        <item>CHTR,"Charter Communications, Inc."</item>
+        <item>CHUY,"Chuy's Holdings, Inc."</item>
+        <item>CIA,"Citizens, Inc."</item>
+        <item>CIDM,"Cinedigm Corp"</item>
+        <item>CIEN,"Ciena Corporation"</item>
+        <item>CIE,"Cobalt International Energy, Inc."</item>
+        <item>CIFC,"CIFC Corp."</item>
+        <item>CIM,"Chimera Investment Corporation"</item>
+        <item>CINF,"Cincinnati Financial Corporation"</item>
+        <item>CIR,"CIRCOR International, Inc."</item>
+        <item>CIT,"CIT Group Inc"</item>
+        <item>CIX,"CompX International Inc."</item>
+        <item>CI,"Cigna Corporation"</item>
+        <item>CJES,"C&amp;J Energy Services, Inc."</item>
+        <item>CKEC,"Carmike Cinemas, Inc."</item>
+        <item>CKH,"SEACOR Holdings, Inc."</item>
+        <item>CKP,"Checkpoint Systms, Inc."</item>
+        <item>CLCT,"Collectors Universe, Inc."</item>
+        <item>CLC,"CLARCOR Inc."</item>
+        <item>CLDT,"Chatham Lodging Trust"</item>
+        <item>CLDX,"Celldex Therapeutics, Inc."</item>
+        <item>CLD,"Cloud Peak Energy Inc"</item>
+        <item>CLFD,"Clearfield, Inc."</item>
+        <item>CLF,"Cliffs Natural Resources Inc."</item>
+        <item>CLGX,"CoreLogic, Inc."</item>
+        <item>CLH,"Clean Harbors, Inc."</item>
+        <item>CLI,"Mack-Cali Realty Corporation"</item>
+        <item>CLMS,"Calamos Asset Management, Inc."</item>
+        <item>CLNE,"Clean Energy Fuels Corp."</item>
+        <item>CLNY,"Colony Financial, Inc"</item>
+        <item>CLR,"Continental Resources, Inc."</item>
+        <item>CLUB,"Town Sports International Holdings, Inc."</item>
+        <item>CLVS,"Clovis Oncology, Inc."</item>
+        <item>CLW,"Clearwater Paper Corporation"</item>
+        <item>CLX,"Clorox Company"</item>
+        <item>CL,"Colgate-Palmolive Company"</item>
+        <item>CMA,"Comerica Incorporated"</item>
+        <item>CMCO,"Columbus McKinnon Corporation"</item>
+        <item>CMCSA,"Comcast Corporation"</item>
+        <item>CMC,"Commercial Metals Company"</item>
+        <item>CME,"CME Group Inc."</item>
+        <item>CMG,"Chipotle Mexican Grill, Inc."</item>
+        <item>CMI,"Cummins Inc."</item>
+        <item>CMLS,"Cumulus Media Inc."</item>
+        <item>CMN,"Cantel Medical Corp."</item>
+        <item>CMO,"Capstead Mortgage Corporation"</item>
+        <item>CMP,"Compass Minerals International, Inc."</item>
+        <item>CMRX,"Chimerix, Inc."</item>
+        <item>CMS,"CMS Energy Corporation"</item>
+        <item>CMTL,"Comtech Telecommunications Corp."</item>
+        <item>CNA,"CNA Financial Corporation"</item>
+        <item>CNBKA,"Century Bancorp, Inc."</item>
+        <item>CNC,"Centene Corporation"</item>
+        <item>CNK,"Cinemark Holdings Inc"</item>
+        <item>CNL,"Cleco Corporation"</item>
+        <item>CNMD,"CONMED Corporation"</item>
+        <item>CNOB,"ConnectOne Bancorp, Inc."</item>
+        <item>CNO,"CNO Financial Group, Inc."</item>
+        <item>CNP,"CenterPoint Energy, Inc."</item>
+        <item>CNSI,"Comverse Inc."</item>
+        <item>CNSL,"Consolidated Communications Holdings, Inc."</item>
+        <item>CNS,"Cohn &amp; Steers Inc"</item>
+        <item>CNW,"Con-way Inc."</item>
+        <item>CNX,"CONSOL Energy Inc."</item>
+        <item>COBZ,"CoBiz Financial Inc."</item>
+        <item>COB,"CommunityOne Bancorp"</item>
+        <item>COF,"Capital One Financial Corporation"</item>
+        <item>COG,"Cabot Oil &amp; Gas Corporation"</item>
+        <item>COHR,"Coherent, Inc."</item>
+        <item>COHU,"Cohu, Inc."</item>
+        <item>COH,"Coach, Inc."</item>
+        <item>COKE,"Coca-Cola Bottling Co. Consolidated"</item>
+        <item>COLB,"Columbia Banking System, Inc."</item>
+        <item>COLM,"Columbia Sportswear Company"</item>
+        <item>COL,"Rockwell Collins, Inc."</item>
+        <item>CONE,"CyrusOne Inc"</item>
+        <item>CONN,"Conn's, Inc."</item>
+        <item>COO,"Cooper Companies, Inc."</item>
+        <item>COP,"ConocoPhillips"</item>
+        <item>CORE,"Core-Mark Holding Company, Inc."</item>
+        <item>CORR,"CorEnergy Infrastructure Trust, Inc."</item>
+        <item>CORT,"Corcept Therapeutics Incorporated"</item>
+        <item>COR,"CoreSite Realty Corporation"</item>
+        <item>COST,"Costco Wholesale Corporation"</item>
+        <item>COUP,"Coupons.com Incorporated"</item>
+        <item>COVS,"Covisint Corporation"</item>
+        <item>COWN,"Cowen Group, Inc."</item>
+        <item>CPA,"Copa Holdings, S.A."</item>
+        <item>CPB,"Campbell Soup Company"</item>
+        <item>CPE,"Callon Petroleum Company"</item>
+        <item>CPF,"CPB Inc."</item>
+        <item>CPGX,"Untitled Dataset 2015-07-02 21:46:08"</item>
+        <item>CPHD,"CEPHEID"</item>
+        <item>CPK,"Chesapeake Utilities Corporation"</item>
+        <item>CPLA,"Capella Education Company"</item>
+        <item>CPN,"Calpine Corporation"</item>
+        <item>CPRT,"Copart, Inc."</item>
+        <item>CPSI,"Computer Programs and Systems, Inc."</item>
+        <item>CPSS,"Consumer Portfolio Services, Inc."</item>
+        <item>CPST,"Capstone Turbine Corporation"</item>
+        <item>CPS,"Cooper-Standard Holdings Inc."</item>
+        <item>CPT,"Camden Property Trust"</item>
+        <item>CRAI,"CRA International,Inc."</item>
+        <item>CRAY,"Cray Inc"</item>
+        <item>CRCM,"Care.com, Inc."</item>
+        <item>CRD_B,"Crawford &amp; Company"</item>
+        <item>CREE,"Cree, Inc."</item>
+        <item>CRIS,"Curis, Inc."</item>
+        <item>CRI,"Carter's, Inc."</item>
+        <item>CRK,"Comstock Resources, Inc."</item>
+        <item>CRL,"Charles River Laboratories International, Inc."</item>
+        <item>CRMT,"America's Car-Mart, Inc."</item>
+        <item>CRM,"Salesforce.com Inc"</item>
+        <item>CROX,"Crocs, Inc."</item>
+        <item>CRR,"Carbo Ceramics, Inc."</item>
+        <item>CRS,"Carpenter Technology Corporation"</item>
+        <item>CRUS,"Cirrus Logic, Inc."</item>
+        <item>CRVL,"CorVel Corp."</item>
+        <item>CRWN,"Crown Media Holdings, Inc."</item>
+        <item>CRY,"CryoLife, Inc."</item>
+        <item>CRZO,"Carrizo Oil &amp; Gas, Inc."</item>
+        <item>CR,"Crane Company"</item>
+        <item>CSBK,"Clifton Bancorp Inc."</item>
+        <item>CSCD,"Cascade Microtech, Inc."</item>
+        <item>CSCO,"Cisco Systems, Inc."</item>
+        <item>CSC,"Computer Sciences Corporation"</item>
+        <item>CSFL,"CenterState Banks, Inc."</item>
+        <item>CSGP,"CoStar Group, Inc."</item>
+        <item>CSGS,"CSG Systems International, Inc."</item>
+        <item>CSG,"Chambers Street Properties"</item>
+        <item>CSH,"Cash America International, Inc."</item>
+        <item>CSII,"Cardiovascular Systems, Inc."</item>
+        <item>CSLT,"Castlight Health, inc."</item>
+        <item>CSL,"Carlisle Companies Incorporated"</item>
+        <item>CSOD,"Cornerstone OnDemand, Inc."</item>
+        <item>CSS,"CSS Industries, Inc."</item>
+        <item>CST,"CST Brands, Inc."</item>
+        <item>CSU,"Capital Senior Living Corporation"</item>
+        <item>CSV,"Carriage Services, Inc."</item>
+        <item>CSWC,"Capital Southwest Corporation"</item>
+        <item>CSX,"CSX Corporation"</item>
+        <item>CTAS,"Cintas Corporation"</item>
+        <item>CTBI,"Community Trust Bancorp, Inc."</item>
+        <item>CTB,"Cooper Tire &amp; Rubber Company"</item>
+        <item>CTCT,"Constant Contact, Inc."</item>
+        <item>CTG,"Computer Task Group, Incorporated"</item>
+        <item>CTIC,"Cell Therapeutics, Inc."</item>
+        <item>CTL,"CenturyLink, Inc."</item>
+        <item>CTO,"Consolidated-Tomoka Land Co."</item>
+        <item>CTRE,"CareTrust REIT, Inc."</item>
+        <item>CTRL,"Control4 Corporation"</item>
+        <item>CTRN,"Citi Trends, Inc."</item>
+        <item>CTRX,"Catamaran Corporation"</item>
+        <item>CTSH,"Cognizant Technology Solutions Corporation"</item>
+        <item>CTS,"CTS Corporation"</item>
+        <item>CTT,"CatchMark Timber Trust, Inc."</item>
+        <item>CTWS,"Connecticut Water Service, Inc."</item>
+        <item>CTXS,"Citrix Systems, Inc."</item>
+        <item>CUBE,"CubeSmart"</item>
+        <item>CUBI,"Customers Bancorp, Inc"</item>
+        <item>CUB,"Cubic Corporation"</item>
+        <item>CUDA,"Barracuda Networks, Inc."</item>
+        <item>CUI,"CUI Global, Inc."</item>
+        <item>CUNB,"CU Bancorp"</item>
+        <item>CUR,"(CUR) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>CUTR,"Cutera, Inc."</item>
+        <item>CUZ,"Cousins Properties Incorporated"</item>
+        <item>CVA,"Covanta Holding Corporation"</item>
+        <item>CVBF,"CVB Financial Corporation"</item>
+        <item>CVCO,"Cavco Industries, Inc."</item>
+        <item>CVC,"Cablevision Systems Corporation"</item>
+        <item>CVEO,"Civeo Corporation"</item>
+        <item>CVGI,"Commercial Vehicle Group, Inc."</item>
+        <item>CVGW,"Calavo Growers, Inc."</item>
+        <item>CVG,"Convergys Corporation"</item>
+        <item>CVI,"CVR Energy Inc."</item>
+        <item>CVLT,"CommVault Systems, Inc."</item>
+        <item>CVO,"Cenveo Inc"</item>
+        <item>CVS,"CVS Corporation"</item>
+        <item>CVT,"CVENT, INC."</item>
+        <item>CVX,"Chevron Corporation"</item>
+        <item>CWCO,"Consolidated Water Co. Ltd."</item>
+        <item>CWEI,"Clayton Williams Energy, Inc."</item>
+        <item>CWST,"Casella Waste Systems, Inc."</item>
+        <item>CWT,"California Water  Service Group Holding"</item>
+        <item>CW,"Curtiss-Wright Corporation"</item>
+        <item>CXO,"Concho Resources Inc."</item>
+        <item>CXW,"Corrections Corporation of America"</item>
+        <item>CYBX,"Cyberonics, Inc."</item>
+        <item>CYH,"Community Health Systems, Inc."</item>
+        <item>CYNI,"Cyan, Inc."</item>
+        <item>CYNO,"Cynosure, Inc."</item>
+        <item>CYN,"City National Corporation"</item>
+        <item>CYS,"CYS Investments, Inc."</item>
+        <item>CYTK,"Cytokinetics, Incorporated"</item>
+        <item>CYTR,"CytRx Corporation"</item>
+        <item>CYTX,"Cytori Therapeutics Inc"</item>
+        <item>CYT,"Cytec Industries Inc."</item>
+        <item>CY,"Cypress Semiconductor Corporation"</item>
+        <item>CZNC,"Citizens &amp; Northern Corp"</item>
+        <item>CZR,"Caesars Entertainment Corporation"</item>
+        <item>C,"Citigroup Inc."</item>
+        <item>DAKT,"Daktronics, Inc."</item>
+        <item>DAL,"Delta Air Lines, Inc."</item>
+        <item>DAN,"Dana Holding Corporation"</item>
+        <item>DAR,"Darling Ingredients Inc."</item>
+        <item>DATA,"Tableau Software, Inc."</item>
+        <item>DAVE,"Famous Dave's of America, Inc."</item>
+        <item>DBD,"Diebold, Incorporated"</item>
+        <item>DCI,"Donaldson Company, Inc."</item>
+        <item>DCOM,"Dime Community Bancshares, Inc."</item>
+        <item>DCO,"Ducommun Incorporated"</item>
+        <item>DCT,"DCT Industrial Trust Inc"</item>
+        <item>DDD,"3D Systems Corporation"</item>
+        <item>DDR,"DDR Corp."</item>
+        <item>DDS,"Dillard's, Inc."</item>
+        <item>DD,"E.I. du Pont de Nemours and Company"</item>
+        <item>DECK,"Deckers Outdoor Corporation"</item>
+        <item>DEI,"Douglas Emmett, Inc."</item>
+        <item>DEL,"Deltic Timber Corporation"</item>
+        <item>DENN,"Denny's Corporation"</item>
+        <item>DEPO,"Depomed, Inc."</item>
+        <item>DEST,"Destination Maternity Corporation"</item>
+        <item>DE,"Deere &amp; Company"</item>
+        <item>DFRG,"Del Frisco's Restaurant Group, Inc."</item>
+        <item>DFS,"Discover Financial Services"</item>
+        <item>DFT,"Dupont Fabros Technology, Inc."</item>
+        <item>DF,"Dean Foods Company"</item>
+        <item>DGAS,"Delta Natural Gas Company, Inc."</item>
+        <item>DGICA,"Donegal Group, Inc."</item>
+        <item>DGII,"Digi International Inc."</item>
+        <item>DGI,"DigitalGlobe, Inc"</item>
+        <item>DGX,"Quest Diagnostics Incorporated"</item>
+        <item>DG,"Dollar General Corporation"</item>
+        <item>DHIL,"Diamond Hill Investment Group, Inc."</item>
+        <item>DHI,"D.R. Horton, Inc."</item>
+        <item>DHR,"Danaher Corporation"</item>
+        <item>DHT,"DHT Holdings, Inc."</item>
+        <item>DHX,"Dice Holdings, Inc."</item>
+        <item>DIN,"DineEquity, Inc"</item>
+        <item>DIOD,"Diodes Incorporated"</item>
+        <item>DISCA,"Discovery Communications, Inc."</item>
+        <item>DISCK,"Discovery Communications, Inc."</item>
+        <item>DISH,"DISH Network Corporation"</item>
+        <item>DIS,"Walt Disney Company"</item>
+        <item>DJCO,"Daily Journal Corp."</item>
+        <item>DKS,"Dick's Sporting Goods Inc"</item>
+        <item>DK,"Delek US Holdings, Inc."</item>
+        <item>DLB,"Dolby Laboratories"</item>
+        <item>DLPH,"Delphi Automotive plc"</item>
+        <item>DLR,"Digital Realty Trust, Inc."</item>
+        <item>DLTR,"Dollar Tree, Inc."</item>
+        <item>DLX,"Deluxe Corporation"</item>
+        <item>DMD,"Demand Media Inc."</item>
+        <item>DMND,"Diamond Foods, Inc."</item>
+        <item>DMRC,"Digimarc Corporation"</item>
+        <item>DNB,"Dun &amp; Bradstreet Corporation"</item>
+        <item>DNKN,"Dunkin' Brands Group, Inc."</item>
+        <item>DNR,"Denbury Resources Inc."</item>
+        <item>DOC,"Physicians Realty Trust"</item>
+        <item>DOOR,"(DOOR) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>DORM,"Dorman Products, Inc."</item>
+        <item>DOV,"Dover Corporation"</item>
+        <item>DOW,"Dow Chemical Company"</item>
+        <item>DOX,"Amdocs Limited"</item>
+        <item>DO,"Diamond Offshore Drilling, Inc."</item>
+        <item>DPS,"Dr Pepper Snapple Group, Inc"</item>
+        <item>DPZ,"Domino's Pizza Inc"</item>
+        <item>DRE,"Duke Realty Corporation"</item>
+        <item>DRH,"Diamondrock Hospitality Company"</item>
+        <item>DRII,"Diamond Resorts International, Inc."</item>
+        <item>DRI,"Darden Restaurants, Inc."</item>
+        <item>DRNA,"Dicerna Pharmaceuticals, Inc."</item>
+        <item>DRQ,"Dril-Quip, Inc."</item>
+        <item>DSCI,"Derma Sciences, Inc."</item>
+        <item>DSPG,"DSP Group, Inc."</item>
+        <item>DST,"DST Systems, Inc."</item>
+        <item>DSW,"DSW Inc."</item>
+        <item>DTE,"DTE Energy Company"</item>
+        <item>DTLK,"Datalink Corporation"</item>
+        <item>DTSI,"DTS, Inc."</item>
+        <item>DTV,"DIRECTV"</item>
+        <item>DUK,"Duke Energy Corporation"</item>
+        <item>DVAX,"Dynavax Technologies Corporation"</item>
+        <item>DVA,"DaVita healthCare Partners Inc."</item>
+        <item>DVN,"Devon Energy Corporation"</item>
+        <item>DV,"DeVry Education Group Inc."</item>
+        <item>DWA,"Dreamworks Animation SKG, Inc."</item>
+        <item>DWRE,"DEMANDWARE, INC."</item>
+        <item>DWSN,"Dawson Geophysical Company"</item>
+        <item>DW,"Drew Industries Incorporated"</item>
+        <item>DXCM,"DexCom, Inc."</item>
+        <item>DXLG,"Destination XL Group, Inc."</item>
+        <item>DXM,"Dex Media, Inc."</item>
+        <item>DXPE,"DXP Enterprises, Inc."</item>
+        <item>DXYN,"The Dixie Group, Inc."</item>
+        <item>DX,"Dynex Capital, Inc."</item>
+        <item>DYAX,"Dyax Corp."</item>
+        <item>DYN,"Dynegy Inc."</item>
+        <item>DY,"Dycom Industries, Inc."</item>
+        <item>D,"Dominion Resources, Inc."</item>
+        <item>EAC,"Erickson Incorporated"</item>
+        <item>EAT,"Brinker International, Inc."</item>
+        <item>EA,"Electronic Arts Inc."</item>
+        <item>EBAY,"eBay Inc."</item>
+        <item>EBF,"Ennis, Inc."</item>
+        <item>EBIO,"Eleven Biotherapeutics, Inc."</item>
+        <item>EBIX,"Ebix, Inc."</item>
+        <item>EBSB,"Meridian Interstate Bancorp, Inc."</item>
+        <item>EBS,"Emergent Biosolutions, Inc."</item>
+        <item>EBTC,"Enterprise Bancorp Inc"</item>
+        <item>ECHO,"Echo Global Logistics, Inc."</item>
+        <item>ECL,"Ecolab Inc."</item>
+        <item>ECOL,"US Ecology, Inc."</item>
+        <item>ECOM,"ChannelAdvisor Corporation"</item>
+        <item>ECPG,"Encore Capital Group Inc"</item>
+        <item>ECYT,"Endocyte, Inc."</item>
+        <item>EDE,"Empire District Electric Company"</item>
+        <item>EDR,"Education Realty Trust Inc."</item>
+        <item>ED,"Consolidated Edison Inc"</item>
+        <item>EEFT,"Euronet Worldwide, Inc."</item>
+        <item>EE,"El Paso Electric Company"</item>
+        <item>EFII,"Electronics for Imaging, Inc."</item>
+        <item>EFSC,"Enterprise Financial Services Corporation"</item>
+        <item>EFX,"Equifax, Inc."</item>
+        <item>EGAN,"eGain Corporation"</item>
+        <item>EGBN,"Eagle Bancorp, Inc."</item>
+        <item>EGHT,"8x8 Inc"</item>
+        <item>EGLT,"Egalet Corporation"</item>
+        <item>EGL,"Engility Holdings, Inc."</item>
+        <item>EGN,"Energen Corporation"</item>
+        <item>EGOV,"NIC Inc."</item>
+        <item>EGP,"EastGroup Properties, Inc."</item>
+        <item>EGY,"Vaalco Energy Inc"</item>
+        <item>EHTH,"eHealth, Inc."</item>
+        <item>EIGI,"Endurance International Group Holdings, Inc."</item>
+        <item>EIG,"Employers Holdings Inc"</item>
+        <item>EIX,"Edison International"</item>
+        <item>ELGX,"Endologix, Inc."</item>
+        <item>ELLI,"Ellie Mae, Inc."</item>
+        <item>ELNK,"EarthLink Holdings Corp."</item>
+        <item>ELRC,"Electro Rent Corporation"</item>
+        <item>ELS,"Equity Lifestyle Properties, Inc."</item>
+        <item>ELY,"Callaway Golf Company"</item>
+        <item>EL,"Estee Lauder Companies, Inc."</item>
+        <item>EMCI,"EMC Insurance Group Inc."</item>
+        <item>EMC,"EMC Corporation"</item>
+        <item>EME,"EMCOR Group, Inc."</item>
+        <item>EMN,"Eastman Chemical Company"</item>
+        <item>EMR,"Emerson Electric Company"</item>
+        <item>ENDP,"Endo International plc"</item>
+        <item>ENH,"Endurance Specialty Holdings Ltd"</item>
+        <item>ENOC,"EnerNOC, Inc."</item>
+        <item>ENPH,"Enphase Energy, Inc."</item>
+        <item>ENR,"Energizer Holdings, Inc."</item>
+        <item>ENSG,"The Ensign Group, Inc."</item>
+        <item>ENS,"Enersys"</item>
+        <item>ENTA,"Enanta Pharmaceuticals, Inc."</item>
+        <item>ENTG,"Entegris, Inc."</item>
+        <item>ENT,"Global Eagle Entertainment Inc."</item>
+        <item>ENV,"Envestnet, Inc"</item>
+        <item>ENZN,"Enzon Pharmaceuticals, Inc."</item>
+        <item>ENZ,"Enzo Biochem, Inc."</item>
+        <item>EOG,"EOG Resources, Inc."</item>
+        <item>EOX,"Emerald Oil, Inc."</item>
+        <item>EPAM,"EPAM Systems, Inc."</item>
+        <item>EPAY,"Bottomline Technologies, Inc."</item>
+        <item>EPIQ,"EPIQ Systems, Inc."</item>
+        <item>EPM,"Evolution Petroleum Corporation, Inc."</item>
+        <item>EPR,"EPR Properties"</item>
+        <item>EPZM,"Epizyme, Inc."</item>
+        <item>EQIX,"Equinix, Inc."</item>
+        <item>EQR,"Equity Residential"</item>
+        <item>EQT,"EQT Corporation"</item>
+        <item>EQY,"Equity One, Inc."</item>
+        <item>ERA,"Era Group, Inc."</item>
+        <item>ERIE,"Erie Indemnity Company"</item>
+        <item>ERII,"Energy Recovery, Inc."</item>
+        <item>EROS,"Eros International PLC"</item>
+        <item>ESCA,"Escalade, Incorporated"</item>
+        <item>ESE,"ESCO Technologies Inc."</item>
+        <item>ESGR,"Enstar Group Limited"</item>
+        <item>ESIO,"Electro Scientific Industries, Inc."</item>
+        <item>ESI,"ITT Educational Services, Inc."</item>
+        <item>ESL,"Esterline Technologies Corporation"</item>
+        <item>ESNT,"Essent Group Ltd."</item>
+        <item>ESPR,"Esperion Therapeutics, Inc."</item>
+        <item>ESRT,"Empire State Realty Trust, Inc."</item>
+        <item>ESRX,"Express Scripts Holding Company"</item>
+        <item>ESSA,"ESSA Bancorp, Inc."</item>
+        <item>ESS,"Essex Property Trust, Inc."</item>
+        <item>ESV,"ENSCO plc"</item>
+        <item>ES,"Untitled Dataset 2015-02-20 22:03:57"</item>
+        <item>ETFC,"E*TRADE Financial Corporation"</item>
+        <item>ETH,"Ethan Allen Interiors Inc."</item>
+        <item>ETM,"Entercom Communications Corporation"</item>
+        <item>ETN,"Eaton Corporation, PLC"</item>
+        <item>ETR,"Entergy Corporation"</item>
+        <item>EVC,"Entravision Communications Corporation"</item>
+        <item>EVDY,"Everyday Health, Inc."</item>
+        <item>EVER,"EverBank Financial Corp."</item>
+        <item>EVR,"Evercore Partners Inc"</item>
+        <item>EVTC,"Evertec, Inc."</item>
+        <item>EV,"Eaton Vance Corporation"</item>
+        <item>EWBC,"East West Bancorp, Inc."</item>
+        <item>EW,"Edwards Lifesciences Corporation"</item>
+        <item>EXAC,"Exactech, Inc."</item>
+        <item>EXAM,"ExamWorks Group, Inc."</item>
+        <item>EXAR,"Exar Corporation"</item>
+        <item>EXAS,"EXACT Sciences Corporation"</item>
+        <item>EXC,"Exelon Corporation"</item>
+        <item>EXEL,"Exelixis, Inc."</item>
+        <item>EXH,"Exterran Holdings, Inc."</item>
+        <item>EXLS,"ExlService Holdings, Inc."</item>
+        <item>EXL,"Excel Trust, Inc."</item>
+        <item>EXPD,"Expeditors International of Washington, Inc."</item>
+        <item>EXPE,"Expedia, Inc."</item>
+        <item>EXPO,"Exponent, Inc."</item>
+        <item>EXPR,"Express, Inc."</item>
+        <item>EXP,"Eagle Materials Inc"</item>
+        <item>EXR,"Extra Space Storage Inc"</item>
+        <item>EXTR,"Extreme Networks, Inc."</item>
+        <item>EXXI,"Energy XXI"</item>
+        <item>EZPW,"EZCORP, Inc."</item>
+        <item>FAF,"First American Corporation"</item>
+        <item>FANG,"Diamondback Energy, Inc."</item>
+        <item>FARM,"Farmer Brothers Company"</item>
+        <item>FARO,"FARO Technologies, Inc."</item>
+        <item>FAST,"Fastenal Company"</item>
+        <item>FBC,"Flagstar Bancorp, Inc."</item>
+        <item>FBHS,"Fortune Brands Home &amp; Security, Inc."</item>
+        <item>FBIZ,"First Business Financial Services, Inc."</item>
+        <item>FBNC,"First Bancorp"</item>
+        <item>FBNK,"First Connecticut Bancorp, Inc."</item>
+        <item>FBP,"First BanCorp."</item>
+        <item>FBRC,"FBR &amp; Co"</item>
+        <item>FB,"Facebook, Inc."</item>
+        <item>FCBC,"First Community Bancshares, Inc."</item>
+        <item>FCE_A,"Forest City Enterprises Inc"</item>
+        <item>FCEL,"FuelCell Energy, Inc."</item>
+        <item>FCFS,"First Cash Financial Services, Inc."</item>
+        <item>FCF,"First Commonwealth Financial Corporation"</item>
+        <item>FCH,"FelCor Lodging Trust Incorporated"</item>
+        <item>FCNCA,"First Citizens BancShares, Inc."</item>
+        <item>FCN,"FTI Consulting, Inc."</item>
+        <item>FCSC,"Fibrocell Science Inc"</item>
+        <item>FCS,"Fairchild Semiconductor International, Inc."</item>
+        <item>FCX,"Freeport-McMoran, Inc."</item>
+        <item>FC,"Franklin Covey Company"</item>
+        <item>FDEF,"First Defiance Financial Corp."</item>
+        <item>FDML,"Federal-Mogul Holdings Corporation"</item>
+        <item>FDP,"Fresh Del Monte Produce, Inc."</item>
+        <item>FDS,"FactSet Research Systems Inc."</item>
+        <item>FDUS,"Fidus Investment Corporation"</item>
+        <item>FDX,"FedEx Corporation"</item>
+        <item>FEIC,"FEI Company"</item>
+        <item>FELE,"Franklin Electric Co., Inc."</item>
+        <item>FET,"Forum Energy Technologies, Inc."</item>
+        <item>FE,"FirstEnergy Corporation"</item>
+        <item>FFBC,"First Financial Bancorp."</item>
+        <item>FFG,"FBL Financial Group, Inc."</item>
+        <item>FFIC,"Flushing Financial Corporation"</item>
+        <item>FFIN,"First Financial Bankshares, Inc."</item>
+        <item>FFIV,"F5 Networks, Inc."</item>
+        <item>FFKT,"Farmers Capital Bank Corporation"</item>
+        <item>FFNW,"First Financial Northwest, Inc."</item>
+        <item>FF,"FutureFuel Corp."</item>
+        <item>FGL,"Fidelity and Guaranty Life"</item>
+        <item>FHCO,"Female Health Company"</item>
+        <item>FHN,"First Horizon National Corporation"</item>
+        <item>FIBK,"First Interstate BancSystem, Inc."</item>
+        <item>FICO,"Fair Isaac Corporation"</item>
+        <item>FII,"Federated Investors, Inc."</item>
+        <item>FINL,"The Finish Line, Inc."</item>
+        <item>FISI,"Financial Institutions, Inc."</item>
+        <item>FISV,"Fiserv, Inc."</item>
+        <item>FIS,"Fidelity National Information Services, Inc."</item>
+        <item>FITB,"Fifth Third Bancorp"</item>
+        <item>FIVE,"Five Below, Inc."</item>
+        <item>FIVN,"Five9, Inc."</item>
+        <item>FIX,"Comfort Systems USA, Inc."</item>
+        <item>FIZZ,"National Beverage Corp."</item>
+        <item>FLDM,"Fluidigm Corporation"</item>
+        <item>FLIC,"The First of Long Island Corporation"</item>
+        <item>FLIR,"FLIR Systems, Inc."</item>
+        <item>FLO,"Flowers Foods, Inc."</item>
+        <item>FLR,"Fluor Corporation"</item>
+        <item>FLS,"Flowserve Corporation"</item>
+        <item>FLTX,"Fleetmatics Group PLC"</item>
+        <item>FLT,"FleetCor Technologies, Inc."</item>
+        <item>FLWS,"1-800 FLOWERS.COM, Inc."</item>
+        <item>FLXN,"Flexion Therapeutics, Inc."</item>
+        <item>FLXS,"Flexsteel Industries, Inc."</item>
+        <item>FL,"Foot Locker, Inc."</item>
+        <item>FMBI,"First Midwest Bancorp, Inc."</item>
+        <item>FMC,"FMC Corporation"</item>
+        <item>FMD,"First Marblehead Corporation"</item>
+        <item>FMER,"FirstMerit Corporation"</item>
+        <item>FMI,"Foundation Medicine, Inc."</item>
+        <item>FNB,"F.N.B. Corporation"</item>
+        <item>FNFG,"First Niagara Financial Group Inc."</item>
+        <item>FNF,"Fidelity National Financial, Inc."</item>
+        <item>FNGN,"Financial Engines, Inc."</item>
+        <item>FNHC,"Federated National Holding Company"</item>
+        <item>FNLC,"First Bancorp, Inc"</item>
+        <item>FNSR,"Finisar Corporation"</item>
+        <item>FN,"Fabrinet"</item>
+        <item>FOE,"Ferro Corporation"</item>
+        <item>FOLD,"Amicus Therapeutics, Inc."</item>
+        <item>FORM,"FormFactor, Inc."</item>
+        <item>FORR,"Forrester Research, Inc."</item>
+        <item>FOR,"Forestar Group Inc"</item>
+        <item>FOSL,"Fossil Group, Inc."</item>
+        <item>FOXA,"Twenty-First Century Fox, Inc."</item>
+        <item>FOXF,"Fox Factory Holding Corp."</item>
+        <item>FOX,"Twenty-First Century Fox, Inc."</item>
+        <item>FPO,"First Potomac Realty Trust"</item>
+        <item>FPRX,"Five Prime Therapeutics, Inc."</item>
+        <item>FRAN,"Francesca's Holdings Corporation"</item>
+        <item>FRBK,"Republic First Bancorp, Inc."</item>
+        <item>FRC,"FIRST REPUBLIC BANK"</item>
+        <item>FRED,"Fred's, Inc."</item>
+        <item>FRGI,"Fiesta Restaurant Group, Inc."</item>
+        <item>FRME,"First Merchants Corporation"</item>
+        <item>FRM,"Furmanite Corporation"</item>
+        <item>FRO,"Frontline Ltd."</item>
+        <item>FRP,"FairPoint Communications, Inc."</item>
+        <item>FRSH,"Papa Murphy's Holdings, Inc."</item>
+        <item>FRT,"Federal Realty Investment Trust"</item>
+        <item>FR,"First Industrial Realty Trust, Inc."</item>
+        <item>FSC,"Fifth Street Finance Corp."</item>
+        <item>FSGI,"First Security Group, Inc."</item>
+        <item>FSLR,"First Solar, Inc."</item>
+        <item>FSL,"Freescale Semiconductor, Ltd."</item>
+        <item>FSP,"Franklin Street Properties Corp."</item>
+        <item>FSS,"Federal Signal Corporation"</item>
+        <item>FSTR,"L.B. Foster Company"</item>
+        <item>FSYS,"Fuel Systems Solutions, Inc."</item>
+        <item>FTD,"FTD Companies, Inc."</item>
+        <item>FTI,"FMC Technologies, Inc."</item>
+        <item>FTK,"Flotek Industries, Inc."</item>
+        <item>FTNT,"Fortinet, Inc."</item>
+        <item>FTR,"Frontier Communications Corporation"</item>
+        <item>FUEL,"Rocket Fuel Inc."</item>
+        <item>FULT,"Fulton Financial Corporation"</item>
+        <item>FUL,"H. B. Fuller Company"</item>
+        <item>FUR,"Winthrop Realty Trust"</item>
+        <item>FVE,"Five Star Quality Care, Inc."</item>
+        <item>FWM,"Fairway Group Holdings Corp."</item>
+        <item>FWRD,"Forward Air Corporation"</item>
+        <item>FXCB,"Fox Chase Bancorp, Inc."</item>
+        <item>FXCM,"FXCM Inc."</item>
+        <item>FXEN,"FX Energy, Inc."</item>
+        <item>F,"Ford Motor Company"</item>
+        <item>GABC,"German American Bancorp, Inc."</item>
+        <item>GAIA,"Gaiam, Inc."</item>
+        <item>GAIN,"Gladstone Investment Corporation"</item>
+        <item>GALE,"Galena Biopharma, Inc."</item>
+        <item>GALT,"Galectin Therapeutics Inc."</item>
+        <item>GARS,"Garrison Capital Inc."</item>
+        <item>GAS,"AGL Resources, Inc."</item>
+        <item>GBCI,"Glacier Bancorp, Inc."</item>
+        <item>GBDC,"Golub Capital BDC, Inc."</item>
+        <item>GBLI,"Global Indemnity plc"</item>
+        <item>GBL,"Gamco Investors, Inc."</item>
+        <item>GBNK,"Guaranty Bancorp"</item>
+        <item>GBX,"Greenbrier Companies, Inc."</item>
+        <item>GB,"Greatbatch, Inc."</item>
+        <item>GCAP,"GAIN Capital Holdings, Inc."</item>
+        <item>GCA,"Global Cash Access Holdings, Inc."</item>
+        <item>GCO,"Genesco Inc."</item>
+        <item>GDOT,"Green Dot Corporation"</item>
+        <item>GDP,"Goodrich Petroleum Corporation"</item>
+        <item>GD,"General Dynamics Corporation"</item>
+        <item>GEF,"Greif Bros. Corporation"</item>
+        <item>GEOS,"Geospace Technologies Corporation"</item>
+        <item>GEO,"Geo Group Inc"</item>
+        <item>GERN,"Geron Corporation"</item>
+        <item>GES,"Guess?, Inc."</item>
+        <item>GE,"General Electric Company"</item>
+        <item>GFF,"Griffon Corporation"</item>
+        <item>GFN,"General Finance Corporation"</item>
+        <item>GGG,"Graco Inc."</item>
+        <item>GGP,"General Growth Properties, Inc."</item>
+        <item>GHC,"Graham Holdings Company"</item>
+        <item>GHDX,"Genomic Health, Inc."</item>
+        <item>GHL,"Greenhill &amp; Co., Inc."</item>
+        <item>GHM,"Graham Corporation"</item>
+        <item>GIFI,"Gulf Island Fabrication, Inc."</item>
+        <item>GIII,"G-III Apparel Group, LTD."</item>
+        <item>GILD,"Gilead Sciences, Inc."</item>
+        <item>GIMO,"Gigamon Inc."</item>
+        <item>GIS,"General Mills, Inc."</item>
+        <item>GK,"G&amp;K Services, Inc."</item>
+        <item>GLAD,"Gladstone Capital Corporation"</item>
+        <item>GLDD,"Great Lakes Dredge &amp; Dock Corporation"</item>
+        <item>GLF,"GulfMark Offshore, Inc."</item>
+        <item>GLNG,"Golar LNG Limited"</item>
+        <item>GLOG,"GasLog LP."</item>
+        <item>GLPW,"Global Power Equipment Group Inc"</item>
+        <item>GLRE,"Greenlight Reinsurance, Ltd."</item>
+        <item>GLRI,"Glori Energy Inc"</item>
+        <item>GLT,"Glatfelter"</item>
+        <item>GLUU,"Glu Mobile Inc."</item>
+        <item>GLW,"Corning Incorporated"</item>
+        <item>GMAN,"Gordmans Stores, Inc."</item>
+        <item>GMCR,"Keurig Green Mountain, Inc."</item>
+        <item>GMED,"Globus Medical, Inc."</item>
+        <item>GME,"Gamestop Corporation"</item>
+        <item>GMO,"General Moly, Inc"</item>
+        <item>GMT,"GATX Corporation"</item>
+        <item>GM,"General Motors Company"</item>
+        <item>GNCA,"Genocea Biosciences, Inc."</item>
+        <item>GNCMA,"General Communication, Inc."</item>
+        <item>GNC,"GNC Holdings, Inc."</item>
+        <item>GNE,"Genie Energy Ltd."</item>
+        <item>GNMK,"GenMark Diagnostics, Inc."</item>
+        <item>GNRC,"Generac Holdlings Inc."</item>
+        <item>GNTX,"Gentex Corporation"</item>
+        <item>GNW,"Genworth Financial Inc"</item>
+        <item>GOGO,"Gogo Inc."</item>
+        <item>GOLD,"Randgold Resources Limited"</item>
+        <item>GOOD,"Gladstone Commercial Corporation"</item>
+        <item>GOOGL,"Google Inc."</item>
+        <item>GOOG,"Google Inc."</item>
+        <item>GORO,"Gold Resource Corporation"</item>
+        <item>GOV,"Government Properties Income Trust"</item>
+        <item>GPC,"Genuine Parts Company"</item>
+        <item>GPI,"Group 1 Automotive, Inc."</item>
+        <item>GPK,"Graphic Packaging Holding Company"</item>
+        <item>GPN,"Global Payments Inc."</item>
+        <item>GPOR,"Gulfport Energy Corporation"</item>
+        <item>GPRE,"Green Plains, Inc."</item>
+        <item>GPS,"Gap, Inc."</item>
+        <item>GPT,"Gramercy Property Trust Inc."</item>
+        <item>GPX,"GP Strategies Corporation"</item>
+        <item>GRA,"W.R. Grace &amp; Co."</item>
+        <item>GRC,"Gorman-Rupp Company"</item>
+        <item>GRIF,"Griffin Land &amp; Nurseries, Inc."</item>
+        <item>GRMN,"Garmin Ltd."</item>
+        <item>GRPN,"Groupon, Inc."</item>
+        <item>GRUB,"GrubHub Inc."</item>
+        <item>GSAT,"Globalstar, Inc."</item>
+        <item>GSBC,"Great Southern Bancorp, Inc."</item>
+        <item>GSIG,"GSI Group, Inc."</item>
+        <item>GSIT,"GSI Technology, Inc."</item>
+        <item>GSM,"Globe Specialty Metals Inc."</item>
+        <item>GSOL,"Global Sources Ltd."</item>
+        <item>GST,"Gastar Exploration Inc."</item>
+        <item>GSVC,"GSV Capital Corp"</item>
+        <item>GS,"Goldman Sachs Group, Inc."</item>
+        <item>GTI,"GrafTech International Ltd"</item>
+        <item>GTLS,"Chart Industries, Inc."</item>
+        <item>GTN,"Gray Television, Inc."</item>
+        <item>GTS,"Triple-S Management Corporation"</item>
+        <item>GTT,"GTT Communications, Inc."</item>
+        <item>GTXI,"GTx, Inc."</item>
+        <item>GTY,"Getty Realty Corporation"</item>
+        <item>GT,"The Goodyear Tire &amp; Rubber Company"</item>
+        <item>GUID,"Guidance Software, Inc."</item>
+        <item>GVA,"Granite Construction Incorporated"</item>
+        <item>GWRE,"Guidewire Software, Inc."</item>
+        <item>GWR,"Genesee &amp; Wyoming, Inc."</item>
+        <item>GWW,"W.W. Grainger, Inc."</item>
+        <item>GXP,"Great Plains Energy Inc"</item>
+        <item>G,"Genpact Limited"</item>
+        <item>HAE,"Haemonetics Corporation"</item>
+        <item>HAFC,"Hanmi Financial Corporation"</item>
+        <item>HAIN,"The Hain Celestial Group, Inc."</item>
+        <item>HALL,"Hallmark Financial Services, Inc."</item>
+        <item>HALO,"Halozyme Therapeutics, Inc."</item>
+        <item>HAL,"Halliburton Company"</item>
+        <item>HAR,"Harman International Industries, Incorporated"</item>
+        <item>HASI,"Hannon Armstrong Sustainable Infrastructure Capital, Inc."</item>
+        <item>HAS,"Hasbro, Inc."</item>
+        <item>HAWK,"Blackhawk Network Holdings, Inc."</item>
+        <item>HAYN,"Haynes International, Inc."</item>
+        <item>HA,"Hawaiian Holdings, Inc."</item>
+        <item>HBAN,"Huntington Bancshares Incorporated"</item>
+        <item>HBCP,"Home Bancorp, Inc."</item>
+        <item>HBHC,"Hancock Holding Company"</item>
+        <item>HBIO,"Harvard Bioscience, Inc."</item>
+        <item>HBI,"Hanesbrands Inc."</item>
+        <item>HBNC,"Horizon Bancorp"</item>
+        <item>HCA,"HCA Holdings, Inc."</item>
+        <item>HCBK,"Hudson City Bancorp, Inc."</item>
+        <item>HCCI,"Heritage-Crystal Clean, Inc."</item>
+        <item>HCC,"HCC Insurance Holdings, Inc."</item>
+        <item>HCI,"HCI Group, Inc."</item>
+        <item>HCKT,"The Hackett Group, Inc."</item>
+        <item>HCN,"Health Care REIT, Inc."</item>
+        <item>HCOM,"Hawaiian Telcom Holdco, Inc."</item>
+        <item>HCP,"HCP, Inc."</item>
+        <item>HCSG,"Healthcare Services Group, Inc."</item>
+        <item>HDNG,"Hardinge, Inc."</item>
+        <item>HD,"Home Depot, Inc."</item>
+        <item>HEAR,"Turtle Beach Corporation"</item>
+        <item>HEES,"H&amp;E Equipment Services, Inc."</item>
+        <item>HEI,"Heico Corporation"</item>
+        <item>HELE,"Helen of Troy Limited"</item>
+        <item>HELI,"CHC Group Ltd."</item>
+        <item>HEOP,"Heritage Oaks Bancorp"</item>
+        <item>HERO,"Hercules Offshore, Inc."</item>
+        <item>HES,"Hess Corporation"</item>
+        <item>HE,"Hawaiian Electric Industries, Inc."</item>
+        <item>HFC,"HollyFrontier Corporation"</item>
+        <item>HFWA,"Heritage Financial Corporation"</item>
+        <item>HF,"HFF, Inc."</item>
+        <item>HGG,"HHGregg, Inc."</item>
+        <item>HGR,"Hanger, Inc."</item>
+        <item>HHC,"Howard Hughes Corporation"</item>
+        <item>HHS,"Harte-Hanks, Inc."</item>
+        <item>HIBB,"Hibbett Sports, Inc."</item>
+        <item>HIFS,"Hingham Institution for Savings"</item>
+        <item>HIG,"Hartford Financial Services Group, Inc."</item>
+        <item>HIIQ,"Health Insurance Innovations, Inc."</item>
+        <item>HII,"Huntington Ingalls Industries, Inc."</item>
+        <item>HILL,"Dot Hill Systems Corporation"</item>
+        <item>HIL,"Hill International, Inc."</item>
+        <item>HIVE,"Aerohive Networks, Inc."</item>
+        <item>HIW,"Highwoods Properties, Inc."</item>
+        <item>HI,"Hillenbrand Inc"</item>
+        <item>HK,"Halcon Resources Corporation"</item>
+        <item>HLF,"Herbalife LTD."</item>
+        <item>HLIT,"Harmonic Inc."</item>
+        <item>HLS,"HealthSouth Corporation"</item>
+        <item>HLX,"Helix Energy Solutions Group, Inc."</item>
+        <item>HL,"Hecla Mining Company"</item>
+        <item>HME,"Home Properties, Inc."</item>
+        <item>HMHC,"Houghton Mifflin Harcourt Company"</item>
+        <item>HMN,"Horace Mann Educators Corporation"</item>
+        <item>HMPR,"Hampton Roads Bankshares Inc"</item>
+        <item>HMST,"HomeStreet, Inc."</item>
+        <item>HMSY,"HMS Holdings Corp"</item>
+        <item>HMTV,"Hemisphere Media Group, Inc."</item>
+        <item>HNH,"Handy &amp; Harman Ltd."</item>
+        <item>HNI,"HNI Corporation"</item>
+        <item>HNRG,"Hallador Energy Company"</item>
+        <item>HNR,"Harvest Natural Resources Inc"</item>
+        <item>HNT,"Health Net Inc."</item>
+        <item>HOFT,"Hooker Furniture Corporation"</item>
+        <item>HOG,"Harley-Davidson, Inc."</item>
+        <item>HOLX,"Hologic, Inc."</item>
+        <item>HOMB,"Home BancShares, Inc."</item>
+        <item>HON,"Honeywell International Inc."</item>
+        <item>HOS,"Hornbeck Offshore Services"</item>
+        <item>HOT,"Starwood Hotels &amp; Resorts Worldwide, Inc."</item>
+        <item>HOV,"Hovnanian Enterprises Inc"</item>
+        <item>HPP,"Hudson Pacific Properties, Inc."</item>
+        <item>HPQ,"Hewlett-Packard Company"</item>
+        <item>HPT,"Hospitality Properites Trust"</item>
+        <item>HPY,"Heartland Payment Systems, Inc."</item>
+        <item>HP,"Helmerich &amp; Payne, Inc."</item>
+        <item>HRB,"H&amp;R Block, Inc."</item>
+        <item>HRC,"Hill-Rom Holdings Inc"</item>
+        <item>HRG,"Harbinger Group Inc"</item>
+        <item>HRL,"Hormel Foods Corporation"</item>
+        <item>HRS,"Harris Corporation"</item>
+        <item>HRTG,"Heritage Insurance Holdings, Inc."</item>
+        <item>HRTX,"Heron Therapeutics, Inc."</item>
+        <item>HRZN,"Horizon Technology Finance Corporation"</item>
+        <item>HR,"Healthcare Realty Trust Incorporated"</item>
+        <item>HSC,"Harsco Corporation"</item>
+        <item>HSIC,"Henry Schein, Inc."</item>
+        <item>HSII,"Heidrick &amp; Struggles International, Inc."</item>
+        <item>HSNI,"HSN, Inc."</item>
+        <item>HSP,"Hospira Inc"</item>
+        <item>HSTM,"HealthStream, Inc."</item>
+        <item>HST,"Host Hotels &amp; Resorts, Inc."</item>
+        <item>HSY,"Hershey Company"</item>
+        <item>HTA,"Healthcare Trust of America, Inc."</item>
+        <item>HTBI,"HomeTrust Bancshares, Inc."</item>
+        <item>HTBK,"Heritage Commerce Corp"</item>
+        <item>HTCH,"Hutchinson Technology Incorporated"</item>
+        <item>HTGC,"Hercules Technology Growth Capital, Inc."</item>
+        <item>HTH,"Hilltop Holdings Inc."</item>
+        <item>HTLD,"Heartland Express, Inc."</item>
+        <item>HTLF,"Heartland Financial USA, Inc."</item>
+        <item>HTS,"Hatteras Financial Corp"</item>
+        <item>HTWR,"Heartware International, Inc."</item>
+        <item>HTZ,"Hertz Global Holdings, Inc"</item>
+        <item>HT,"Hersha Hospitality Trust"</item>
+        <item>HUB_B,"Hubbell Inc"</item>
+        <item>HUBG,"Hub Group, Inc."</item>
+        <item>HUM,"Humana Inc."</item>
+        <item>HUN,"Huntsman Corporation"</item>
+        <item>HURC,"Hurco Companies, Inc."</item>
+        <item>HURN,"Huron Consulting Group Inc."</item>
+        <item>HVT,"Haverty Furniture Companies, Inc."</item>
+        <item>HWAY,"Healthways, Inc."</item>
+        <item>HWCC,"Houston Wire &amp; Cable Company"</item>
+        <item>HWKN,"Hawkins, Inc."</item>
+        <item>HW,"Headwaters Incorporated"</item>
+        <item>HXL,"Hexcel Corporation"</item>
+        <item>HY,"Hyster-Yale Materials Handling, Inc."</item>
+        <item>HZNP,"Horizon Pharma, Inc."</item>
+        <item>HZO,"MarineMax, Inc."</item>
+        <item>H,"Hyatt Hotels Corporation"</item>
+        <item>IACI,"IAC/InterActiveCorp"</item>
+        <item>IART,"Integra LifeSciences Holdings Corporation"</item>
+        <item>IBCP,"Independent Bank Corporation"</item>
+        <item>IBKC,"IBERIABANK Corporation"</item>
+        <item>IBKR,"Interactive Brokers Group, Inc."</item>
+        <item>IBM,"International Business Machines Corporation"</item>
+        <item>IBOC,"International Bancshares Corporation"</item>
+        <item>IBP,"Installed Building Products, Inc."</item>
+        <item>IBTX,"Independent Bank Group, Inc"</item>
+        <item>ICE,"Intercontinental Exchange Inc."</item>
+        <item>ICFI,"ICF International, Inc."</item>
+        <item>ICON,"Iconix Brand Group, Inc."</item>
+        <item>ICPT,"Intercept Pharmaceuticals, Inc."</item>
+        <item>ICUI,"ICU Medical, Inc."</item>
+        <item>IDA,"IDACORP, Inc."</item>
+        <item>IDCC,"InterDigital, Inc."</item>
+        <item>IDRA,"Idera Pharmaceuticals, Inc."</item>
+        <item>IDTI,"Integrated Device Technology, Inc."</item>
+        <item>IDT,"IDT Corporation"</item>
+        <item>IDXX,"IDEXX Laboratories, Inc."</item>
+        <item>IEX,"IDEX Corporation"</item>
+        <item>IFF,"Internationa Flavors &amp; Fragrances, Inc."</item>
+        <item>IFT,"Imperial Holdings, Inc."</item>
+        <item>IGT,"International Game Technology"</item>
+        <item>IG,"IGI Laboratories, Inc."</item>
+        <item>IHC,"Independence Holding Company"</item>
+        <item>IHS,"IHS Inc."</item>
+        <item>IIIN,"Insteel Industries, Inc."</item>
+        <item>III,"Information Services Group, Inc."</item>
+        <item>IILG,"Interval Leisure Group, Inc."</item>
+        <item>IIVI,"II-VI Incorporated"</item>
+        <item>ILMN,"Illumina, Inc."</item>
+        <item>IL,"IntraLinks Holdings, Inc."</item>
+        <item>IMGN,"ImmunoGen, Inc."</item>
+        <item>IMI,"Intermolecular, Inc."</item>
+        <item>IMKTA,"Ingles Markets, Incorporated"</item>
+        <item>IMMR,"Immersion Corporation"</item>
+        <item>IMMU,"Immunomedics, Inc."</item>
+        <item>IMN,"Imation Corporation"</item>
+        <item>IMPV,"Imperva, Inc."</item>
+        <item>IM,"Ingram Micro Inc."</item>
+        <item>INAP,"Internap Network Services Corporation"</item>
+        <item>INCY,"Incyte Corporation"</item>
+        <item>INDB,"Independent Bank Corp."</item>
+        <item>INFA,"Informatica Corporation"</item>
+        <item>INFI,"Infinity Pharmaceuticals, Inc."</item>
+        <item>INFN,"Infinera Corporation"</item>
+        <item>INGN,"Inogen, Inc"</item>
+        <item>INGR,"Ingredion Incorporated"</item>
+        <item>ININ,"Interactive Intelligence Group, Inc."</item>
+        <item>INN,"Summit Hotel Properties, Inc."</item>
+        <item>INO,"Inovio Pharmaceuticals, Inc."</item>
+        <item>INSM,"Insmed, Inc."</item>
+        <item>INSY,"Insys Therapeutics, Inc."</item>
+        <item>INTC,"Intel Corporation"</item>
+        <item>INTL,"INTL FCStone Inc."</item>
+        <item>INTU,"Intuit Inc."</item>
+        <item>INTX,"Intersections, Inc."</item>
+        <item>INT,"World Fuel Services Corporation"</item>
+        <item>INVN,"InvenSense, Inc."</item>
+        <item>INWK,"InnerWorkings, Inc."</item>
+        <item>IOSP,"Innospec Inc."</item>
+        <item>IO,"Ion Geophysical Corporation"</item>
+        <item>IPAR,"Inter Parfums, Inc."</item>
+        <item>IPCC,"Infinity Property and Casualty Corporation"</item>
+        <item>IPCM,"IPC The Hospitalist Company, Inc."</item>
+        <item>IPGP,"IPG Photonics Corporation"</item>
+        <item>IPG,"Interpublic Group of Companies, Inc."</item>
+        <item>IPHI,"Inphi Corporation"</item>
+        <item>IPHS,"Innophos Holdings, Inc."</item>
+        <item>IPI,"Intrepid Potash, Inc"</item>
+        <item>IPXL,"Impax Laboratories, Inc."</item>
+        <item>IP,"International Paper Company"</item>
+        <item>IQNT,"Inteliquent, Inc."</item>
+        <item>IRBT,"iRobot Corporation"</item>
+        <item>IRC,"Inland Real Estate Corporation"</item>
+        <item>IRDM,"Iridium Communications Inc"</item>
+        <item>IRET,"Investors Real Estate Trust"</item>
+        <item>IRG,"Ignite Restaurant Group, Inc."</item>
+        <item>IRM,"Iron Mountain Incorporated"</item>
+        <item>IRWD,"Ironwood Pharmaceuticals, Inc."</item>
+        <item>IR,"Ingersoll-Rand plc"</item>
+        <item>ISBC,"Investors Bancorp, Inc."</item>
+        <item>ISCA,"International Speedway Corporation"</item>
+        <item>ISH,"International Shipholding Corporation"</item>
+        <item>ISIL,"Intersil Corporation"</item>
+        <item>ISIS,"Isis Pharmaceuticals, Inc."</item>
+        <item>ISLE,"Isle of Capri Casinos, Inc."</item>
+        <item>ISRG,"Intuitive Surgical, Inc."</item>
+        <item>ISRL,"Isramco, Inc."</item>
+        <item>ISSC,"Innovative Solutions and Support, Inc."</item>
+        <item>ISSI,"Integrated Silicon Solution, Inc."</item>
+        <item>ITCI,"Intra-Cellular Therapies Inc."</item>
+        <item>ITC,"ITC Holdings Corp."</item>
+        <item>ITG,"Investment Technology Group, Inc."</item>
+        <item>ITIC,"Investors Title Company"</item>
+        <item>ITRI,"Itron, Inc."</item>
+        <item>ITT,"ITT Corporation"</item>
+        <item>ITW,"Illinois Tool Works Inc."</item>
+        <item>IT,"Gartner, Inc."</item>
+        <item>IVAC,"Intevac, Inc."</item>
+        <item>IVC,"Invacare Corporation"</item>
+        <item>IVR,"INVESCO MORTGAGE CAPITAL INC"</item>
+        <item>IVZ,"Invesco Plc"</item>
+        <item>IXYS,"IXYS Corporation"</item>
+        <item>I,"Intelsat S.A."</item>
+        <item>JACK,"Jack In The Box Inc."</item>
+        <item>JAH,"Jarden Corporation"</item>
+        <item>JAKK,"JAKKS Pacific, Inc."</item>
+        <item>JBHT,"J.B. Hunt Transport Services, Inc."</item>
+        <item>JBLU,"JetBlue Airways Corporation"</item>
+        <item>JBL,"Jabil Circuit, Inc."</item>
+        <item>JBSS,"John B. Sanfilippo &amp; Son, Inc."</item>
+        <item>JBT,"John Bean Technologies Corporation"</item>
+        <item>JCI,"Johnson Controls, Inc."</item>
+        <item>JCOM,"j2 Global, Inc."</item>
+        <item>JCP,"J.C. Penney Company, Inc. Holding Company"</item>
+        <item>JDSU,"JDS Uniphase Corporation"</item>
+        <item>JEC,"Jacobs Engineering Group Inc."</item>
+        <item>JGW,"JGWPT Holdings Inc."</item>
+        <item>JIVE,"Jive Software, Inc."</item>
+        <item>JJSF,"J &amp; J Snack Foods Corp."</item>
+        <item>JKHY,"Jack Henry &amp; Associates, Inc."</item>
+        <item>JLL,"Jones Lang LaSalle Incorporated"</item>
+        <item>JMBA,"Jamba, Inc."</item>
+        <item>JNJ,"Johnson &amp; Johnson"</item>
+        <item>JNPR,"Juniper Networks, Inc."</item>
+        <item>JNS,"Janus Capital Group, Inc"</item>
+        <item>JOE,"St. Joe Company"</item>
+        <item>JONE,"Jones Energy, Inc."</item>
+        <item>JOUT,"Johnson Outdoors Inc."</item>
+        <item>JOY,"Joy Global Inc."</item>
+        <item>JPM,"JP Morgan Chase"</item>
+        <item>JW_A,"John Wiley &amp; Sons, Inc."</item>
+        <item>JWN,"Nordstrom, Inc."</item>
+        <item>KAI,"Kadant Inc"</item>
+        <item>KALU,"Kaiser Aluminum Corporation"</item>
+        <item>KAMN,"Kaman Corporation"</item>
+        <item>KAR,"KAR Auction Services, Inc"</item>
+        <item>KBH,"KB Home"</item>
+        <item>KBR,"KBR, Inc."</item>
+        <item>KCG,"KCG Holdings, Inc."</item>
+        <item>KCLI,"Kansas City Life Insurance Company"</item>
+        <item>KEG,"Key Energy Services, Inc."</item>
+        <item>KELYA,"Kelly Services, Inc."</item>
+        <item>KEM,"Kemet Corporation"</item>
+        <item>KERX,"Keryx Biopharmaceuticals, Inc."</item>
+        <item>KEX,"Kirby Corporation"</item>
+        <item>KEYW,"The KEYW Holding Corporation"</item>
+        <item>KEY,"KeyCorp"</item>
+        <item>KFRC,"Kforce, Inc."</item>
+        <item>KFY,"Korn/Ferry International"</item>
+        <item>KIM,"Kimco Realty Corporation"</item>
+        <item>KIN,"Kindred Biosciences, Inc."</item>
+        <item>KIRK,"Kirkland's, Inc."</item>
+        <item>KKD,"Krispy Kreme Doughnuts, Inc."</item>
+        <item>KLAC,"KLA-Tencor Corporation"</item>
+        <item>KMB,"Kimberly-Clark Corporation"</item>
+        <item>KMG,"KMG Chemicals, Inc."</item>
+        <item>KMI,"Kinder Morgan, Inc."</item>
+        <item>KMPR,"Kemper Corporation"</item>
+        <item>KMT,"Kennametal Inc."</item>
+        <item>KMX,"CarMax Inc"</item>
+        <item>KND,"Kindred Healthcare, Inc."</item>
+        <item>KNL,"Knoll, Inc."</item>
+        <item>KNX,"Knight Transportation, Inc."</item>
+        <item>KODK,"Eastman Kodak Company"</item>
+        <item>KOPN,"(KOPN) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>KOP,"Koppers Holdings Inc."</item>
+        <item>KORS,"Michael Kors Holdings Limited"</item>
+        <item>KOS,"Kosmos Energy Ltd."</item>
+        <item>KO,"Coca-Cola Company"</item>
+        <item>KPTI,"Karyopharm Therapeutics Inc."</item>
+        <item>KRA,"Kraton Performance Polymers, Inc"</item>
+        <item>KRC,"Kilroy Realty Corporation"</item>
+        <item>KRG,"Kite Realty Group Trust"</item>
+        <item>KRNY,"Kearny Financial"</item>
+        <item>KRO,"Kronos Worldwide Inc"</item>
+        <item>KR,"Kroger Company"</item>
+        <item>KSS,"Kohl's Corporation"</item>
+        <item>KSU,"Kansas City Southern"</item>
+        <item>KS,"KapStone Paper and Packaging Corporation"</item>
+        <item>KTOS,"Kratos Defense &amp; Security Solutions, Inc."</item>
+        <item>KTWO,"K2M Group Holdings, Inc."</item>
+        <item>KVHI,"KVH Industries, Inc."</item>
+        <item>KWR,"Quaker Chemical Corporation"</item>
+        <item>KW,"Kennedy-Wilson Holdings Inc."</item>
+        <item>KYTH,"Kythera Biopharmaceuticals, Inc."</item>
+        <item>K,"Kellogg Company"</item>
+        <item>LABL,"Multi-Color Corporation"</item>
+        <item>LADR,"(LADR) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>LAD,"Lithia Motors, Inc."</item>
+        <item>LAMR,"Lamar Advertising Company"</item>
+        <item>LANC,"Lancaster Colony Corporation"</item>
+        <item>LAYN,"Layne Christensen Company"</item>
+        <item>LAZ,"Lazard Ltd."</item>
+        <item>LBAI,"Lakeland Bancorp, Inc."</item>
+        <item>LBMH,"(LBMH) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>LBTYA,"Liberty Global plc"</item>
+        <item>LBY,"Libbey, Inc."</item>
+        <item>LB,"L Brands, Inc."</item>
+        <item>LCI,"Lannett Co Inc"</item>
+        <item>LCNB,"LCNB Corporation"</item>
+        <item>LCUT,"Lifetime Brands, Inc."</item>
+        <item>LDL,"Lydall, Inc."</item>
+        <item>LDOS,"Leidos Holdings, Inc."</item>
+        <item>LDRH,"(LDRH) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>LDR,"Landauer, Inc."</item>
+        <item>LEAF,"Springleaf Holdings, Inc."</item>
+        <item>LEA,"Lear Corporation"</item>
+        <item>LECO,"Lincoln Electric Holdings, Inc."</item>
+        <item>LEE,"(LEE) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>LEG,"Leggett &amp; Platt, Incorporated"</item>
+        <item>LEN,"Lennar Corporation"</item>
+        <item>LE,"Lands' End, Inc."</item>
+        <item>LFUS,"Littelfuse, Inc."</item>
+        <item>LFVN,"Lifevantage Corporation"</item>
+        <item>LF,"Leapfrog Enterprises Inc"</item>
+        <item>LGF,"Lions Gate Entertainment Corporation"</item>
+        <item>LGIH,"(LGIH) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>LGND,"Ligand Pharmaceuticals Incorporated"</item>
+        <item>LG,"Laclede Group, Inc."</item>
+        <item>LHCG,"LHC Group"</item>
+        <item>LHO,"LaSalle Hotel Properties"</item>
+        <item>LH,"Laboratory Corporation of America Holdings"</item>
+        <item>LII,"Lennox International, Inc."</item>
+        <item>LINC,"Lincoln Educational Services Corporation"</item>
+        <item>LION,"Fidelity Southern Corporation"</item>
+        <item>LIOX,"Lionbridge Technologies, Inc."</item>
+        <item>LKFN,"Lakeland Financial Corporation"</item>
+        <item>LKQ,"LKQ Corporation"</item>
+        <item>LLL,"L-3 Communications Holdings, Inc."</item>
+        <item>LLNW,"Limelight Networks, Inc."</item>
+        <item>LLTC,"Linear Technology Corporation"</item>
+        <item>LLY,"Eli Lilly and Company"</item>
+        <item>LL,"Lumber Liquidators Holdings, Inc"</item>
+        <item>LMCA,"Liberty Media Corporation"</item>
+        <item>LMIA,"LMI Aerospace, Inc."</item>
+        <item>LMNR,"Limoneira Co"</item>
+        <item>LMNX,"Luminex Corporation"</item>
+        <item>LMOS,"Lumos Networks Corp."</item>
+        <item>LMT,"Lockheed Martin Corporation"</item>
+        <item>LM,"Legg Mason, Inc."</item>
+        <item>LNCE,"Snyder's-Lance, Inc."</item>
+        <item>LNC,"Lincoln National Corporation"</item>
+        <item>LNDC,"Landec Corporation"</item>
+        <item>LNG,"Cheniere Energy, Inc."</item>
+        <item>LNKD,"LinkedIn Corporation"</item>
+        <item>LNN,"Lindsay Corporation"</item>
+        <item>LNT,"Alliant Energy Corporation"</item>
+        <item>LOCK,"LifeLock, Inc."</item>
+        <item>LOGM,"LogMein, Inc."</item>
+        <item>LOPE,"Grand Canyon Education, Inc."</item>
+        <item>LORL,"Loral Space and Communications, Inc."</item>
+        <item>LOV,"Spark Networks, Inc."</item>
+        <item>LOW,"Lowe's Companies, Inc."</item>
+        <item>LPG,"Dorian LPG Ltd."</item>
+        <item>LPI,"Laredo Petroleum, Inc."</item>
+        <item>LPLA,"LPL Financial Holdings Inc."</item>
+        <item>LPNT,"LifePoint Hospitals, Inc."</item>
+        <item>LPSN,"LivePerson, Inc."</item>
+        <item>LPX,"Louisiana-Pacific Corporation"</item>
+        <item>LQDT,"Liquidity Services, Inc."</item>
+        <item>LQ,"La Quinta Holdings Inc."</item>
+        <item>LRCX,"Lam Research Corporation"</item>
+        <item>LRN,"K12 Inc"</item>
+        <item>LSCC,"Lattice Semiconductor Corporation"</item>
+        <item>LSTR,"Landstar System, Inc."</item>
+        <item>LTC,"LTC Properties, Inc."</item>
+        <item>LTS,"Ladenburg Thalmann Financial Services Inc"</item>
+        <item>LUB,"Luby's, Inc."</item>
+        <item>LUK,"Leucadia National Corporation"</item>
+        <item>LUV,"Southwest Airlines Company"</item>
+        <item>LVLT,"Level 3 Communications, Inc."</item>
+        <item>LVNTA,"Liberty Interactive Corporation"</item>
+        <item>LVS,"Las Vegas Sands Corp."</item>
+        <item>LWAY,"Lifeway Foods, Inc."</item>
+        <item>LXFT,"(LXFT) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>LXK,"Lexmark International, Inc."</item>
+        <item>LXP,"Lexington Realty Trust"</item>
+        <item>LXRX,"Lexicon Pharmaceuticals, Inc."</item>
+        <item>LXU,"Lsb Industries Inc."</item>
+        <item>LYB,"LyondellBasell Industries NV"</item>
+        <item>LYTS,"LSI Industries Inc."</item>
+        <item>LYV,"Live Nation Entertainment, Inc."</item>
+        <item>LZB,"La-Z-Boy Incorporated"</item>
+        <item>L,"Loews Corporation"</item>
+        <item>MACK,"Merrimack Pharmaceuticals, Inc."</item>
+        <item>MAC,"Macerich Company"</item>
+        <item>MAIN,"Main Street Capital Corporation"</item>
+        <item>MANH,"Manhattan Associates, Inc."</item>
+        <item>MANT,"ManTech International Corporation"</item>
+        <item>MAN,"ManpowerGroup"</item>
+        <item>MAR,"Marriott International"</item>
+        <item>MASI,"Masimo Corporation"</item>
+        <item>MAS,"Masco Corporation"</item>
+        <item>MATW,"Matthews International Corporation"</item>
+        <item>MATX,"Matson, Inc."</item>
+        <item>MAT,"Mattel, Inc."</item>
+        <item>MA,"Mastercard Incorporated"</item>
+        <item>MBFI,"MB Financial Inc."</item>
+        <item>MBII,"(MBII) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MBI,"MBIA, Inc."</item>
+        <item>MBRG,"Middleburg Financial Corporation"</item>
+        <item>MBUU,"(MBUU) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MBVT,"Merchants Bancshares, Inc."</item>
+        <item>MBWM,"Mercantile Bank Corporation"</item>
+        <item>MCBC,"Macatawa Bank Corporation"</item>
+        <item>MCC,"Medley Capital Corporation"</item>
+        <item>MCD,"McDonald's Corporation"</item>
+        <item>MCF,"Contango Oil &amp; Gas Company"</item>
+        <item>MCGC,"MCG Capital Corporation"</item>
+        <item>MCHP,"Microchip Technology Incorporated"</item>
+        <item>MCHX,"Marchex, Inc."</item>
+        <item>MCK,"McKesson Corporation"</item>
+        <item>MCO,"Moody's Corporation"</item>
+        <item>MCRI,"Monarch Casino &amp; Resort, Inc."</item>
+        <item>MCRL,"Micrel, Incorporated"</item>
+        <item>MCS,"Marcus Corporation"</item>
+        <item>MCY,"Mercury General Corporation"</item>
+        <item>MC,"Moelis &amp; Company"</item>
+        <item>MDAS,"MedAssets, Inc."</item>
+        <item>MDCA,"MDC Partners Inc."</item>
+        <item>MDCO,"The Medicines Company"</item>
+        <item>MDC,"M.D.C. Holdings, Inc."</item>
+        <item>MDLZ,"Mondelez International, Inc."</item>
+        <item>MDP,"Meredith Corporation"</item>
+        <item>MDRX,"Allscripts Healthcare Solutions, Inc."</item>
+        <item>MDR,"McDermott International, Inc."</item>
+        <item>MDSO,"Medidata Solutions, Inc."</item>
+        <item>MDT,"Medtronic, Inc."</item>
+        <item>MDU,"MDU Resources Group, Inc."</item>
+        <item>MDVN,"Medivation, Inc."</item>
+        <item>MDXG,"MiMedx Group, Inc"</item>
+        <item>MD,"Mednax, Inc"</item>
+        <item>MED,"MEDIFAST INC"</item>
+        <item>MEG,"Media General, Inc."</item>
+        <item>MEIP,"MEI Pharma, Inc."</item>
+        <item>MEI,"Methode Electronics, Inc."</item>
+        <item>MENT,"Mentor Graphics Corporation"</item>
+        <item>METR,"Metro Bancorp, Inc"</item>
+        <item>MET,"MetLife, Inc."</item>
+        <item>MFA,"MFA Financial, Inc."</item>
+        <item>MFLX,"Multi-Fineline Electronix, Inc."</item>
+        <item>MFRM,"Mattress Firm Holding Corp."</item>
+        <item>MGEE,"MGE Energy Inc."</item>
+        <item>MGI,"Moneygram International, Inc."</item>
+        <item>MGLN,"Magellan Health Services, Inc."</item>
+        <item>MGM,"MGM Resorts International"</item>
+        <item>MGNX,"(MGNX) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MGRC,"McGrath RentCorp"</item>
+        <item>MG,"Mistras Group Inc"</item>
+        <item>MHFI,"McGraw Hill Financial, Inc."</item>
+        <item>MHGC,"Morgans Hotel Group Co."</item>
+        <item>MHK,"Mohawk Industries, Inc."</item>
+        <item>MHLD,"Maiden Holdings, Ltd."</item>
+        <item>MHO,"M/I Homes, Inc."</item>
+        <item>MHR,"Magnum Hunter Resources Corporation"</item>
+        <item>MIDD,"The Middleby Corporation"</item>
+        <item>MILL,"Miller Energy Resources, Inc."</item>
+        <item>MIL,"(MIL) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MIND,"Mitcham Industries, Inc."</item>
+        <item>MINI,"Mobile Mini, Inc."</item>
+        <item>MITK,"Mitek Systems, Inc."</item>
+        <item>MITT,"AG Mortgage Investment Trust, Inc."</item>
+        <item>MJN,"Mead Johnson Nutrition Company"</item>
+        <item>MKC,"McCormick &amp; Company, Incorporated"</item>
+        <item>MKL,"Markel Corporation"</item>
+        <item>MKSI,"MKS Instruments, Inc."</item>
+        <item>MKTO,"Marketo, Inc."</item>
+        <item>MKTX,"MarketAxess Holdings, Inc."</item>
+        <item>MLAB,"Mesa Laboratories, Inc."</item>
+        <item>MLHR,"Herman Miller, Inc."</item>
+        <item>MLI,"Mueller Industries, Inc."</item>
+        <item>MLM,"Martin Marietta Materials, Inc."</item>
+        <item>MLNK,"ModusLink Global Solutions, Inc"</item>
+        <item>MLR,"Miller Industries, Inc."</item>
+        <item>MMC,"Marsh &amp; McLennan Companies, Inc."</item>
+        <item>MMI,"(MMI) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MMM,"3M Company"</item>
+        <item>MMSI,"Merit Medical Systems, Inc."</item>
+        <item>MMS,"Maximus, Inc."</item>
+        <item>MM,"Millennial Media, Inc."</item>
+        <item>MNI,"McClatchy Company"</item>
+        <item>MNKD,"MannKind Corporation"</item>
+        <item>MNK,"(MNK) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MNRO,"Monro Muffler Brake, Inc."</item>
+        <item>MNR,"Monmouth Real Estate Investment Corporation"</item>
+        <item>MNST,"Monster Beverage Corporation"</item>
+        <item>MNTA,"Momenta Pharmaceuticals, Inc."</item>
+        <item>MNTX,"Manitex International, Inc."</item>
+        <item>MN,"Manning &amp; Napier, Inc."</item>
+        <item>MODN,"Model N, Inc."</item>
+        <item>MOD,"Modine Manufacturing Company"</item>
+        <item>MOFG,"MidWestOne Financial Group, Inc."</item>
+        <item>MOG_A,"Moog Inc."</item>
+        <item>MOH,"Molina Healthcare Inc"</item>
+        <item>MON,"Monsanto Company"</item>
+        <item>MORN,"Morningstar, Inc."</item>
+        <item>MOSY,"MoSys, Inc."</item>
+        <item>MOS,"Mosaic Company"</item>
+        <item>MOV,"Movado Group Inc."</item>
+        <item>MO,"Altria Group"</item>
+        <item>MPAA,"(MPAA) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MPC,"Marathon Petroleum Corporation"</item>
+        <item>MPO,"Midstates Petroleum Company, Inc."</item>
+        <item>MPWR,"Monolithic Power Systems, Inc."</item>
+        <item>MPW,"Medical Properties Trust, Inc."</item>
+        <item>MPX,"Marine Products Corporation"</item>
+        <item>MRCY,"Mercury Systems Inc"</item>
+        <item>MRC,"MRC Global Inc."</item>
+        <item>MRGE,"Merge Healthcare Incorporated."</item>
+        <item>MRH,"Montpelier Re Holdings Ltd."</item>
+        <item>MRIN,"Marin Software Incorporated"</item>
+        <item>MRK,"Merck &amp; Company, Inc."</item>
+        <item>MRLN,"Marlin Business Services Corp."</item>
+        <item>MRO,"Marathon Oil Corporation"</item>
+        <item>MRTN,"Marten Transport, Ltd."</item>
+        <item>MRTX,"(MRTX) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MRVL,"Marvell Technology Group Ltd."</item>
+        <item>MSA,"MSA Safety Incorporporated"</item>
+        <item>MSCC,"Microsemi Corporation"</item>
+        <item>MSCI,"MSCI Inc"</item>
+        <item>MSEX,"Middlesex Water Company"</item>
+        <item>MSFG,"MainSource Financial Group, Inc."</item>
+        <item>MSFT,"Microsoft Corporation"</item>
+        <item>MSG,"The Madison Square Garden Company"</item>
+        <item>MSI,"Motorola Solutions, Inc."</item>
+        <item>MSL,"MidSouth Bancorp"</item>
+        <item>MSM,"MSC Industrial Direct Company, Inc."</item>
+        <item>MSO,"Martha Stewart Living Omnimedia, Inc."</item>
+        <item>MSTR,"MicroStrategy Incorporated"</item>
+        <item>MS,"Morgan Stanley"</item>
+        <item>MTB,"M&amp;T Bank Corporation"</item>
+        <item>MTDR,"Matador Resources Company"</item>
+        <item>MTD,"Mettler-Toledo International, Inc."</item>
+        <item>MTGE,"American Capital Mortgage Investment Corp."</item>
+        <item>MTG,"MGIC Investment Corporation"</item>
+        <item>MTH,"Meritage Corporation"</item>
+        <item>MTN,"Vail Resorts, Inc."</item>
+        <item>MTOR,"Meritor, Inc."</item>
+        <item>MTRN,"Materion Corporation"</item>
+        <item>MTRX,"Matrix Service Company"</item>
+        <item>MTSC,"MTS Systems Corporation"</item>
+        <item>MTSI,"M/A-COM Technology Solutions Holdings, Inc."</item>
+        <item>MTW,"Manitowoc Company, Inc."</item>
+        <item>MTX,"Minerals Technologies Inc."</item>
+        <item>MTZ,"MasTec, Inc."</item>
+        <item>MUR,"Murphy Oil Corporation"</item>
+        <item>MUSA,"(MUSA) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>MU,"Micron Technology, Inc."</item>
+        <item>MVC,"MVC Capital, Inc."</item>
+        <item>MWA,"MUELLER WATER PRODUCTS"</item>
+        <item>MWW,"Monster Worldwide, Inc."</item>
+        <item>MW,"Men's Wearhouse, Inc."</item>
+        <item>MXIM,"Maxim Integrated Products, Inc."</item>
+        <item>MXL,"MaxLinear, Inc"</item>
+        <item>MXWL,"Maxwell Technologies, Inc."</item>
+        <item>MYCC,"ClubCorp Holdings, Inc."</item>
+        <item>MYE,"Myers Industries, Inc."</item>
+        <item>MYGN,"Myriad Genetics, Inc."</item>
+        <item>MYL,"Mylan Inc."</item>
+        <item>MYRG,"MYR Group, Inc."</item>
+        <item>M,"Macy's Inc"</item>
+        <item>NADL,"(NADL) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NANO,"Nanometrics Incorporated"</item>
+        <item>NATH,"Nathan's Famous, Inc."</item>
+        <item>NATI,"National Instruments Corporation"</item>
+        <item>NATL,"National Interstate Corporation"</item>
+        <item>NATR,"Nature's Sunshine Products, Inc."</item>
+        <item>NAT,"Nordic American Tankers Limited"</item>
+        <item>NAVB,"Navidea Biopharmaceuticals, Inc."</item>
+        <item>NAVG,"The Navigators Group, Inc."</item>
+        <item>NAVI,"Navient Corporation"</item>
+        <item>NAV,"Navistar International Corporation"</item>
+        <item>NBBC,"NewBridge Bancorp"</item>
+        <item>NBHC,"National Bank Holdings Corporation"</item>
+        <item>NBIX,"Neurocrine Biosciences, Inc."</item>
+        <item>NBL,"Noble Energy Inc."</item>
+        <item>NBTB,"NBT Bancorp Inc."</item>
+        <item>NCI,"Navigant Consulting, Inc."</item>
+        <item>NCLH,"Norwegian Cruise Line Holdings Ltd."</item>
+        <item>NCMI,"National CineMedia, Inc."</item>
+        <item>NCR,"NCR Corporation"</item>
+        <item>NCS,"NCI Building Systems, Inc."</item>
+        <item>NC,"NACCO Industries, Inc."</item>
+        <item>NDAQ,"The NASDAQ OMX Group, Inc."</item>
+        <item>NDLS,"(NDLS) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NDSN,"Nordson Corporation"</item>
+        <item>NEE,"NextEra Energy, Inc."</item>
+        <item>NEM,"Newmont Mining Corporation"</item>
+        <item>NEOG,"Neogen Corporation"</item>
+        <item>NEON,"Neonode Inc."</item>
+        <item>NEO,"NeoGenomics, Inc."</item>
+        <item>NES,"Nuverra Environmental Solutions, Inc."</item>
+        <item>NETE,"Net Element, Inc."</item>
+        <item>NEU,"NewMarket Corporation"</item>
+        <item>NEWM,"(NEWM) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NEWP,"Newport Corporation"</item>
+        <item>NEWS,"NewStar Financial, Inc."</item>
+        <item>NE,"Noble Corporation"</item>
+        <item>NFBK,"Northfield Bancorp, Inc."</item>
+        <item>NFG,"National Fuel Gas Company"</item>
+        <item>NFLX,"Netflix, Inc."</item>
+        <item>NFX,"Newfield Exploration Company"</item>
+        <item>NGHC,"National General Holdings Corp"</item>
+        <item>NGS,"Natural Gas Services Group, Inc."</item>
+        <item>NGVC,"Natural Grocers by Vitamin Cottage, Inc."</item>
+        <item>NHC,"National HealthCare Corporation"</item>
+        <item>NHI,"National Health Investors, Inc."</item>
+        <item>NICK,"Nicholas Financial, Inc."</item>
+        <item>NIHD,"NII Holdings, Inc."</item>
+        <item>NILE,"Blue Nile, Inc."</item>
+        <item>NI,"NiSource, Inc"</item>
+        <item>NJR,"NewJersey Resources Corporation"</item>
+        <item>NKE,"Nike, Inc."</item>
+        <item>NKSH,"National Bankshares, Inc."</item>
+        <item>NKTR,"Nektar Therapeutics"</item>
+        <item>NLNK,"NewLink Genetics Corporation"</item>
+        <item>NLSN,"Nielsen N.V."</item>
+        <item>NLS,"Nautilus Group, Inc."</item>
+        <item>NLY,"Annaly Capital Management Inc"</item>
+        <item>NL,"NL Industries, Inc."</item>
+        <item>NMBL,"(NMBL) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NMFC,"New Mountain Finance Corporation"</item>
+        <item>NMIH,"(NMIH) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NMRX,"Numerex Corp."</item>
+        <item>NM,"(NM) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NNA,"(NNA) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NNBR,"NN, Inc."</item>
+        <item>NNI,"Nelnet, Inc."</item>
+        <item>NNVC,"(NNVC) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NOC,"Northrop Grumman Corporation"</item>
+        <item>NOG,"Northern Oil and Gas, Inc."</item>
+        <item>NOR,"Noranda Aluminum Holding Corporation"</item>
+        <item>NOV,"National Oilwell Varco, Inc."</item>
+        <item>NOW,"ServiceNow, Inc."</item>
+        <item>NPBC,"National Penn Bancshares, Inc."</item>
+        <item>NPK,"National Presto Industries, Inc."</item>
+        <item>NPO,"Enpro Industries"</item>
+        <item>NPTN,"NeoPhotonics Corporation"</item>
+        <item>NP,"Neenah Paper, Inc."</item>
+        <item>NRCIA,"National Research Corporation"</item>
+        <item>NRG,"NRG Energy, Inc."</item>
+        <item>NRIM,"Northrim BanCorp Inc"</item>
+        <item>NRZ,"New Residential Investment Corp."</item>
+        <item>NR,"Newpark Resources, Inc."</item>
+        <item>NSC,"Norfolk Souther Corporation"</item>
+        <item>NSIT,"Insight Enterprises, Inc."</item>
+        <item>NSM,"Nationstar Mortgage Holdings Inc."</item>
+        <item>NSPH,"Nanosphere, Inc."</item>
+        <item>NSP,"Insperity, Inc."</item>
+        <item>NSR,"Neustar, Inc."</item>
+        <item>NSTG,"(NSTG) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NTAP,"NetApp, Inc."</item>
+        <item>NTCT,"NetScout Systems, Inc."</item>
+        <item>NTGR,"NETGEAR, Inc."</item>
+        <item>NTK,"Nortek Inc."</item>
+        <item>NTLS,"NTELOS Holdings Corp."</item>
+        <item>NTRI,"NutriSystem Inc"</item>
+        <item>NTRS,"Northern Trust Corporation"</item>
+        <item>NUAN,"Nuance Communications, Inc."</item>
+        <item>NUE,"Nucor Corporation"</item>
+        <item>NUS,"Nu Skin Enterprises, Inc."</item>
+        <item>NUTR,"Nutraceutical International Corporation"</item>
+        <item>NUVA,"NuVasive, Inc."</item>
+        <item>NVAX,"Novavax, Inc."</item>
+        <item>NVDA,"NVIDIA Corporation"</item>
+        <item>NVEC,"NVE Corporation"</item>
+        <item>NVR,"NVR, Inc."</item>
+        <item>NWBI,"Northwest Bancshares, Inc."</item>
+        <item>NWBO,"(NWBO) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NWE,"NorthWestern Corporation"</item>
+        <item>NWHM,"(NWHM) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NWLI,"National Western Life Insurance Company"</item>
+        <item>NWL,"Newell Rubbermaid Inc."</item>
+        <item>NWN,"Northwest Natural Gas Company"</item>
+        <item>NWPX,"Northwest Pipe Company"</item>
+        <item>NWSA,"News Corporation"</item>
+        <item>NWY,"New York &amp; Company, Inc."</item>
+        <item>NXST,"Nexstar Broadcasting Group, Inc."</item>
+        <item>NXTM,"NxStage Medical, Inc."</item>
+        <item>NX,"Quanex Building Products Corporation"</item>
+        <item>NYCB,"New York Community Bancorp, Inc."</item>
+        <item>NYLD,"(NYLD) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>NYMT,"New York Mortgage Trust, Inc."</item>
+        <item>NYNY,"Empire Resorts, Inc."</item>
+        <item>NYRT,"New York REIT, Inc."</item>
+        <item>NYT,"New York Times Company"</item>
+        <item>N,"Netsuite Inc"</item>
+        <item>OAS,"Oasis Petroleum Inc."</item>
+        <item>OB,"OneBeacon Insurance Group, Ltd."</item>
+        <item>OCFC,"OceanFirst Financial Corp."</item>
+        <item>OCLR,"(OCLR) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OCN,"Ocwen Financial Corporation"</item>
+        <item>OCR,"Omnicare, Inc."</item>
+        <item>OC,"Owens Corning Inc"</item>
+        <item>ODC,"Oil-Dri Corporation Of America"</item>
+        <item>ODFL,"Old Dominion Freight Line, Inc."</item>
+        <item>ODP,"Office Depot, Inc."</item>
+        <item>OFC,"Corporate Office Properties Trust"</item>
+        <item>OFG,"OFG Bancorp"</item>
+        <item>OFIX,"Orthofix International N.V."</item>
+        <item>OFLX,"Omega Flex, Inc."</item>
+        <item>OGE,"OGE Energy Corporation"</item>
+        <item>OGS,"(OGS) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OGXI,"OncoGenex Pharmaceuticals Inc."</item>
+        <item>OHI,"Omega Healthcare Investors, Inc."</item>
+        <item>OHRP,"(OHRP) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OII,"Oceaneering International, Inc."</item>
+        <item>OIS,"Oil States International, Inc."</item>
+        <item>OI,"Owens-Illinois, Inc."</item>
+        <item>OKE,"ONEOK, Inc."</item>
+        <item>OKSB,"Southwest Bancorp, Inc."</item>
+        <item>OLBK,"(OLBK) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OLED,"Universal Display Corporation"</item>
+        <item>OLN,"Olin Corporation"</item>
+        <item>OLP,"One Liberty Properties, Inc."</item>
+        <item>OMCL,"Omnicell, Inc."</item>
+        <item>OMC,"Omnicom Group Inc."</item>
+        <item>OMED,"(OMED) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OMER,"Omeros Corporation"</item>
+        <item>OMEX,"Odyssey Marine Exploration, Inc."</item>
+        <item>OME,"Omega Protein Corporation"</item>
+        <item>OMG,"OM Group, Inc."</item>
+        <item>OMI,"Owens &amp; Minor, Inc."</item>
+        <item>OMN,"OMNOVA Solutions Inc."</item>
+        <item>ONB,"Old National Bancorp"</item>
+        <item>ONE,"Higher One Holdings, Inc."</item>
+        <item>ONTY,"(ONTY) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>ONVO,"(ONVO) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OPB,"Opus Bank"</item>
+        <item>OPHT,"(OPHT) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OPK,"Opko Health Inc"</item>
+        <item>OPWR,"Opower, Inc."</item>
+        <item>OPY,"Oppenheimer Holdings, Inc."</item>
+        <item>ORA,"Ormat Technologies, Inc."</item>
+        <item>ORBC,"ORBCOMM Inc."</item>
+        <item>ORCL,"Oracle Corporation"</item>
+        <item>OREX,"Orexigen Therapeutics, Inc."</item>
+        <item>ORIT,"Oritani Financial Corp."</item>
+        <item>ORI,"Old Republic International Corporation"</item>
+        <item>ORLY,"O'Reilly Automotive, Inc."</item>
+        <item>ORM,"Owens Realty Mortgage, Inc."</item>
+        <item>ORN,"Orion Marine Group Inc"</item>
+        <item>OSIR,"Osiris Therapeutics, Inc."</item>
+        <item>OSIS,"OSI Systems, Inc."</item>
+        <item>OSK,"Oshkosh Corporation"</item>
+        <item>OSTK,"Overstock.com, Inc."</item>
+        <item>OSUR,"OraSure Technologies, Inc."</item>
+        <item>OTTR,"Otter Tail Corporation"</item>
+        <item>OUTR,"(OUTR) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OVAS,"Ovascience Inc."</item>
+        <item>OVTI,"OmniVision Technologies, Inc."</item>
+        <item>OWW,"Orbitz Worldwide, Inc."</item>
+        <item>OXFD,"(OXFD) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>OXM,"Oxford Industries, Inc."</item>
+        <item>OXY,"Occidental Petroleum Corporation"</item>
+        <item>OZRK,"Bank of the Ozarks"</item>
+        <item>O,"Realty Income Corporation"</item>
+        <item>PACB,"Pacific Biosciences of California, Inc."</item>
+        <item>PACW,"PacWest Bancorp"</item>
+        <item>PAG,"Penske Automotive Group, Inc."</item>
+        <item>PAHC,"Phibro Animal Health Corporation"</item>
+        <item>PANW,"Palo Alto Networks, Inc."</item>
+        <item>PATK,"Patrick Industries, Inc."</item>
+        <item>PAYC,"Paycom Software, Inc."</item>
+        <item>PAYX,"Paychex, Inc."</item>
+        <item>PAY,"Verifone Systems, Inc."</item>
+        <item>PBCT,"People's United Financial, Inc."</item>
+        <item>PBF,"PBF Energy Inc."</item>
+        <item>PBH,"Prestige Brand Holdings, Inc."</item>
+        <item>PBI,"Pitney Bowes Inc."</item>
+        <item>PBPB,"Potbelly Corporation"</item>
+        <item>PBYI,"Puma Biotechnology Inc"</item>
+        <item>PBY,"Pep Boys-Manny, Moe &amp; Jack"</item>
+        <item>PB,"Prosperity Bancshares, Inc."</item>
+        <item>PCAR,"PACCAR Inc."</item>
+        <item>PCBK,"Pacific Continental Corporation"</item>
+        <item>PCCC,"PC Connection, Inc."</item>
+        <item>PCG,"Pacific Gas &amp; Electric Co."</item>
+        <item>PCH,"Potlatch Corporation"</item>
+        <item>PCLN,"The Priceline Group Inc."</item>
+        <item>PCL,"Plum Creek Timber Company, Inc."</item>
+        <item>PCO,"Pendrell Corporation"</item>
+        <item>PCP,"Precision Castparts Corporation"</item>
+        <item>PCRX,"Pacira Pharmaceuticals, Inc."</item>
+        <item>PCTI,"PC-Tel, Inc."</item>
+        <item>PCTY,"Paylocity Holding Corporation"</item>
+        <item>PCYG,"(PCYG) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>PCYO,"Pure Cycle Corporation"</item>
+        <item>PDCE,"PDC Energy, Inc."</item>
+        <item>PDCO,"Patterson Companies, Inc."</item>
+        <item>PDFS,"PDF Solutions, Inc."</item>
+        <item>PDLI,"PDL BioPharma, Inc."</item>
+        <item>PDM,"Piedmont Office Realty Trust, Inc."</item>
+        <item>PEBO,"Peoples Bancorp Inc."</item>
+        <item>PEB,"Pebblebrook Hotel Trust"</item>
+        <item>PEGA,"Pegasystems Inc."</item>
+        <item>PEGI,"(PEGI) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>PEG,"Public Service Enterprise Group Incorporated"</item>
+        <item>PEIX,"(PEIX) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>PEI,"Pennsylvania Real Estate Investment Trust"</item>
+        <item>PENN,"Penn National Gaming, Inc."</item>
+        <item>PEP,"Pepsico, Inc."</item>
+        <item>PERI,"Perion Network Ltd"</item>
+        <item>PERY,"Perry Ellis International Inc."</item>
+        <item>PES,"Pioneer Energy Services Corp."</item>
+        <item>PETS,"PetMed Express, Inc."</item>
+        <item>PETX,"Aratana Therapeutics, Inc."</item>
+        <item>PE,"Parsley Energy, Inc."</item>
+        <item>PFBC,"Preferred Bank"</item>
+        <item>PFE,"Pfizer, Inc."</item>
+        <item>PFG,"Principal Financial Group Inc"</item>
+        <item>PFIE,"Profire Energy, Inc."</item>
+        <item>PFIS,"Peoples Financial Services Corporation"</item>
+        <item>PFLT,"PennantPark Floating Rate Capital Ltd."</item>
+        <item>PFMT,"Performant Financial Corporation"</item>
+        <item>PFPT,"Proofpoint, Inc."</item>
+        <item>PFSI,"PennyMac Financial Services, Inc."</item>
+        <item>PFS,"Provident Financial Services, Inc"</item>
+        <item>PF,"Pinnacle Foods, Inc."</item>
+        <item>PGC,"Peapack-Gladstone Financial Corporation"</item>
+        <item>PGEM,"Ply Gem Holdings, Inc."</item>
+        <item>PGI,"Premiere Global Services, Inc."</item>
+        <item>PGNX,"Progenics Pharmaceuticals Inc."</item>
+        <item>PGR,"Progressive Corporation"</item>
+        <item>PGTI,"PGT, Inc."</item>
+        <item>PG,"Procter &amp; Gamble Company"</item>
+        <item>PHH,"PHH Corp"</item>
+        <item>PHIIK,"PHI, Inc."</item>
+        <item>PHMD,"PhotoMedex, Inc."</item>
+        <item>PHM,"PulteGroup, Inc."</item>
+        <item>PHX,"Panhandle Royalty Company"</item>
+        <item>PH,"Parker-Hannifin Corporation"</item>
+        <item>PICO,"PICO Holdings Inc."</item>
+        <item>PII,"Polaris Industries Inc."</item>
+        <item>PIR,"Pier 1 Imports, Inc."</item>
+        <item>PJC,"Piper Jaffray Companies"</item>
+        <item>PKD,"Parker Drilling Company"</item>
+        <item>PKE,"Park Electrochemical Corporation"</item>
+        <item>PKG,"Packaging Corporation of America"</item>
+        <item>PKI,"PerkinElmer, Inc."</item>
+        <item>PKOH,"Park-Ohio Holdings Corp."</item>
+        <item>PKY,"Parkway Properties, Inc."</item>
+        <item>PLAB,"Photronics, Inc."</item>
+        <item>PLCE,"The Children's Place Retail Stores, Inc."</item>
+        <item>PLCM,"Polycom, Inc."</item>
+        <item>PLD,"ProLogis, Inc."</item>
+        <item>PLKI,"Popeyes Louisiana Kitchen, Inc."</item>
+        <item>PLL,"Pall Corporation"</item>
+        <item>PLMT,"Palmetto Bancshares, Inc."</item>
+        <item>PLOW,"Douglas Dynamics, Inc."</item>
+        <item>PLPC,"Preformed Line Products Company"</item>
+        <item>PLPM,"Planet Payment, Inc."</item>
+        <item>PLT,"Plantronics, Inc."</item>
+        <item>PLUG,"Plug Power, Inc."</item>
+        <item>PLUS,"ePlus inc."</item>
+        <item>PLXS,"Plexus Corp."</item>
+        <item>PMCS,"PMC - Sierra, Inc."</item>
+        <item>PMC,"Pharmerica Corporation"</item>
+        <item>PMFG,"PMFG, Inc."</item>
+        <item>PMT,"PennyMac Mortgage Investment Trust"</item>
+        <item>PM,"Philip Morris International Inc"</item>
+        <item>PNC,"PNC Financial Services Group, Inc."</item>
+        <item>PNFP,"Pinnacle Financial Partners, Inc."</item>
+        <item>PNK,"Pinnacle Entertainment, Inc."</item>
+        <item>PNM,"PNM Resources, Inc."</item>
+        <item>PNNT,"PennantPark Investment Corporation"</item>
+        <item>PNRA,"Panera Bread Company"</item>
+        <item>PNR,"Pentair plc."</item>
+        <item>PNW,"Pinnacle West Capital Corporation"</item>
+        <item>PNX,"Phoenix Companies, Inc."</item>
+        <item>PNY,"Piedmont Natural Gas Company, Inc."</item>
+        <item>PODD,"Insulet Corporation"</item>
+        <item>POL,"PolyOne Corporation"</item>
+        <item>POM,"PEPCO Holdings, Inc."</item>
+        <item>POOL,"Pool Corporation"</item>
+        <item>POR,"Portland General Electric Company"</item>
+        <item>POST,"Post Holdings, Inc."</item>
+        <item>POWI,"Power Integrations, Inc."</item>
+        <item>POWL,"Powell Industries, Inc."</item>
+        <item>POWR,"PowerSecure International, Inc"</item>
+        <item>POZN,"Pozen, Inc."</item>
+        <item>PPBI,"Pacific Premier Bancorp Inc"</item>
+        <item>PPC,"Pilgrim's Pride Corporation"</item>
+        <item>PPG,"PPG Industries, Inc."</item>
+        <item>PPHM,"Peregrine Pharmaceuticals Inc."</item>
+        <item>PPL,"PPL Corporation"</item>
+        <item>PPO,"Polypore International Inc"</item>
+        <item>PPS,"Post Properties, Inc."</item>
+        <item>PQ,"Petroquest Energy Inc"</item>
+        <item>PRAA,"Portfolio Recovery Associates, Inc."</item>
+        <item>PRA,"ProAssurance Corporation"</item>
+        <item>PRE,"PartnerRe Ltd."</item>
+        <item>PRFT,"Perficient, Inc."</item>
+        <item>PRGO,"Perrigo Company"</item>
+        <item>PRGS,"Progress Software Corporation"</item>
+        <item>PRGX,"PRGX Global, Inc."</item>
+        <item>PRIM,"Primoris Services Corporation"</item>
+        <item>PRI,"Primerica, Inc."</item>
+        <item>PRKR,"ParkerVision, Inc."</item>
+        <item>PRK,"Park National Corporation"</item>
+        <item>PRLB,"Proto Labs, Inc."</item>
+        <item>PROV,"Provident Financial Holdings, Inc."</item>
+        <item>PRO,"PROS Holdings, Inc."</item>
+        <item>PRSC,"The Providence Service Corporation"</item>
+        <item>PRTA,"Prothena Corporation plc"</item>
+        <item>PRU,"Prudential Financial, Inc."</item>
+        <item>PRXL,"PAREXEL International Corporation"</item>
+        <item>PSA,"Public Storage"</item>
+        <item>PSB,"PS Business Parks, Inc."</item>
+        <item>PSEC,"Prospect Capital Corporation"</item>
+        <item>PSEM,"Pericom Semiconductor Corporation"</item>
+        <item>PSIX,"Power Solutions International, Inc."</item>
+        <item>PSMT,"PriceSmart, Inc."</item>
+        <item>PSTB,"Park Sterling Corporation"</item>
+        <item>PSUN,"Pacific Sunwear of California, Inc."</item>
+        <item>PSX,"Phillips 66"</item>
+        <item>PTCT,"PTC Therapeutics, Inc."</item>
+        <item>PTEN,"Patterson-UTI Energy, Inc."</item>
+        <item>PTIE,"(PTIE) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>PTLA,"Portola Pharmaceuticals, Inc."</item>
+        <item>PTSI,"(PTSI) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>PTX,"Pernix Therapeutics Holdings, Inc."</item>
+        <item>PVA,"Penn Virginia Corporation"</item>
+        <item>PVH,"PVH Corp."</item>
+        <item>PVTB,"PrivateBancorp, Inc."</item>
+        <item>PWOD,"Penns Woods Bancorp, Inc."</item>
+        <item>PWR,"Quanta Services, Inc."</item>
+        <item>PXD,"Pioneer Natural Resources Company"</item>
+        <item>PX,"Praxair, Inc."</item>
+        <item>PZG,"Paramount Gold and Silver Corp."</item>
+        <item>PZN,"Pzena Investment Management Inc"</item>
+        <item>PZZA,"Papa John'S International, Inc."</item>
+        <item>P,"Pandora Media, Inc."</item>
+        <item>QADA,"QAD Inc."</item>
+        <item>QCOM,"QUALCOMM Incorporated"</item>
+        <item>QDEL,"Quidel Corporation"</item>
+        <item>QGEN,"Qiagen N.V."</item>
+        <item>QLGC,"QLogic Corporation"</item>
+        <item>QLIK,"Qlik Technologies Inc."</item>
+        <item>QLTY,"Quality Distribution, Inc."</item>
+        <item>QLYS,"Qualys, Inc."</item>
+        <item>QNST,"QuinStreet, Inc."</item>
+        <item>QRHC,"Quest Resource Holding Corporation."</item>
+        <item>QRVO,"Untitled Dataset 2015-06-11 21:47:07"</item>
+        <item>QSII,"Quality Systems, Inc."</item>
+        <item>QTM,"Quantum Corporation"</item>
+        <item>QTS,"QTS Realty Trust, Inc."</item>
+        <item>QTWO,"Q2 Holdings, Inc."</item>
+        <item>QUAD,"Quad Graphics, Inc"</item>
+        <item>QUIK,"QuickLogic Corporation"</item>
+        <item>Q,"Quintiles Transitional Holdings Inc."</item>
+        <item>RAD,"Rite Aid Corporation"</item>
+        <item>RAIL,"Freightcar America, Inc."</item>
+        <item>RAI,"Reynolds American Inc"</item>
+        <item>RARE,"Ultragenyx Pharmaceutical Inc."</item>
+        <item>RAS,"RAIT Financial Trust"</item>
+        <item>RATE,"Bankrate, Inc."</item>
+        <item>RAVN,"Raven Industries, Inc."</item>
+        <item>RAX,"Rackspace Hosting, Inc"</item>
+        <item>RBCAA,"Republic Bancorp, Inc."</item>
+        <item>RBCN,"Rubicon Technology, Inc."</item>
+        <item>RBC,"Regal Beloit Corporation"</item>
+        <item>RCAP,"RCS CAPITAL CORPORATION"</item>
+        <item>RCII,"Rent-A-Center Inc."</item>
+        <item>RCL,"Royal Caribbean Cruises Ltd."</item>
+        <item>RCPT,"Receptos, Inc."</item>
+        <item>RDEN,"Elizabeth Arden, Inc."</item>
+        <item>RDI,"Reading International Inc"</item>
+        <item>RDNT,"RadNet, Inc."</item>
+        <item>RDN,"Radian Group Inc."</item>
+        <item>RECN,"Resources Connection, Inc."</item>
+        <item>REGI,"Renewable Energy Group, Inc."</item>
+        <item>REGN,"Regeneron Pharmaceuticals, Inc."</item>
+        <item>REG,"(REG) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>REIS,"Reis, Inc"</item>
+        <item>REI,"Ring Energy, Inc."</item>
+        <item>RELL,"Richardson Electronics, Ltd."</item>
+        <item>REMY,"Remy International, Inc."</item>
+        <item>RENT,"Rentrak Corporation"</item>
+        <item>REN,"Resolute Energy Corporation"</item>
+        <item>RESI,"Altisource Residential Corporation"</item>
+        <item>RES,"RPC, Inc."</item>
+        <item>REV,"Revlon, Inc."</item>
+        <item>REXI,"Resource America, Inc."</item>
+        <item>REXR,"Rexford Industrial Realty, Inc."</item>
+        <item>REXX,"Rex Energy Corporation"</item>
+        <item>REX,"REX American Resources Corporation"</item>
+        <item>RE,"Everest Re Group, Ltd."</item>
+        <item>RFP,"Resolute Forest Products Inc."</item>
+        <item>RF,"Regions Financial Corporation"</item>
+        <item>RGA,"Reinsurance Group of America, Incorporated"</item>
+        <item>RGC,"Regal Entertainment Group"</item>
+        <item>RGEN,"Repligen Corporation"</item>
+        <item>RGLD,"Royal Gold, Inc."</item>
+        <item>RGLS,"Regulus Therapeutics Inc."</item>
+        <item>RGR,"Sturm, Ruger &amp; Company, Inc."</item>
+        <item>RGS,"Regis Corporation"</item>
+        <item>RHI,"Robert Half International Inc."</item>
+        <item>RHP,"Ryman Hospitality Properties, Inc."</item>
+        <item>RHT,"Red Hat, Inc."</item>
+        <item>RH,"Restoration Hardware Holdings Inc."</item>
+        <item>RIGL,"Rigel Pharmaceuticals, Inc."</item>
+        <item>RIG,"Transocean Ltd."</item>
+        <item>RJET,"Republic Airways Holdings, Inc."</item>
+        <item>RJF,"Raymond James Financial, Inc."</item>
+        <item>RKUS,"Ruckus Wireless, Inc."</item>
+        <item>RLD,"RealD Inc"</item>
+        <item>RLGY,"Realogy Holdings Corp."</item>
+        <item>RLI,"RLI Corp."</item>
+        <item>RLJ,"RLJ Lodging Trust"</item>
+        <item>RLOC,"ReachLocal, Inc."</item>
+        <item>RLYP,"Relypsa, Inc."</item>
+        <item>RL,"Ralph Lauren Corporation"</item>
+        <item>RMAX,"RE/MAX Holdings, Inc."</item>
+        <item>RMBS,"Rambus, Inc."</item>
+        <item>RMD,"ResMed Inc."</item>
+        <item>RMTI,"Rockwell Medical, Inc."</item>
+        <item>RM,"Regional Management Corp."</item>
+        <item>RNDY,"Roundy's, Inc."</item>
+        <item>RNET,"RigNet, Inc."</item>
+        <item>RNG,"Ringcentral, Inc."</item>
+        <item>RNR,"RenaissanceRe Holdings Ltd."</item>
+        <item>RNST,"Renasant Corporation"</item>
+        <item>RNWK,"RealNetworks, Inc."</item>
+        <item>ROCK,"Gibraltar Industries, Inc."</item>
+        <item>ROG,"Rogers Corporation"</item>
+        <item>ROIAK,"Radio One, Inc."</item>
+        <item>ROIC,"Retail Opportunity Investments Corp."</item>
+        <item>ROK,"Rockwell Automation, Inc."</item>
+        <item>ROLL,"RBC Bearings Incorporated"</item>
+        <item>ROL,"Rollins, Inc."</item>
+        <item>ROP,"Roper Industries, Inc."</item>
+        <item>ROSE,"Rosetta Resources Inc."</item>
+        <item>ROST,"Ross Stores, Inc."</item>
+        <item>ROVI,"Rovi Corporation"</item>
+        <item>RPAI,"(RPAI) Prices, Dividends, Splits and Trading Volume"</item>
+        <item>RPM,"RPM International Inc."</item>
+        <item>RPRX,"Repros Therapeutics Inc."</item>
+        <item>RPTP,"Raptor Pharmaceutical Corp."</item>
+        <item>RPT,"Ramco-Gershenson Properties Trust"</item>
+        <item>RPXC,"RPX Corporation"</item>
+        <item>RP,"RealPage, Inc."</item>
+        <item>RRC,"Range Resources Corporation"</item>
+        <item>RRD,"R.R. Donnelley &amp; Sons Company"</item>
+        <item>RRGB,"Red Robin Gourmet Burgers, Inc."</item>
+        <item>RRTS,"Roadrunner Transportation Systems, Inc"</item>
+        <item>RSE,"Rouse Properties, Inc."</item>
+        <item>RSG,"Republic Services, Inc."</item>
+        <item>RSO,"Resource Capital Corp."</item>
+        <item>RSPP,"RSP Permian, Inc."</item>
+        <item>RSTI,"Rofin-Sinar Technologies, Inc."</item>
+        <item>RST,"Rosetta Stone"</item>
+        <item>RSYS,"RadiSys Corporation"</item>
+        <item>RS,"Reliance Steel &amp; Aluminum Co."</item>
+        <item>RTEC,"Rudolph Technologies, Inc."</item>
+        <item>RTIX,"RTI Surgical, Inc."</item>
+        <item>RTI,"RTI International Metals, Inc."</item>
+        <item>RTK,"Rentech, Inc."</item>
+        <item>RTN,"Raytheon Company"</item>
+        <item>RTRX,"Retrophin, Inc."</item>
+        <item>RT,"Ruby Tuesday, Inc."</item>
+        <item>RUBI,"The Rubicon Project, Inc."</item>
+        <item>RUSHA,"Rush Enterprises, Inc."</item>
+        <item>RUTH,"Ruth's Hospitality Group, Inc."</item>
+        <item>RVLT,"Revolution Lighting Technologies, Inc."</item>
+        <item>RVNC,"Revance Therapeutics, Inc."</item>
+        <item>RWT,"Redwood Trust, Inc."</item>
+        <item>RXN,"Rexnord Corporation"</item>
+        <item>RYL,"Ryland Group, Inc."</item>
+        <item>RYN,"Rayonier Inc."</item>
+        <item>R,"Ryder System, Inc."</item>
+        <item>SAAS,"inContact, Inc."</item>
+        <item>SAFM,"Sanderson Farms, Inc."</item>
+        <item>SAFT,"Safety Insurance Group, Inc."</item>
+        <item>SAH,"Sonic Automotive, Inc."</item>
+        <item>SAIA,"Saia, Inc."</item>
+        <item>SAIC,"SCIENCE APPLICATIONS INTERNATIONAL CORPORATION"</item>
+        <item>SALE,"RetailMeNot, Inc."</item>
+        <item>SALM,"Salem Communications Corporation"</item>
+        <item>SALT,"Scorpio Bulkers Inc."</item>
+        <item>SAMG,"Silvercrest Asset Management Group Inc."</item>
+        <item>SAM,"Boston Beer Company, Inc."</item>
+        <item>SANM,"Sanmina Corporation"</item>
+        <item>SASR,"Sandy Spring Bancorp, Inc."</item>
+        <item>SATS,"EchoStar Corporation"</item>
+        <item>SAVE,"Spirit Airlines, Inc."</item>
+        <item>SBAC,"SBA Communications Corporation"</item>
+        <item>SBCF,"Seacoast Banking Corporation of Florida"</item>
+        <item>SBGI,"Sinclair Broadcast Group, Inc."</item>
+        <item>SBH,"Sally Beauty Holdings, Inc."</item>
+        <item>SBNY,"Signature Bank"</item>
+        <item>SBRA,"Sabra Healthcare REIT, Inc."</item>
+        <item>SBSI,"Southside Bancshares, Inc."</item>
+        <item>SBUX,"Starbucks Corporation"</item>
+        <item>SBY,"Silver Bay Realty Trust Corp."</item>
+        <item>SB,"Safe Bulkers, Inc"</item>
+        <item>SCAI,"Surgical Care Affiliates, Inc."</item>
+        <item>SCCO,"Southern Copper Corporation"</item>
+        <item>SCG,"Scana Corporation"</item>
+        <item>SCHL,"Scholastic Corporation"</item>
+        <item>SCHN,"Schnitzer Steel Industries, Inc."</item>
+        <item>SCHW,"The Charles Schwab Corporation"</item>
+        <item>SCI,"Service Corporation International"</item>
+        <item>SCLN,"SciClone Pharmaceuticals, Inc."</item>
+        <item>SCL,"Stepan Company"</item>
+        <item>SCMP,"Sucampo Pharmaceuticals, Inc."</item>
+        <item>SCM,"Stellus Capital Investment Corporation"</item>
+        <item>SCOR,"comScore, Inc."</item>
+        <item>SCSC,"ScanSource, Inc."</item>
+        <item>SCSS,"Select Comfort Corporation"</item>
+        <item>SCS,"Steelcase Inc."</item>
+        <item>SCTY,"SolarCity Corporation"</item>
+        <item>SCVL,"Shoe Carnival, Inc."</item>
+        <item>SDRL,"Seadrill Limited"</item>
+        <item>SD,"Sandridge Energy Inc."</item>
+        <item>SEAC,"SeaChange International, Inc."</item>
+        <item>SEAS,"SeaWorld Entertainment, Inc."</item>
+        <item>SEB,"Seaboard Corporation"</item>
+        <item>SEE,"Sealed Air Corporation"</item>
+        <item>SEIC,"SEI Investments Company"</item>
+        <item>SEMG,"Semgroup Corporation"</item>
+        <item>SEM,"Select Medical Holdings Corporation"</item>
+        <item>SENEA,"Seneca Foods Corp."</item>
+        <item>SE,"Spectra Energy Corp"</item>
+        <item>SFBS,"ServisFirst Bancshares, Inc."</item>
+        <item>SFE,"Safeguard Scientifics, Inc."</item>
+        <item>SFG,"StanCorp Financial Group, Inc."</item>
+        <item>SFLY,"Shutterfly, Inc."</item>
+        <item>SFL,"Ship Finance International Limited"</item>
+        <item>SFNC,"Simmons First National Corporation"</item>
+        <item>SFXE,"SFX Entertainment, Inc."</item>
+        <item>SFY,"Swift Energy Company"</item>
+        <item>SF,"Stifel Financial Corporation"</item>
+        <item>SGA,"Saga Communications, Inc."</item>
+        <item>SGBK,"Stonegate Bank"</item>
+        <item>SGEN,"Seattle Genetics, Inc."</item>
+        <item>SGI,"Silicon Graphics International Corp"</item>
+        <item>SGMO,"Sangamo BioSciences, Inc."</item>
+        <item>SGMS,"Scientific Games Corp"</item>
+        <item>SGM,"Stonegate Mortgage Corporation"</item>
+        <item>SGNT,"Sagent Pharmaceuticals, Inc."</item>
+        <item>SGYP,"Synergy Pharmaceuticals, Inc."</item>
+        <item>SGY,"Stone Energy Corporation"</item>
+        <item>SHEN,"Shenandoah Telecommunications Co"</item>
+        <item>SHLD,"Sears Holdings Corporation"</item>
+        <item>SHLM,"A. Schulman, Inc."</item>
+        <item>SHLO,"Shiloh Industries, Inc."</item>
+        <item>SHOO,"Steven Madden, Ltd."</item>
+        <item>SHOR,"ShoreTel, Inc."</item>
+        <item>SHOS,"Sears Hometown and Outlet Stores, Inc."</item>
+        <item>SHO,"Sunstone Hotel Investors, Inc."</item>
+        <item>SHW,"Sherwin-Williams Company"</item>
+        <item>SIAL,"Sigma-Aldrich Corporation"</item>
+        <item>SIF,"SIFCO Industries, Inc."</item>
+        <item>SIGI,"Selective Insurance Group, Inc."</item>
+        <item>SIGM,"Sigma Designs, Inc."</item>
+        <item>SIG,"Signet Jewelers Limited"</item>
+        <item>SIRI,"Sirius XM Holdings Inc."</item>
+        <item>SIRO,"Sirona Dental Systems, Inc."</item>
+        <item>SIR,"Select Income REIT"</item>
+        <item>SIVB,"SVB Financial Group"</item>
+        <item>SIX,"Six Flags Entertainment Corporation New"</item>
+        <item>SJI,"South Jersey Industries, Inc."</item>
+        <item>SJM,"J.M. Smucker Company"</item>
+        <item>SJW,"SJW Corporation"</item>
+        <item>SKT,"Tanger Factory Outlet Centers, Inc."</item>
+        <item>SKUL,"Skullcandy, Inc."</item>
+        <item>SKX,"Skechers U.S.A., Inc."</item>
+        <item>SKYW,"SkyWest, Inc."</item>
+        <item>SLAB,"Silicon Laboratories, Inc."</item>
+        <item>SLB,"Schlumberger N.V."</item>
+        <item>SLCA,"U.S. Silica Holdings, Inc."</item>
+        <item>SLGN,"Silgan Holdings Inc."</item>
+        <item>SLG,"SL Green Realty Corporation"</item>
+        <item>SLH,"Solera Holdings, Inc."</item>
+        <item>SLRC,"Solar Capital Ltd."</item>
+        <item>SMCI,"Super Micro Computer, Inc."</item>
+        <item>SMG,"Scotts Miracle-Gro Company"</item>
+        <item>SMP,"Standard Motor Products, Inc."</item>
+        <item>SMRT,"Stein Mart, Inc."</item>
+        <item>SMTC,"Semtech Corporation"</item>
+        <item>SM,"SM Energy Company"</item>
+        <item>SNAK,"Inventure Foods, Inc."</item>
+        <item>SNA,"Snap-On Incorporated"</item>
+        <item>SNBC,"Sun Bancorp, Inc."</item>
+        <item>SNCR,"Synchronoss Technologies, Inc."</item>
+        <item>SNDK,"SanDisk Corporation"</item>
+        <item>SNHY,"Sun Hydraulics Corporation"</item>
+        <item>SNH,"Senior Housing Properties Trust"</item>
+        <item>SNI,"Scripps Networks Interactive, Inc"</item>
+        <item>SNMX,"Senomyx, Inc."</item>
+        <item>SNOW,"Intrawest Resorts Holdings, Inc."</item>
+        <item>SNPS,"Synopsys, Inc."</item>
+        <item>SNSS,"Sunesis Pharmaceuticals, Inc."</item>
+        <item>SNTA,"Synta Pharmaceuticals Corp."</item>
+        <item>SNV,"Synovus Financial Corp."</item>
+        <item>SNX,"Synnex Corporation"</item>
+        <item>SN,"Sanchez Energy Corporation"</item>
+        <item>SONC,"Sonic Corp."</item>
+        <item>SONS,"Sonus Networks, Inc."</item>
+        <item>SON,"Sonoco Products Company"</item>
+        <item>SO,"Southern Company"</item>
+        <item>SPAR,"Spartan Motors, Inc."</item>
+        <item>SPA,"Sparton Corporation"</item>
+        <item>SPB,"Spectrum Brands Holdings, Inc."</item>
+        <item>SPDC,"Speed Commerce, Inc."</item>
+        <item>SPF,"Standard Pacific Corp"</item>
+        <item>SPG,"Simon Property Group, Inc."</item>
+        <item>SPLK,"Splunk Inc."</item>
+        <item>SPLS,"Staples, Inc."</item>
+        <item>SPNC,"The Spectranetics Corporation"</item>
+        <item>SPNS,"Sapiens International Corporation N.V."</item>
+        <item>SPN,"Superior Energy Services, Inc."</item>
+        <item>SPPI,"Spectrum Pharmaceuticals, Inc."</item>
+        <item>SPRT,"support.com, Inc."</item>
+        <item>SPR,"Spirit Aerosystems Holdings, Inc."</item>
+        <item>SPSC,"SPS Commerce, Inc."</item>
+        <item>SPTN,"Spartan Stores, Inc."</item>
+        <item>SPWH,"Sportsman's Warehouse Holdings, Inc."</item>
+        <item>SPWR,"SunPower Corporation"</item>
+        <item>SPW,"SPX Corporation"</item>
+        <item>SP,"SP Plus Corporation"</item>
+        <item>SQBG,"Sequential Brands Group, Inc."</item>
+        <item>SQBK,"Square 1 Financial, Inc."</item>
+        <item>SQI,"SciQuest, Inc."</item>
+        <item>SQNM,"Sequenom, Inc."</item>
+        <item>SRCE,"1st Source Corporation"</item>
+        <item>SRCL,"Stericycle, Inc."</item>
+        <item>SRDX,"SurModics, Inc."</item>
+        <item>SREV,"ServiceSource International, Inc."</item>
+        <item>SRE,"Sempra Energy"</item>
+        <item>SRI,"Stoneridge, Inc."</item>
+        <item>SRPT,"Sarepta Therapeutics, Inc."</item>
+        <item>SSD,"Simpson Manufacturing Company, Inc."</item>
+        <item>SSI,"Stage Stores, Inc."</item>
+        <item>SSNC,"SS&amp;C Technologies Holdings, Inc."</item>
+        <item>SSNI,"Silver Spring Networks, Inc."</item>
+        <item>SSP,"E.W. Scripps Company"</item>
+        <item>SSS,"Sovran Self Storage, Inc."</item>
+        <item>SSTK,"Shutterstock, Inc."</item>
+        <item>SSYS,"Stratasys, Ltd."</item>
+        <item>STAA,"STAAR Surgical Company"</item>
+        <item>STAG,"Stag Industrial, Inc."</item>
+        <item>STAR,"iStar Financial Inc."</item>
+        <item>STBA,"S&amp;T Bancorp, Inc."</item>
+        <item>STBZ,"State Bank Financial Corporation."</item>
+        <item>STCK,"Stock Building Supply Holdings, Inc."</item>
+        <item>STC,"Stewart Information Services Corporation"</item>
+        <item>STE,"STERIS Corporation"</item>
+        <item>STFC,"State Auto Financial Corporation"</item>
+        <item>STI,"SunTrust Banks, Inc."</item>
+        <item>STJ,"St. Jude Medical, Inc."</item>
+        <item>STLD,"Steel Dynamics, Inc."</item>
+        <item>STL,"Sterling Bancorp"</item>
+        <item>STML,"Stemline Therapeutics, Inc."</item>
+        <item>STMP,"Stamps.com Inc."</item>
+        <item>STNG,"Scorpio Tankers Inc."</item>
+        <item>STNR,"Steiner Leisure Limited"</item>
+        <item>STRA,"Strayer Education, Inc."</item>
+        <item>STRL,"Sterling Construction Company Inc"</item>
+        <item>STRT,"Strattec Security Corporation"</item>
+        <item>STRZA,"Starz"</item>
+        <item>STR,"Questar Corporation"</item>
+        <item>STT,"State Street Corporation"</item>
+        <item>STWD,"STARWOOD PROPERTY TRUST, INC."</item>
+        <item>STX,"Seagate Technology."</item>
+        <item>STZ,"Constellation Brands Inc"</item>
+        <item>SUBK,"Suffolk Bancorp"</item>
+        <item>SUI,"Sun Communities, Inc."</item>
+        <item>SUNE,"SunEdison, Inc."</item>
+        <item>SUNS,"Solar Senior Capital Ltd."</item>
+        <item>SUN,"Sunoco LP"</item>
+        <item>SUPN,"Supernus Pharmaceuticals, Inc."</item>
+        <item>SUP,"Superior Industries International, Inc."</item>
+        <item>SUSQ,"Susquehanna Bancshares, Inc."</item>
+        <item>SVU,"SuperValu Inc."</item>
+        <item>SVVC,"Firsthand Technology Value Fund, Inc."</item>
+        <item>SWAY,"Starwood Waypoint Residential Trust"</item>
+        <item>SWC,"Stillwater Mining Company"</item>
+        <item>SWFT,"Swift Transportation Company"</item>
+        <item>SWHC,"Smith &amp; Wesson Holding Corporation"</item>
+        <item>SWI,"Solarwinds, Inc."</item>
+        <item>SWKS,"Skyworks Solutions, Inc."</item>
+        <item>SWK,"Stanley Black &amp; Decker, Inc."</item>
+        <item>SWM,"Schweitzer-Mauduit International, Inc."</item>
+        <item>SWN,"Southwestern Energy Company"</item>
+        <item>SWSH,"Swisher Hygiene, Inc."</item>
+        <item>SWX,"Southwest Gas Corporation"</item>
+        <item>SXC,"SunCoke Energy, Inc."</item>
+        <item>SXI,"Standex International Corporation"</item>
+        <item>SXT,"Sensient Technologies Corporation"</item>
+        <item>SYA,"Symetra Financial Corporation"</item>
+        <item>SYBT,"Stock Yards Bancorp, Inc."</item>
+        <item>SYKE,"Sykes Enterprises, Incorporated"</item>
+        <item>SYK,"Stryker Corporation"</item>
+        <item>SYMC,"Symantec Corporation"</item>
+        <item>SYNA,"Synaptics Incorporated"</item>
+        <item>SYNT,"Syntel, Inc."</item>
+        <item>SYRG,"Synergy Resources Corporation"</item>
+        <item>SYUT,"Synutra International, Inc."</item>
+        <item>SYX,"Systemax Inc."</item>
+        <item>SYY,"Sysco Corporation"</item>
+        <item>SZMK,"Sizmek Inc."</item>
+        <item>SZYM,"Solazyme, Inc."</item>
+        <item>S,"Sprint Corporation"</item>
+        <item>TAHO,"Tahoe Resources, Inc."</item>
+        <item>TAL,"TAL International Group, Inc."</item>
+        <item>TAP,"Molson Coors Brewing  Company"</item>
+        <item>TASR,"TASER International, Inc."</item>
+        <item>TAST,"Carrols Restaurant Group, Inc."</item>
+        <item>TAT,"Transatlantic Petroleum Ltd"</item>
+        <item>TAXI,"Medallion Financial Corp."</item>
+        <item>TAX,"JTH Holding Inc. D/B/A Liberty Tax Service"</item>
+        <item>TBBK,"The Bancorp, Inc."</item>
+        <item>TBI,"TrueBlue, Inc."</item>
+        <item>TBNK,"Territorial Bancorp Inc."</item>
+        <item>TBPH,"Theravance Biopharma, Inc."</item>
+        <item>TCAP,"Triangle Capital Corporation"</item>
+        <item>TCBI,"Texas Capital Bancshares, Inc."</item>
+        <item>TCBK,"TriCo Bancshares"</item>
+        <item>TCB,"TCF Financial Corporation"</item>
+        <item>TCO,"Taubman Centers, Inc."</item>
+        <item>TCPC,"TCP Capital Corp."</item>
+        <item>TCRD,"THL Credit, Inc."</item>
+        <item>TCS,"Container Store"</item>
+        <item>TDC,"Teradata Corporation"</item>
+        <item>TDG,"Transdigm Group Incorporated"</item>
+        <item>TDS,"Telephone and Data Systems, Inc."</item>
+        <item>TDW,"Tidewater Inc."</item>
+        <item>TDY,"Teledyne Technologies Incorporated"</item>
+        <item>TEAR,"TearLab Corporation"</item>
+        <item>TECD,"Tech Data Corporation"</item>
+        <item>TECH,"Techne Corporation"</item>
+        <item>TEL,"TE Connectivity Ltd."</item>
+        <item>TEN,"Tenneco Inc."</item>
+        <item>TER,"Teradyne, Inc."</item>
+        <item>TESO,"Tesco Corporation"</item>
+        <item>TESS,"TESSCO Technologies Incorporated"</item>
+        <item>TEX,"Terex Corporation"</item>
+        <item>TE,"TECO Energy, Inc."</item>
+        <item>TFM,"The Fresh Market, Inc."</item>
+        <item>TFSL,"TFS Financial Corporation"</item>
+        <item>TFX,"Teleflex Incorporated"</item>
+        <item>TGH,"Textainer Group Holdings Limited"</item>
+        <item>TGI,"Triumph Group, Inc."</item>
+        <item>TGNA,"Untitled Dataset 2015-06-29 21:46:27"</item>
+        <item>TGTX,"TG Therapeutics, Inc."</item>
+        <item>TGT,"Target Corporation"</item>
+        <item>TG,"Tredegar Corporation"</item>
+        <item>THC,"Tenet Healthcare Corporation"</item>
+        <item>THFF,"First Financial Corporation Indiana"</item>
+        <item>THG,"The Hanover Insurance Group, Inc."</item>
+        <item>THLD,"Threshold Pharmaceuticals, Inc."</item>
+        <item>THOR,"Thoratec Corporation"</item>
+        <item>THO,"Thor Industries, Inc."</item>
+        <item>THRM,"Gentherm Inc"</item>
+        <item>THRX,"Theravance, Inc."</item>
+        <item>THR,"Thermon Group Holdings, Inc."</item>
+        <item>THS,"Treehouse Foods, Inc."</item>
+        <item>TICC,"TICC Capital Corp."</item>
+        <item>TIF,"Tiffany &amp; Co."</item>
+        <item>TILE,"Interface, Inc."</item>
+        <item>TIME,"Time Inc."</item>
+        <item>TIPT,"Tiptree Financial Inc."</item>
+        <item>TISI,"Team, Inc."</item>
+        <item>TIS,"Orchids Paper Products Company"</item>
+        <item>TITN,"Titan Machinery Inc."</item>
+        <item>TIVO,"TiVo Inc."</item>
+        <item>TJX,"TJX Companies, Inc."</item>
+        <item>TKR,"Timken Company"</item>
+        <item>TK,"Teekay Corporation"</item>
+        <item>TLMR,"Talmer Bancorp, Inc."</item>
+        <item>TLYS,"Tilly's, Inc."</item>
+        <item>TMHC,"Taylor Morrison Home Corporation"</item>
+        <item>TMH,"Team Health Holdings, Inc."</item>
+        <item>TMK,"Torchmark Corporation"</item>
+        <item>TMO,"Thermo Fisher Scientific Inc"</item>
+        <item>TMP,"Tompkins Financial Corporation"</item>
+        <item>TMUS,"T-Mobile US, Inc."</item>
+        <item>TNAV,"TeleNav, Inc."</item>
+        <item>TNC,"Tennant Company"</item>
+        <item>TNDM,"Tandem Diabetes Care, Inc."</item>
+        <item>TNET,"TriNet Group, Inc."</item>
+        <item>TNGO,"Tangoe, Inc."</item>
+        <item>TNK,"Teekay Tankers Ltd."</item>
+        <item>TOL,"Toll Brothers Inc."</item>
+        <item>TOWN,"Towne Bank"</item>
+        <item>TOWR,"Tower International, Inc."</item>
+        <item>TPC,"Tutor Perini Corporation"</item>
+        <item>TPH,"Tri Pointe Homes, Inc."</item>
+        <item>TPLM,"Triangle Petroleum Corporation"</item>
+        <item>TPRE,"Third Point Reinsurance Ltd."</item>
+        <item>TPX,"Tempur Sealy International, Inc."</item>
+        <item>TRAK,"Dealertrack Technologies, Inc."</item>
+        <item>TRC,"Tejon Ranch Co"</item>
+        <item>TREC,"Trecora Resources"</item>
+        <item>TREE,"Tree.com, Inc."</item>
+        <item>TREX,"Trex Company, Inc."</item>
+        <item>TRGP,"Targa Resources, Inc."</item>
+        <item>TRGT,"Targacept, Inc."</item>
+        <item>TRIP,"TripAdvisor, Inc."</item>
+        <item>TRIV,"TriVascular Technologies, Inc."</item>
+        <item>TRI,"Thomson Reuters Corp"</item>
+        <item>TRK,"Speedway Motorsports, Inc."</item>
+        <item>TRMB,"Trimble Navigation Limited"</item>
+        <item>TRMK,"Trustmark Corporation"</item>
+        <item>TRMR,"Tremor Video, Inc."</item>
+        <item>TRNO,"Terreno Realty Corporation"</item>
+        <item>TRNX,"Tornier N.V."</item>
+        <item>TRN,"Trinity Industries, Inc."</item>
+        <item>TROW,"T. Rowe Price Group, Inc."</item>
+        <item>TROX,"Tronox Limited"</item>
+        <item>TRR,"TRC Companies, Inc."</item>
+        <item>TRST,"TrustCo Bank Corp NY"</item>
+        <item>TRS,"TriMas Corporation"</item>
+        <item>TRUE,"TrueCar, Inc."</item>
+        <item>TRV,"The Travelers Companies, Inc."</item>
+        <item>TRXC,"TransEnterix, Inc."</item>
+        <item>TR,"Tootsie Roll Industries, Inc."</item>
+        <item>TSCO,"Tractor Supply Company"</item>
+        <item>TSC,"TriState Capital Holdings, Inc."</item>
+        <item>TSLA,"Tesla Motors, Inc."</item>
+        <item>TSN,"Tyson Foods, Inc."</item>
+        <item>TSO,"Tesoro Corporation"</item>
+        <item>TSRA,"Tessera Technologies, Inc."</item>
+        <item>TSRE,"Trade Street Residential, Inc."</item>
+        <item>TSRO,"TESARO, Inc."</item>
+        <item>TSS,"Total System Services, Inc."</item>
+        <item>TSYS,"TeleCommunication Systems, Inc."</item>
+        <item>TTC,"Toro Company"</item>
+        <item>TTEC,"TeleTech Holdings, Inc."</item>
+        <item>TTEK,"Tetra Tech, Inc."</item>
+        <item>TTGT,"TechTarget, Inc."</item>
+        <item>TTI,"Tetra Technologies, Inc."</item>
+        <item>TTMI,"TTM Technologies, Inc."</item>
+        <item>TTPH,"Tetraphase Pharmaceuticals, Inc."</item>
+        <item>TTS,"Tile Shop Hldgs, Inc."</item>
+        <item>TTWO,"Take-Two Interactive Software, Inc."</item>
+        <item>TUES,"Tuesday Morning Corp."</item>
+        <item>TUMI,"Tumi Holdings, Inc."</item>
+        <item>TUP,"Tupperware Brands Corporation"</item>
+        <item>TWC,"Time Warner Cable Inc"</item>
+        <item>TWER,"Towerstream Corporation"</item>
+        <item>TWIN,"Twin Disc, Incorporated"</item>
+        <item>TWI,"Titan International, Inc."</item>
+        <item>TWMC,"Trans World Entertainment Corp."</item>
+        <item>TWOU,"2U, Inc."</item>
+        <item>TWO,"Two Harbors Investments Corp"</item>
+        <item>TWTR,"Twitter, Inc."</item>
+        <item>TWX,"Time Warner Inc."</item>
+        <item>TW,"Towers Watson &amp; Co"</item>
+        <item>TXMD,"TherapeuticsMD, Inc."</item>
+        <item>TXN,"Texas Instruments Incorporated"</item>
+        <item>TXRH,"Texas Roadhouse, Inc."</item>
+        <item>TXTR,"Textura Corporation"</item>
+        <item>TXT,"Textron Inc."</item>
+        <item>TYC,"Tyco International, Ltd."</item>
+        <item>TYL,"Tyler Technologies, Inc."</item>
+        <item>TYPE,"Monotype Imaging Holdings Inc."</item>
+        <item>TZOO,"Travelzoo Inc."</item>
+        <item>T,"AT&amp;T Inc."</item>
+        <item>UACL,"Universal Truckload Services, Inc."</item>
+        <item>UAL,"United Continental Holdings, Inc."</item>
+        <item>UAM,"Universal American Corp."</item>
+        <item>UA,"Under Armour, Inc."</item>
+        <item>UBA,"Urstadt Biddle Properties Inc."</item>
+        <item>UBNK,"United Financial Bancorp, Inc."</item>
+        <item>UBNT,"Ubiquiti Networks, Inc."</item>
+        <item>UBSH,"Union Bankshares Corporation"</item>
+        <item>UBSI,"United Bankshares, Inc."</item>
+        <item>UCBI,"United Community Banks, Inc."</item>
+        <item>UCFC,"United Community Financial Corp."</item>
+        <item>UCP,"UCP, Inc."</item>
+        <item>UCTT,"Ultra Clean Holdings, Inc."</item>
+        <item>UDR,"United Dominion Realty Trust, Inc."</item>
+        <item>UEC,"Uranium Energy Corp."</item>
+        <item>UEIC,"Universal Electronics Inc."</item>
+        <item>UFCS,"United Fire Group, Inc"</item>
+        <item>UFI,"Unifi, Inc."</item>
+        <item>UFPI,"Universal Forest Products, Inc."</item>
+        <item>UFPT,"UFP Technologies, Inc."</item>
+        <item>UFS,"Domtar Corporation"</item>
+        <item>UGI,"UGI Corporation"</item>
+        <item>UHAL,"Amerco"</item>
+        <item>UHS,"Universal Health Services, Inc."</item>
+        <item>UHT,"Universal Health Realty Income Trust"</item>
+        <item>UIHC,"United Insurance Holdings Corp."</item>
+        <item>UIL,"UIL Holdings Corporation"</item>
+        <item>UIS,"Unisys Corporation"</item>
+        <item>ULTA,"Ulta Salon, Cosmetics &amp; Fragrance, Inc."</item>
+        <item>ULTI,"The Ultimate Software Group, Inc."</item>
+        <item>ULTR,"Ultrapetrol"</item>
+        <item>UMBF,"UMB Financial Corporation"</item>
+        <item>UMH,"UMH Properties, Inc."</item>
+        <item>UMPQ,"Umpqua Holdings Corporation"</item>
+        <item>UNFI,"United Natural Foods, Inc."</item>
+        <item>UNF,"Unifirst Corporation"</item>
+        <item>UNH,"UnitedHealth Group Incorporated"</item>
+        <item>UNIS,"Unilife Corporation"</item>
+        <item>UNM,"Unum Group"</item>
+        <item>UNP,"Union Pacific Corporation"</item>
+        <item>UNTD,"United Online, Inc."</item>
+        <item>UNT,"Unit Corporation"</item>
+        <item>UNXL,"Uni-Pixel, Inc."</item>
+        <item>UPIP,"Unwired Planet, Inc."</item>
+        <item>UPL,"Ultra Petroleum Corp."</item>
+        <item>UPS,"United Parcel Service, Inc."</item>
+        <item>URBN,"Urban Outfitters, Inc."</item>
+        <item>URG,"Ur Energy Inc"</item>
+        <item>URI,"United Rentals, Inc."</item>
+        <item>USAK,"USA Truck, Inc."</item>
+        <item>USAP,"Universal Stainless &amp; Alloy Products, Inc."</item>
+        <item>USB,"U.S. Bancorp"</item>
+        <item>USCR,"U S Concrete, Inc."</item>
+        <item>USG,"USG Corporation"</item>
+        <item>USLM,"United States Lime &amp; Minerals, Inc."</item>
+        <item>USMD,"USMD Holdings, Inc."</item>
+        <item>USM,"United States Cellular Corporation"</item>
+        <item>USNA,"USANA Health Sciences, Inc."</item>
+        <item>USPH,"U.S. Physical Therapy, Inc."</item>
+        <item>UTEK,"Ultratech, Inc."</item>
+        <item>UTHR,"United Therapeutics Corporation"</item>
+        <item>UTIW,"UTi Worldwide Inc."</item>
+        <item>UTI,"Universal Technical Institute Inc"</item>
+        <item>UTL,"UNITIL Corporation"</item>
+        <item>UTMD,"Utah Medical Products, Inc."</item>
+        <item>UTX,"United Technologies Corporation"</item>
+        <item>UVE,"UNIVERSAL INSURANCE HOLDINGS INC"</item>
+        <item>UVSP,"Univest Corporation of Pennsylvania"</item>
+        <item>UVV,"Universal Corporation"</item>
+        <item>VAC,"Marriot Vacations Worldwide Corporation"</item>
+        <item>VAL,"Valspar Corporation"</item>
+        <item>VAR,"Varian Medical Systems, Inc."</item>
+        <item>VASC,"Vascular Solutions, Inc."</item>
+        <item>VCRA,"Vocera Communications, Inc."</item>
+        <item>VCYT,"Veracyte, Inc."</item>
+        <item>VC,"Visteon Corporation"</item>
+        <item>VDSI,"VASCO Data Security International, Inc."</item>
+        <item>VECO,"Veeco Instruments Inc."</item>
+        <item>VFC,"V.F. Corporation"</item>
+        <item>VGR,"Vector Group Ltd."</item>
+        <item>VG,"Vonage Holdings Corp."</item>
+        <item>VHC,"VirnetX Holding Corp"</item>
+        <item>VIAB,"Viacom Inc."</item>
+        <item>VICL,"Vical Incorporated"</item>
+        <item>VICR,"Vicor Corporation"</item>
+        <item>VIVO,"Meridian Bioscience Inc."</item>
+        <item>VLGEA,"Village Super Market, Inc."</item>
+        <item>VLO,"Valero Energy Corporation"</item>
+        <item>VLY,"Valley National Bancorp"</item>
+        <item>VMC,"Vulcan Materials Company"</item>
+        <item>VMEM,"Violin Memory, Inc."</item>
+        <item>VMI,"Valmont Industries, Inc."</item>
+        <item>VMW,"Vmware, Inc."</item>
+        <item>VNCE,"Vince Holding Corp."</item>
+        <item>VNDA,"Vanda Pharmaceuticals Inc."</item>
+        <item>VNO,"Vornado Realty Trust"</item>
+        <item>VNTV,"Vantiv, Inc."</item>
+        <item>VOD,"Vodafone Group Plc"</item>
+        <item>VOXX,"VOXX International Corporation"</item>
+        <item>VOYA,"Voya Financial, Inc."</item>
+        <item>VPG,"Vishay Precision Group, Inc."</item>
+        <item>VRA,"Vera Bradley, Inc."</item>
+        <item>VRNG,"Vringo, Inc."</item>
+        <item>VRNS,"Varonis Systems, Inc."</item>
+        <item>VRNT,"Verint Systems Inc."</item>
+        <item>VRSK,"Verisk Analytics, Inc."</item>
+        <item>VRSN,"VeriSign, Inc."</item>
+        <item>VRTS,"Virtus Investment Partners, Inc."</item>
+        <item>VRTU,"Virtusa Corporation"</item>
+        <item>VRTX,"Vertex Pharmaceuticals Incorporated"</item>
+        <item>VR,"Validus Holdings, Ltd."</item>
+        <item>VSAR,"Versartis, Inc."</item>
+        <item>VSAT,"ViaSat, Inc."</item>
+        <item>VSEC,"VSE Corporation"</item>
+        <item>VSH,"Vishay Intertechnology, Inc."</item>
+        <item>VSI,"Vitamin Shoppe, Inc"</item>
+        <item>VSTM,"Verastem, Inc."</item>
+        <item>VTG,"Vantage Drilling Company"</item>
+        <item>VTL,"Vital Therapies, Inc."</item>
+        <item>VTNR,"Vertex Energy, Inc"</item>
+        <item>VTR,"Ventas, Inc."</item>
+        <item>VVC,"Vectren Corporation"</item>
+        <item>VVI,"Viad Corp"</item>
+        <item>VVUS,"VIVUS, Inc."</item>
+        <item>VZ,"Verizon Communications Inc."</item>
+        <item>V,"Visa Inc."</item>
+        <item>WABC,"Westamerica Bancorporation"</item>
+        <item>WAB,"Westinghouse Air Brake Technologies Corporation"</item>
+        <item>WAC,"Walter Investment Management Corp."</item>
+        <item>WAFD,"Washington Federal, Inc."</item>
+        <item>WAGE,"WageWorks, Inc."</item>
+        <item>WAIR,"Wesco Aircraft Holdings, Inc."</item>
+        <item>WAL,"Western Alliance Bancorporation"</item>
+        <item>WASH,"Washington Trust Bancorp, Inc."</item>
+        <item>WAT,"Waters Corporation"</item>
+        <item>WBA,"Untitled Dataset 2015-01-05 22:31:42"</item>
+        <item>WBC,"Wabco Holdings Inc."</item>
+        <item>WBMD,"WebMD Health Corp"</item>
+        <item>WBS,"Webster Financial Corporation"</item>
+        <item>WCC,"WESCO International, Inc."</item>
+        <item>WCG,"WellCare Health Plans, Inc."</item>
+        <item>WCIC,"WCI Communities, Inc."</item>
+        <item>WCN,"Waste Connections, Inc."</item>
+        <item>WDAY,"Workday, Inc."</item>
+        <item>WDC,"Western Digital Corporation"</item>
+        <item>WDFC,"WD-40 Company"</item>
+        <item>WDR,"Waddell &amp; Reed Financial, Inc."</item>
+        <item>WD,"Walker &amp; Dunlop, Inc."</item>
+        <item>WEC,"Wisconsin Energy Corporation"</item>
+        <item>WEN,"Wendy's Company"</item>
+        <item>WERN,"Werner Enterprises, Inc."</item>
+        <item>WETF,"WisdomTree Investments, Inc."</item>
+        <item>WEX,"WEX Inc."</item>
+        <item>WEYS,"Weyco Group, Inc."</item>
+        <item>WFC,"Wells Fargo &amp; Company"</item>
+        <item>WFD,"Westfield Financial, Inc."</item>
+        <item>WFM,"Whole Foods Market, Inc."</item>
+        <item>WGL,"WGL Holdings Inc"</item>
+        <item>WGO,"Winnebago Industries, Inc."</item>
+        <item>WG,"Willbros Group, Inc."</item>
+        <item>WHF,"WhiteHorse Finance, Inc."</item>
+        <item>WHG,"Westwood Holdings Group Inc"</item>
+        <item>WHR,"Whirlpool Corporation"</item>
+        <item>WIBC,"Wilshire Bancorp, Inc."</item>
+        <item>WIFI,"Boingo Wireless, Inc."</item>
+        <item>WINA,"Winmark Corporation"</item>
+        <item>WIRE,"Encore Wire Corporation"</item>
+        <item>WIX,"Wix.com Ltd."</item>
+        <item>WLB,"Westmoreland Coal Company"</item>
+        <item>WLH,"Lyon William Homes"</item>
+        <item>WLK,"Westlake Chemical Corporation"</item>
+        <item>WLL,"Whiting Petroleum Corporation"</item>
+        <item>WMAR,"West Marine, Inc."</item>
+        <item>WMB,"Williams Companies, Inc."</item>
+        <item>WMC,"Western Asset Mortgage Capital Corporation"</item>
+        <item>WMGI,"Wright Medical Group, Inc."</item>
+        <item>WMK,"Weis Markets, Inc."</item>
+        <item>WMT,"Wal-Mart Stores, Inc."</item>
+        <item>WM,"Waste Management, Inc."</item>
+        <item>WNC,"Wabash National Corporation"</item>
+        <item>WNR,"Western Refining, Inc."</item>
+        <item>WOOF,"VCA Antech, Inc."</item>
+        <item>WOR,"Worthington Industries, Inc."</item>
+        <item>WPP,"Wausau Paper Corp."</item>
+        <item>WPX,"WPX Energy, Inc."</item>
+        <item>WRB,"W.R. Berkley Corporation"</item>
+        <item>WRES,"Warren Resources, Inc."</item>
+        <item>WRE,"Washington Real Estate Investment Trust"</item>
+        <item>WRI,"Weingarten Realty Investors"</item>
+        <item>WRLD,"World Acceptance Corporation"</item>
+        <item>WR,"Westar Energy, Inc."</item>
+        <item>WSBC,"WesBanco, Inc."</item>
+        <item>WSBF,"Waterstone Financial, Inc."</item>
+        <item>WSFS,"WSFS Financial Corporation"</item>
+        <item>WSM,"Williams-Sonoma, Inc."</item>
+        <item>WSO,"Watsco, Inc."</item>
+        <item>WSR,"Whitestone REIT"</item>
+        <item>WSTC,"West Corporation"</item>
+        <item>WSTL,"Westell Technologies, Inc."</item>
+        <item>WST,"West Pharmaceutical Services, Inc."</item>
+        <item>WTBA,"West Bancorporation"</item>
+        <item>WTFC,"Wintrust Financial Corporation"</item>
+        <item>WTI,"W&amp;T Offshore, Inc."</item>
+        <item>WTM,"White Mountains Insurance Group, Ltd."</item>
+        <item>WTR,"Aqua America, Inc."</item>
+        <item>WTS,"Watts Water Technologies, Inc."</item>
+        <item>WTW,"Weight Watchers International Inc"</item>
+        <item>WU,"Western Union Company"</item>
+        <item>WWAV,"Whitewave Foods Company"</item>
+        <item>WWD,"Woodward, Inc."</item>
+        <item>WWE,"World Wrestling Entertainment, Inc."</item>
+        <item>WWWW,"Web.com Group, Inc."</item>
+        <item>WWW,"Wolverine World Wide, Inc."</item>
+        <item>WYNN,"Wynn Resorts, Limited"</item>
+        <item>WYN,"Wyndham Worldwide Corp"</item>
+        <item>WY,"Weyerhaeuser Company"</item>
+        <item>XCO,"EXCO Resources NL"</item>
+        <item>XCRA,"Xcerra Corporation"</item>
+        <item>XEC,"Cimarex Energy Co"</item>
+        <item>XEL,"Xcel Energy Inc."</item>
+        <item>XLNX,"Xilinx, Inc."</item>
+        <item>XLRN,"Acceleron Pharma Inc."</item>
+        <item>XL,"XL Group plc"</item>
+        <item>XNCR,"Xencor, Inc."</item>
+        <item>XNPT,"XenoPort, Inc."</item>
+        <item>XOMA,"XOMA Corporation"</item>
+        <item>XOM,"Exxon Mobil Corporation"</item>
+        <item>XONE,"The ExOne Company"</item>
+        <item>XON,"Intrexon Corporation"</item>
+        <item>XOOM,"Xoom Corporation"</item>
+        <item>XOXO,"XO Group, Inc."</item>
+        <item>XPO,"XPO Logistics, Inc."</item>
+        <item>XRAY,"DENTSPLY International Inc."</item>
+        <item>XRM,"Xerium Technologies, Inc."</item>
+        <item>XRX,"Xerox Corporation"</item>
+        <item>XXIA,"Ixia"</item>
+        <item>XXII,"22nd Century Group, Inc"</item>
+        <item>XYL,"Xylem Inc."</item>
+        <item>X,"United States Steel Corporation"</item>
+        <item>YDKN,"Yadkin Financial Corporation"</item>
+        <item>YELP,"Yelp Inc."</item>
+        <item>YHOO,"Yahoo! Inc."</item>
+        <item>YORW,"The York Water Company"</item>
+        <item>YRCW,"YRC Worldwide, Inc."</item>
+        <item>YUME,"YuMe, Inc."</item>
+        <item>YUM,"Yum! Brands, Inc."</item>
+        <item>Y,"Alleghany Corporation"</item>
+        <item>ZAGG,"ZAGG Inc"</item>
+        <item>ZAZA,"ZaZa Energy Corporation"</item>
+        <item>ZBH,"Untitled Dataset 2015-06-29 21:46:28"</item>
+        <item>ZBRA,"Zebra Technologies Corporation"</item>
+        <item>ZEN,"Zendesk, Inc."</item>
+        <item>ZEUS,"Olympic Steel, Inc."</item>
+        <item>ZGNX,"Zogenix, Inc."</item>
+        <item>ZINC,"Horsehead Holding Corp."</item>
+        <item>ZION,"Zions Bancorporation"</item>
+        <item>ZIOP,"ZIOPHARM Oncology Inc"</item>
+        <item>ZIXI,"Zix Corporation"</item>
+        <item>ZLTQ,"ZELTIQ Aesthetics, Inc."</item>
+        <item>ZNGA,"Zynga Inc."</item>
+        <item>ZOES,"Zoe's Kitchen, Inc."</item>
+        <item>ZQK,"Quiksilver, Inc."</item>
+        <item>ZTS,"Zoetis Inc."</item>
+        <item>ZUMZ,"Zumiez Inc."</item>
+        <item>Z,"Zillow, Inc."</item>
     </string-array>
 </resources>
