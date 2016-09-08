@@ -9,6 +9,13 @@
         <item>quotemedia</item>
     </string-array>
 
+    <!-- CardView strigns -->
+    <string name="card_date">Date:</string>
+    <string name="card_open">Open:</string>
+    <string name="card_high">High:</string>
+    <string name="card_low">Low:</string>
+    <string name="card_close">Close:</string>
+
     <!-- DataProvider resources -->
     <string-array name="tickers_array">
         <item>AAL,"American Airlines Group, Inc."</item>

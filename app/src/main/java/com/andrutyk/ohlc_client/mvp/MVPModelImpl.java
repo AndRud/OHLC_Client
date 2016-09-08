@@ -15,7 +15,7 @@ import rx.schedulers.Schedulers;
  */
 public class MVPModelImpl implements MVPModel {
 
-    private final static String API_KEY = "sfNaN2tTSBdxzAKoivff";
+    private final static String API_KEY_QUANDL = "sfNaN2tTSBdxzAKoivff";
 
     @Override
     public Observable<List<OHLCModel>> changeText() {
@@ -25,7 +25,7 @@ public class MVPModelImpl implements MVPModel {
     @Override
     public Observable<OHLCModel> request(String dataSet, String startDate, String endDate) {
         OHLCService ohlcService = ApiFactory.getOHLCService();
-        return ohlcService.ohlcRequest(dataSet, API_KEY, startDate, endDate)
+        return ohlcService.requestToQuandl(dataSet, API_KEY_QUANDL, startDate, endDate)
                 .subscribeOn(Schedulers.io())
                 .observeOn(AndroidSchedulers.mainThread());
     }

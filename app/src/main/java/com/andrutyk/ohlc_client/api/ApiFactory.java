@@ -19,7 +19,9 @@ import retrofit2.converter.gson.GsonConverterFactory;
  */
 public class ApiFactory {
 
-    private static final String API_ENDPOINT = "https://www.quandl.com/";
+    private static final String API_ENDPOINT_QUANDL = "https://www.quandl.com/";
+    private static final String API_ENDPOINT_GOOGLE = "http://www.google.com/";
+    private static final String API_ENDPOINT_YAHOO = "https://query.yahooapis.com/";
 
     private static final OkHttpClient CLIENT = new OkHttpClient();
 
@@ -29,7 +31,7 @@ public class ApiFactory {
     @NonNull
     private static Retrofit getRetrofit() {
         return new Retrofit.Builder()
-                .baseUrl(API_ENDPOINT)
+                .baseUrl(API_ENDPOINT_QUANDL)
                 .addConverterFactory(GsonConverterFactory.create(GSON))
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .client(CLIENT)

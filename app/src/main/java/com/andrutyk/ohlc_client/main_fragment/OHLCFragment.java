@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.Toast;
@@ -20,8 +19,7 @@ import com.andrutyk.ohlc_client.api.OHLCModel;
 import com.andrutyk.ohlc_client.mvp.MVPPresenter;
 import com.andrutyk.ohlc_client.mvp.MVPPresenterImpl;
 import com.andrutyk.ohlc_client.mvp.MVPView;
-
-import java.util.List;
+import com.andrutyk.ohlc_client.recycler_view_decor.DividerItemDecoration;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -66,6 +64,7 @@ public class OHLCFragment extends Fragment implements MVPView {
         spDataProvider.setAdapter(arrayAdapter);
 
         rvData.setHasFixedSize(true);
+        rvData.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
         layoutManager = new LinearLayoutManager(getActivity());
         rvData.setLayoutManager(layoutManager);
 
@@ -95,12 +94,21 @@ public class OHLCFragment extends Fragment implements MVPView {
 
     @Override
     public String getDataSet() {
-        return etQuery.getText().toString();
+        return getTickerName(etQuery.getText().toString());
+    }
+
+    private String getTickerName(String s) {
+        int index = s.indexOf(",");
+        if (index > 0) {
+            return s.substring(0, index);
+        } else {
+            return s;
+        }
     }
 
     @Override
     public String getStartDate() {
-        return "2015-05-24";
+        return "2015-01-24";
     }
 
     @Override
