@@ -31,7 +31,8 @@ public class ApiFactory {
     @NonNull
     private static Retrofit getRetrofit() {
         return new Retrofit.Builder()
-                .baseUrl(API_ENDPOINT_QUANDL)
+                //.baseUrl(API_ENDPOINT_QUANDL)
+                .baseUrl(API_ENDPOINT_YAHOO)
                 .addConverterFactory(GsonConverterFactory.create(GSON))
                 .addCallAdapterFactory(RxJavaCallAdapterFactory.create())
                 .client(CLIENT)

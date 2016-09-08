@@ -38,7 +38,7 @@ import butterknife.OnClick;
  */
 public class MainFragment extends Fragment implements MVPView {
 
-    private final static int PAGINATION_LIMIT = 50;
+    private final static int PAGINATION_LIMIT = 5;
 
     String dataSet;
     DateTime startDate;
@@ -60,8 +60,6 @@ public class MainFragment extends Fragment implements MVPView {
     private LinearLayoutManager layoutManager;
 
     private MVPPresenter presenter;
-
-    List<List<String>> data;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -93,42 +91,35 @@ public class MainFragment extends Fragment implements MVPView {
     }
 
     @Override
-    public void showData(OHLCModel ohlcData) {
-        setData(ohlcData.getDatasetData().getData());
-        setAdapterData();
+    public void showData(List<List<String>> data) {
+        addDateForPagination();
+        setAdapterData(data);
     }
 
-    private void setAdapterData() {
+    private void setAdapterData(List<List<String>> data) {
         if (data != null) {
             if (adapter == null) {
                 adapter = new OHLCAdapter(data);
-                rvData.setAdapter(adapter);
             } else {
                 ((OHLCAdapter) adapter).addItems(data);
-                adapter.notifyDataSetChanged();
+                adapter.notifyItemInserted(adapter.getItemCount() - 1);
             }
-            showNoResult(false);
-            addDateForPagination();
+            rvData.setAdapter(adapter);
+            showEmptyView(false);
         } else {
-            showNoResult(true);
+            showEmptyView(true);
         }
-    }
-
-    @Override
-    public void onResume() {
-        super.onResume();
-        setAdapterData();
     }
 
     @Override
     public void showError(String error) {
         Toast.makeText(getActivity(), error, Toast.LENGTH_SHORT).show();
-        showNoResult(true);
+        showEmptyView(true);
     }
 
     @Override
     public void showEmptyData() {
-        showNoResult(true);
+        showEmptyView(true);
     }
 
     @Override
@@ -162,24 +153,18 @@ public class MainFragment extends Fragment implements MVPView {
     }
 
     @Override
-    public void onPause() {
-        presenter.onStop();
-        super.onPause();
+    public void onStop() {
+        if (presenter != null) {
+            presenter.onStop();
+        }
+        super.onStop();
     }
 
     public void setDataSet(String dataSet) {
         this.dataSet = dataSet;
     }
 
-    public void setData(List<List<String>> data) {
-        this.data = data;
-    }
-
-    public List<List<String>> getData() {
-        return data;
-    }
-
-    private void showNoResult(boolean isVisible) {
+    private void showEmptyView(boolean isVisible) {
         if (isVisible) {
             tvNoResults.setVisibility(View.VISIBLE);
             rvData.setVisibility(View.GONE);

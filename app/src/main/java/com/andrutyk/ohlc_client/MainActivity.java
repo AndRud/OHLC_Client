@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
 
     @Override
     protected void onDestroy() {
-        ((MainFragment)fragmentMain).setData(((MainFragment)fragmentMain).getData());
+        //((MainFragment)fragmentMain).setData(((MainFragment)fragmentMain).getData());
         super.onDestroy();
     }
 }

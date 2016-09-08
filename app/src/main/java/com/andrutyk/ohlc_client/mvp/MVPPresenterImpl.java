@@ -34,7 +34,7 @@ public class MVPPresenterImpl implements MVPPresenter {
 
         subscription = mvpModel.request(view.getDataSet(), view.getStartDate(),
                 view.getEndDate())
-                .subscribe(new Observer<OHLCModel>() {
+                .subscribe(new Observer<List<List<String>>>() {
                     @Override
                     public void onCompleted() {
 
@@ -46,7 +46,7 @@ public class MVPPresenterImpl implements MVPPresenter {
                     }
 
                     @Override
-                    public void onNext(OHLCModel data) {
+                    public void onNext(List<List<String>> data) {
                         if (data != null) {
                             view.showData(data);
                         } else {
