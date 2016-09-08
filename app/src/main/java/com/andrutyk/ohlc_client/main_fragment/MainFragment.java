@@ -22,6 +22,11 @@ import com.andrutyk.ohlc_client.mvp.MVPPresenterImpl;
 import com.andrutyk.ohlc_client.mvp.MVPView;
 import com.andrutyk.ohlc_client.recycler_view_decor.DividerItemDecoration;
 
+import org.joda.time.DateTime;
+import org.joda.time.format.DateTimeFormat;
+import org.joda.time.format.DateTimeFormatter;
+
+import java.text.DateFormat;
 import java.util.List;
 
 import butterknife.BindView;
@@ -33,7 +38,11 @@ import butterknife.OnClick;
  */
 public class MainFragment extends Fragment implements MVPView {
 
+    private final static int PAGINATION_LIMIT = 50;
+
     String dataSet;
+    DateTime startDate;
+    DateTime endDate;
 
     @BindView(R.id.etQuery)
     AutoCompleteTextView etQuery;
@@ -48,7 +57,7 @@ public class MainFragment extends Fragment implements MVPView {
     TextView tvNoResults;
 
     private RecyclerView.Adapter adapter;
-    private RecyclerView.LayoutManager layoutManager;
+    private LinearLayoutManager layoutManager;
 
     private MVPPresenter presenter;
 
@@ -59,6 +68,8 @@ public class MainFragment extends Fragment implements MVPView {
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
         presenter = new MVPPresenterImpl(this);
+        endDate = DateTime.now();
+        startDate = endDate.minusDays(PAGINATION_LIMIT);
     }
 
     @Nullable
@@ -71,6 +82,7 @@ public class MainFragment extends Fragment implements MVPView {
         rvData.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
         layoutManager = new LinearLayoutManager(getActivity());
         rvData.setLayoutManager(layoutManager);
+        rvData.addOnScrollListener(onScrollListener);
 
         String[] tickers = getActivity().getResources().getStringArray(R.array.tickers_array);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(getActivity(),
@@ -88,9 +100,15 @@ public class MainFragment extends Fragment implements MVPView {
 
     private void setAdapterData() {
         if (data != null) {
-            adapter = new OHLCAdapter(data);
-            rvData.setAdapter(adapter);
+            if (adapter == null) {
+                adapter = new OHLCAdapter(data);
+                rvData.setAdapter(adapter);
+            } else {
+                ((OHLCAdapter) adapter).addItems(data);
+                adapter.notifyDataSetChanged();
+            }
             showNoResult(false);
+            addDateForPagination();
         } else {
             showNoResult(true);
         }
@@ -129,18 +147,18 @@ public class MainFragment extends Fragment implements MVPView {
 
     @Override
     public String getStartDate() {
-        return "2015-01-24";
+        return getDateStr(startDate);
     }
 
     @Override
     public String getEndDate() {
-        return "2015-05-28";
+        return getDateStr(endDate);
     }
 
     @OnClick(R.id.ivSearch)
     public void search(View view) {
-        presenter.onSearchClick();
-        Toast.makeText(getActivity(), dataSet, Toast.LENGTH_SHORT).show();
+        presenter.onSearch();
+        //Toast.makeText(getActivity(), dataSet, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -170,5 +188,32 @@ public class MainFragment extends Fragment implements MVPView {
             rvData.setVisibility(View.VISIBLE);
         }
 
+    }
+
+    RecyclerView.OnScrollListener onScrollListener = new RecyclerView.OnScrollListener() {
+        @Override
+        public void onScrolled(RecyclerView recyclerView, int dx, int dy) {
+            super.onScrolled(recyclerView, dx, dy);
+            int visibleItemCount = layoutManager.getChildCount();
+            int firstVisibleItems = layoutManager.findFirstVisibleItemPosition();
+            int position = firstVisibleItems + visibleItemCount;
+
+            int totalItemCount = layoutManager.getItemCount();
+            int updatePosition = totalItemCount - 1 - (PAGINATION_LIMIT / 2);
+
+            if (position >= updatePosition) {
+                presenter.onSearch();
+            }
+        }
+    };
+
+    private String getDateStr(DateTime dateTime) {
+        DateTimeFormatter dateTimeFormatter = DateTimeFormat.forPattern("yyyy-MM-dd");
+        return dateTimeFormatter.print(dateTime);
+    }
+
+    private void addDateForPagination() {
+        endDate = startDate.minusDays(1);
+        startDate = startDate.minusDays(PAGINATION_LIMIT + 1);
     }
 }

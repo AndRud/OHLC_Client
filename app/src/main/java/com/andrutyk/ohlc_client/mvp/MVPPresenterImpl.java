@@ -27,7 +27,7 @@ public class MVPPresenterImpl implements MVPPresenter {
     }
 
     @Override
-    public void onSearchClick() {
+    public void onSearch() {
         if (!subscription.isUnsubscribed()) {
             subscription.unsubscribe();
         }

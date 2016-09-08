@@ -65,4 +65,8 @@ public class OHLCAdapter extends RecyclerView.Adapter<OHLCAdapter.ViewHolder> {
     public int getItemCount() {
         return dataset.size();
     }
+
+    public void addItems(List<List<String>> dataset) {
+        this.dataset.addAll(dataset);
+    }
 }
