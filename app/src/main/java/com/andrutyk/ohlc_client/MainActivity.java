@@ -25,8 +25,10 @@ import butterknife.ButterKnife;
 public class MainActivity extends AppCompatActivity implements ListView.OnItemClickListener{
 
     private final static String FRAGMENT_TAG = "main_fragment";
+    private final static String PROVIDER_ID = "provider_id";
 
     private Fragment fragmentMain;
+    private int providerId;
 
     String[] providers;
 
@@ -43,7 +45,11 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        initDrawer();
+        providerId = 0;
+        if (savedInstanceState != null) {
+            providerId = savedInstanceState.getInt(PROVIDER_ID);
+        }
+        initDrawer(providerId);
     }
 
     @Override
@@ -87,7 +93,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
 
     }
 
-    private void initDrawer() {
+    private void initDrawer(int providerId) {
         providers = getResources().getStringArray(R.array.data_provider_array);
         drawerList.setAdapter(new ArrayAdapter<>(this,
                 R.layout.drawer_list_item, providers));
@@ -103,12 +109,13 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
             getSupportActionBar().setDisplayHomeAsUpEnabled(true);
             getSupportActionBar().setHomeButtonEnabled(true);
         }
-        selectDrawerItem(0);
+        selectDrawerItem(providerId);
     }
 
     private void selectDrawerItem(int position) {
         drawerList.setItemChecked(position, false);
         drawerLayout.closeDrawer(drawerList);
+        providerId = position;
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle(providers[position]);
         }
@@ -117,7 +124,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
         if (fragmentMain != null) {
-            ((MainFragment) fragmentMain).setProvider(position);
+            ((MainFragment) fragmentMain).setProvider(providers[position]);
         }
         selectDrawerItem(position);
     }
@@ -140,5 +147,11 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt(PROVIDER_ID, providerId);
     }
 }

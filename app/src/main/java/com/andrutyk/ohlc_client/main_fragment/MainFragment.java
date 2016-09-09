@@ -38,7 +38,6 @@ public class MainFragment extends Fragment implements MVPView {
 
     private final static int PAGINATION_DATE_LIMIT = 50;
 
-
     private String defProvider;
 
     String provider;
@@ -102,7 +101,7 @@ public class MainFragment extends Fragment implements MVPView {
     private void setAdapterData(List<List<String>> data) {
         if (data != null) {
             adapter.addAll(data);
-            //showEmptyView(false);
+            showEmptyView(false);
         } else {
             showEmptyView(true);
         }
@@ -205,12 +204,8 @@ public class MainFragment extends Fragment implements MVPView {
         startDate = startDate.minusDays(PAGINATION_DATE_LIMIT + 1);
     }
 
-    public void setProvider(int provider) {
-        if (provider == 0) {
-            this.provider = defProvider;
-        } else {
-            this.provider = "yahoo";
-        }
+    public void setProvider(String provider) {
+        this.provider = provider;
     }
 
     private void clearData() {

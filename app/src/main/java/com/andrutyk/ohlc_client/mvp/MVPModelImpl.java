@@ -23,7 +23,6 @@ public class MVPModelImpl implements MVPModel {
 
     private final static String API_KEY_QUANDL = "sfNaN2tTSBdxzAKoivff";
 
-
     private static final String API_ENDPOINT_QUANDL = "https://www.quandl.com/";
     private static final String API_ENDPOINT_YAHOO = "https://query.yahooapis.com/";
 
