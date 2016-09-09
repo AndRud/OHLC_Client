@@ -42,7 +42,6 @@ public class MainFragment extends Fragment implements MVPView {
     private String defProvider;
 
     String provider;
-    String dataSet;
     DateTime startDate;
     DateTime endDate;
 
@@ -58,7 +57,7 @@ public class MainFragment extends Fragment implements MVPView {
     @BindView(R.id.tvNoResults)
     TextView tvNoResults;
 
-    private RecyclerView.Adapter adapter;
+    private RecyclerViewAdapter adapter;
     private LinearLayoutManager layoutManager;
 
     private MVPPresenter presenter;
@@ -82,6 +81,8 @@ public class MainFragment extends Fragment implements MVPView {
         rvData.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
         layoutManager = new LinearLayoutManager(getActivity());
         rvData.setLayoutManager(layoutManager);
+        adapter = new RecyclerViewAdapter();
+        rvData.setAdapter(adapter);
         rvData.addOnScrollListener(onScrollListener);
 
         String[] tickers = getActivity().getResources().getStringArray(R.array.tickers_array);
@@ -100,14 +101,8 @@ public class MainFragment extends Fragment implements MVPView {
 
     private void setAdapterData(List<List<String>> data) {
         if (data != null) {
-            if (adapter == null) {
-                adapter = new RecyclerViewAdapter(data);
-            } else {
-                ((RecyclerViewAdapter) adapter).addItems(data);
-                adapter.notifyItemInserted(adapter.getItemCount() - 1);
-            }
-            rvData.setAdapter(adapter);
-            showEmptyView(false);
+            adapter.addAll(data);
+            //showEmptyView(false);
         } else {
             showEmptyView(true);
         }
@@ -128,8 +123,9 @@ public class MainFragment extends Fragment implements MVPView {
     public String getProvider() {
         if (provider == null || provider.isEmpty()){
             return defProvider;
+        } else {
+            return provider;
         }
-        return provider;
     }
 
     @Override
@@ -171,10 +167,6 @@ public class MainFragment extends Fragment implements MVPView {
         super.onStop();
     }
 
-    public void setDataSet(String dataSet) {
-        this.dataSet = dataSet;
-    }
-
     private void showEmptyView(boolean isVisible) {
         if (isVisible) {
             tvNoResults.setVisibility(View.VISIBLE);
@@ -213,13 +205,17 @@ public class MainFragment extends Fragment implements MVPView {
         startDate = startDate.minusDays(PAGINATION_DATE_LIMIT + 1);
     }
 
-    public void setProvider(String provider) {
-        this.provider = provider;
+    public void setProvider(int provider) {
+        if (provider == 0) {
+            this.provider = defProvider;
+        } else {
+            this.provider = "yahoo";
+        }
     }
 
     private void clearData() {
         if (adapter != null) {
-            ((RecyclerViewAdapter)adapter).clearAdapter();
+            adapter.clear();
         }
     }
 

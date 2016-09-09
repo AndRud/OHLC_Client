@@ -112,15 +112,12 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle(providers[position]);
         }
-        if (fragmentMain != null) {
-            ((MainFragment) fragmentMain).setDataSet(providers[position]);
-        }
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
         if (fragmentMain != null) {
-            ((MainFragment) fragmentMain).setProvider(providers[position]);
+            ((MainFragment) fragmentMain).setProvider(position);
         }
         selectDrawerItem(position);
     }

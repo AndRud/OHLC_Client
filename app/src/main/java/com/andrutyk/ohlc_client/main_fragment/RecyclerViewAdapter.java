@@ -8,6 +8,7 @@ import android.widget.TextView;
 
 import com.andrutyk.ohlc_client.R;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import butterknife.BindView;
@@ -35,12 +36,14 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         }
     }
 
-    // Provide a suitable constructor (depends on the kind of dataset)
+    public RecyclerViewAdapter() {
+        dataset = new ArrayList<>();
+    }
+
     public RecyclerViewAdapter(List<List<String>> dataset) {
         this.dataset = dataset;
     }
 
-    // Create new views (invoked by the layout manager)
     @Override
     public RecyclerViewAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
                                                    int viewType) {
@@ -51,7 +54,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return vh;
     }
 
-    // Replace the contents of a view (invoked by the layout manager)
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.tvDate.setText(dataset.get(position).get(0));
@@ -66,11 +68,18 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         return dataset.size();
     }
 
-    public void addItems(List<List<String>> dataset) {
-        this.dataset.addAll(dataset);
+    private void add(List<String> data) {
+        dataset.add(data);
+        notifyDataSetChanged();
     }
 
-    public void clearAdapter() {
+    public void addAll(List<List<String>> dataset) {
+        for (List<String> data : dataset) {
+            add(data);
+        }
+    }
+
+    public void clear() {
         if (dataset != null) {
             dataset.clear();
         }
