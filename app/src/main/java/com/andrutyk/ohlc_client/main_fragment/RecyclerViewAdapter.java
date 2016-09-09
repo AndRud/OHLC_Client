@@ -18,7 +18,7 @@ import butterknife.ButterKnife;
  * Created by admin on 07.09.2016.
  */
 public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
-    private List<List<String>> dataset;
+    private List<List<String>> data;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
         @BindView(R.id.tvDate) TextView tvDate;
@@ -37,11 +37,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     public RecyclerViewAdapter() {
-        dataset = new ArrayList<>();
+        data = new ArrayList<>();
     }
 
-    public RecyclerViewAdapter(List<List<String>> dataset) {
-        this.dataset = dataset;
+    public RecyclerViewAdapter(List<List<String>> data) {
+        this.data = data;
     }
 
     @Override
@@ -56,32 +56,36 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.tvDate.setText(dataset.get(position).get(0));
-        holder.tvOpen.setText(dataset.get(position).get(1));
-        holder.tvHigh.setText(dataset.get(position).get(2));
-        holder.tvLow.setText(dataset.get(position).get(3));
-        holder.tvClose.setText(dataset.get(position).get(4));
+        holder.tvDate.setText(data.get(position).get(0));
+        holder.tvOpen.setText(data.get(position).get(1));
+        holder.tvHigh.setText(data.get(position).get(2));
+        holder.tvLow.setText(data.get(position).get(3));
+        holder.tvClose.setText(data.get(position).get(4));
     }
 
     @Override
     public int getItemCount() {
-        return dataset.size();
+        return data.size();
     }
 
     private void add(List<String> data) {
-        dataset.add(data);
+        this.data.add(data);
         notifyDataSetChanged();
     }
 
-    public void addAll(List<List<String>> dataset) {
-        for (List<String> data : dataset) {
-            add(data);
+    public void addAll(List<List<String>> data) {
+        for (List<String> dataStr : data) {
+            add(dataStr);
         }
     }
 
     public void clear() {
-        if (dataset != null) {
-            dataset.clear();
+        if (data != null) {
+            data.clear();
         }
+    }
+
+    public List<List<String>> getData() {
+        return data;
     }
 }

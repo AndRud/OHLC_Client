@@ -2,7 +2,6 @@ package com.andrutyk.ohlc_client;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v4.widget.DrawerLayout;
@@ -50,34 +49,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
             providerId = savedInstanceState.getInt(PROVIDER_ID);
         }
         initDrawer(providerId);
-    }
-
-    @Override
-    protected void onResume() {
-        super.onResume();
-        checkInternet();
-    }
-
-    private void checkInternet() {
-        if (isConnected()){
-            showSettingDialog();
-        } else {
-            addFragment();
-        }
-    }
-
-    private boolean isConnected() {
-        ConnectionDetector connectionDetector = new ConnectionDetector(getApplicationContext());
-        return !connectionDetector.isConnectingToInternet();
-    }
-
-    private void showSettingDialog() {
-        AlertDialog.Builder builder = new AlertDialog.Builder(this);
-        builder.setMessage(R.string.question_internet_conn);
-        builder.setPositiveButton(R.string.settings, (dialog, which) ->
-                startActivityForResult(new Intent(android.provider.Settings.ACTION_SETTINGS), 0));
-        builder.setNegativeButton(R.string.dismiss, (dialog, which) -> dialog.cancel());
-        builder.create().show();
+        addFragment();
     }
 
     private void addFragment() {

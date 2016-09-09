@@ -1,8 +1,10 @@
 package com.andrutyk.ohlc_client.main_fragment;
 
 import android.app.Fragment;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -19,6 +21,7 @@ import com.andrutyk.ohlc_client.mvp.MVPPresenter;
 import com.andrutyk.ohlc_client.mvp.MVPPresenterImpl;
 import com.andrutyk.ohlc_client.mvp.MVPView;
 import com.andrutyk.ohlc_client.recycler_view_decor.DividerItemDecoration;
+import com.andrutyk.ohlc_client.utils.ConnectionDetector;
 
 import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
@@ -37,6 +40,8 @@ import butterknife.OnClick;
 public class MainFragment extends Fragment implements MVPView {
 
     private final static int PAGINATION_DATE_LIMIT = 50;
+
+    private List<List<String>> data;
 
     private String defProvider;
 
@@ -80,7 +85,11 @@ public class MainFragment extends Fragment implements MVPView {
         rvData.addItemDecoration(new DividerItemDecoration(getActivity(), LinearLayoutManager.VERTICAL));
         layoutManager = new LinearLayoutManager(getActivity());
         rvData.setLayoutManager(layoutManager);
-        adapter = new RecyclerViewAdapter();
+        if (data != null) {
+            adapter = new RecyclerViewAdapter(data);
+        } else {
+            adapter = new RecyclerViewAdapter();
+        }
         rvData.setAdapter(adapter);
         rvData.addOnScrollListener(onScrollListener);
 
@@ -96,6 +105,14 @@ public class MainFragment extends Fragment implements MVPView {
     public void showData(List<List<String>> data) {
         addDateForPagination();
         setAdapterData(data);
+    }
+
+    @Override
+    public void onPause() {
+        if (adapter != null) {
+            this.data = adapter.getData();
+        }
+        super.onPause();
     }
 
     private void setAdapterData(List<List<String>> data) {
@@ -155,7 +172,12 @@ public class MainFragment extends Fragment implements MVPView {
     public void search() {
         clearData();
         resetDate();
-        presenter.onSearch();
+        if (!isConnected()){
+            showSettingDialog();
+            showEmptyData();
+        } else {
+            presenter.onSearch();
+        }
     }
 
     @Override
@@ -217,5 +239,27 @@ public class MainFragment extends Fragment implements MVPView {
     private void resetDate() {
         endDate = DateTime.now();
         startDate = endDate.minusDays(PAGINATION_DATE_LIMIT);
+    }
+
+    public void setData(List<List<String>> data) {
+        this.data = data;
+    }
+
+    public List<List<String>> getData() {
+        return data;
+    }
+
+    private boolean isConnected() {
+        ConnectionDetector connectionDetector = new ConnectionDetector(getActivity());
+        return connectionDetector.isConnectingToInternet();
+    }
+
+    private void showSettingDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(getActivity());
+        builder.setMessage(R.string.question_internet_conn);
+        builder.setPositiveButton(R.string.settings, (dialog, which) ->
+                startActivityForResult(new Intent(android.provider.Settings.ACTION_SETTINGS), 0));
+        builder.setNegativeButton(R.string.dismiss, (dialog, which) -> dialog.cancel());
+        builder.create().show();
     }
 }

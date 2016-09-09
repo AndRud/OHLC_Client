@@ -1,5 +1,6 @@
 package com.andrutyk.ohlc_client.utils;
 
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.Network;
@@ -17,6 +18,7 @@ public class ConnectionDetector {
         this.context = context;
     }
 
+    @SuppressLint("Deprecation")
     public boolean isConnectingToInternet(){
         ConnectivityManager connectivity = (ConnectivityManager)context.getSystemService(Context.CONNECTIVITY_SERVICE);
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
