@@ -2,9 +2,12 @@ package com.andrutyk.ohlc_client;
 
 import android.app.Fragment;
 import android.app.FragmentTransaction;
+import android.content.DialogInterface;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -14,6 +17,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.andrutyk.ohlc_client.main_fragment.MainFragment;
+import com.andrutyk.ohlc_client.utils.ConnectionDetector;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -39,8 +43,35 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
 
-        addFragment();
         initDrawer();
+    }
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        checkInternet();
+    }
+
+    private void checkInternet() {
+        if (isConnected()){
+            showSettingDialog();
+        } else {
+            addFragment();
+        }
+    }
+
+    private boolean isConnected() {
+        ConnectionDetector connectionDetector = new ConnectionDetector(getApplicationContext());
+        return !connectionDetector.isConnectingToInternet();
+    }
+
+    private void showSettingDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage(R.string.question_internet_conn);
+        builder.setPositiveButton(R.string.settings, (dialog, which) ->
+                startActivityForResult(new Intent(android.provider.Settings.ACTION_SETTINGS), 0));
+        builder.setNegativeButton(R.string.dismiss, (dialog, which) -> dialog.cancel());
+        builder.create().show();
     }
 
     private void addFragment() {
