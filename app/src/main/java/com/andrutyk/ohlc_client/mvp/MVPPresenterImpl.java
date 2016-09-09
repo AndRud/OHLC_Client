@@ -1,6 +1,7 @@
 package com.andrutyk.ohlc_client.mvp;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
 import android.view.View;
 
@@ -22,8 +23,11 @@ public class MVPPresenterImpl implements MVPPresenter {
     private MVPView view;
     private Subscription subscription = Subscriptions.empty();
 
-    public MVPPresenterImpl(MVPView view) {
+    private Context context;
+
+    public MVPPresenterImpl(Context context, MVPView view) {
         this.view = view;
+        this.context = context;
     }
 
     @Override
@@ -32,7 +36,7 @@ public class MVPPresenterImpl implements MVPPresenter {
             subscription.unsubscribe();
         }
 
-        subscription = mvpModel.request(view.getDataSet(), view.getStartDate(),
+        subscription = mvpModel.request(context, view.getProvider(), view.getDataSet(), view.getStartDate(),
                 view.getEndDate())
                 .subscribe(new Observer<List<List<String>>>() {
                     @Override

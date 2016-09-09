@@ -1,5 +1,7 @@
 package com.andrutyk.ohlc_client.mvp;
 
+import android.content.Context;
+
 import com.andrutyk.ohlc_client.api.OHLCModel;
 
 import java.util.List;
@@ -12,5 +14,6 @@ import rx.Observable;
 public interface MVPModel {
     Observable<List<OHLCModel>> changeText();
 
-    Observable<List<List<String>>> request(String query, String startDate, String endDate);
+    Observable<List<List<String>>> request(Context context, String provider, String query,
+                                           String startDate, String endDate);
 }

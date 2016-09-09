@@ -11,12 +11,10 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.andrutyk.ohlc_client.R;
-import com.andrutyk.ohlc_client.api.OHLCModel;
 import com.andrutyk.ohlc_client.mvp.MVPPresenter;
 import com.andrutyk.ohlc_client.mvp.MVPPresenterImpl;
 import com.andrutyk.ohlc_client.mvp.MVPView;
@@ -26,7 +24,7 @@ import org.joda.time.DateTime;
 import org.joda.time.format.DateTimeFormat;
 import org.joda.time.format.DateTimeFormatter;
 
-import java.text.DateFormat;
+
 import java.util.List;
 
 import butterknife.BindView;
@@ -38,8 +36,12 @@ import butterknife.OnClick;
  */
 public class MainFragment extends Fragment implements MVPView {
 
-    private final static int PAGINATION_LIMIT = 5;
+    private final static int PAGINATION_DATE_LIMIT = 50;
 
+
+    private String defProvider;
+
+    String provider;
     String dataSet;
     DateTime startDate;
     DateTime endDate;
@@ -65,9 +67,9 @@ public class MainFragment extends Fragment implements MVPView {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
-        presenter = new MVPPresenterImpl(this);
-        endDate = DateTime.now();
-        startDate = endDate.minusDays(PAGINATION_LIMIT);
+        presenter = new MVPPresenterImpl(getActivity(), this);
+        resetDate();
+        defProvider = getActivity().getResources().getStringArray(R.array.data_provider_array)[0];
     }
 
     @Nullable
@@ -99,9 +101,9 @@ public class MainFragment extends Fragment implements MVPView {
     private void setAdapterData(List<List<String>> data) {
         if (data != null) {
             if (adapter == null) {
-                adapter = new OHLCAdapter(data);
+                adapter = new RecyclerViewAdapter(data);
             } else {
-                ((OHLCAdapter) adapter).addItems(data);
+                ((RecyclerViewAdapter) adapter).addItems(data);
                 adapter.notifyItemInserted(adapter.getItemCount() - 1);
             }
             rvData.setAdapter(adapter);
@@ -120,6 +122,14 @@ public class MainFragment extends Fragment implements MVPView {
     @Override
     public void showEmptyData() {
         showEmptyView(true);
+    }
+
+    @Override
+    public String getProvider() {
+        if (provider == null || provider.isEmpty()){
+            return defProvider;
+        }
+        return provider;
     }
 
     @Override
@@ -147,9 +157,10 @@ public class MainFragment extends Fragment implements MVPView {
     }
 
     @OnClick(R.id.ivSearch)
-    public void search(View view) {
+    public void search() {
+        clearData();
+        resetDate();
         presenter.onSearch();
-        //Toast.makeText(getActivity(), dataSet, Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -184,7 +195,7 @@ public class MainFragment extends Fragment implements MVPView {
             int position = firstVisibleItems + visibleItemCount;
 
             int totalItemCount = layoutManager.getItemCount();
-            int updatePosition = totalItemCount - 1 - (PAGINATION_LIMIT / 2);
+            int updatePosition = totalItemCount - 1 - (PAGINATION_DATE_LIMIT / 2);
 
             if (position >= updatePosition) {
                 presenter.onSearch();
@@ -199,6 +210,21 @@ public class MainFragment extends Fragment implements MVPView {
 
     private void addDateForPagination() {
         endDate = startDate.minusDays(1);
-        startDate = startDate.minusDays(PAGINATION_LIMIT + 1);
+        startDate = startDate.minusDays(PAGINATION_DATE_LIMIT + 1);
+    }
+
+    public void setProvider(String provider) {
+        this.provider = provider;
+    }
+
+    private void clearData() {
+        if (adapter != null) {
+            ((RecyclerViewAdapter)adapter).clearAdapter();
+        }
+    }
+
+    private void resetDate() {
+        endDate = DateTime.now();
+        startDate = endDate.minusDays(PAGINATION_DATE_LIMIT);
     }
 }

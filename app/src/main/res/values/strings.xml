@@ -4,9 +4,9 @@
     <!-- DataProvider resources -->
     <string-array name="data_provider_array">
         <item>quandl</item>
-        <item>google</item>
         <item>yahoo</item>
-        <item>quotemedia</item>
+        <!-- <item>google</item> -->
+        <!--<item>quotemedia</item>-->
     </string-array>
 
     <!-- DrawerLayoyt strings -->

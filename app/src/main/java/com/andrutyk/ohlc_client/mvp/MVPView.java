@@ -14,6 +14,8 @@ public interface MVPView {
 
     void showEmptyData();
 
+    String getProvider();
+
     String getDataSet();
 
     String getStartDate();

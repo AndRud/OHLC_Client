@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
 
     private Fragment fragmentMain;
 
-    String[] dataSets;
+    String[] providers;
 
     @BindView(R.id.drawer_layout)
     DrawerLayout drawerLayout;
@@ -57,9 +57,9 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
     }
 
     private void initDrawer() {
-        dataSets = getResources().getStringArray(R.array.data_provider_array);
+        providers = getResources().getStringArray(R.array.data_provider_array);
         drawerList.setAdapter(new ArrayAdapter<>(this,
-                R.layout.drawer_list_item, dataSets));
+                R.layout.drawer_list_item, providers));
         drawerToggle = new ActionBarDrawerToggle(this, drawerLayout, null,
                 R.string.drawer_open, R.string.drawer_close) {
             public void onDrawerClosed(View view) {
@@ -79,15 +79,18 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
         drawerList.setItemChecked(position, false);
         drawerLayout.closeDrawer(drawerList);
         if (getSupportActionBar() != null) {
-            getSupportActionBar().setTitle(dataSets[position]);
+            getSupportActionBar().setTitle(providers[position]);
         }
         if (fragmentMain != null) {
-            ((MainFragment) fragmentMain).setDataSet(dataSets[position]);
+            ((MainFragment) fragmentMain).setDataSet(providers[position]);
         }
     }
 
     @Override
     public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
+        if (fragmentMain != null) {
+            ((MainFragment) fragmentMain).setProvider(providers[position]);
+        }
         selectDrawerItem(position);
     }
 
@@ -109,11 +112,5 @@ public class MainActivity extends AppCompatActivity implements ListView.OnItemCl
             return true;
         }
         return super.onOptionsItemSelected(item);
-    }
-
-    @Override
-    protected void onDestroy() {
-        //((MainFragment)fragmentMain).setData(((MainFragment)fragmentMain).getData());
-        super.onDestroy();
     }
 }

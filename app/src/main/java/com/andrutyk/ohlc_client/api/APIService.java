@@ -12,18 +12,13 @@ import rx.Observable;
 /**
  * Created by admin on 06.09.2016.
  */
-public interface OHLCService {
+public interface APIService {
 
     @GET("/api/v3/datasets/WIKI/{dataSet}/data.json")
     Observable<OHLCModel> requestToQuandl(@Path("dataSet") String dataSet,
                                       @Query("api_key") String api_key,
                                       @Query("start_date") String start_date,
                                       @Query("end_date") String end_date);
-
-    @GET("/finance/historical?output=csv")
-    Observable<OHLCModel> requestToGoogle(@Query("q") String dataSet/*,
-                                      @Query("start_date") String start_date,
-                                      @Query("end_date") String end_date*/);
 
     @GET("/v1/public/yql?format=json&diagnostics=true&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=")
     Observable<YahooModel> requestToYahoo(@Query("q") String query);

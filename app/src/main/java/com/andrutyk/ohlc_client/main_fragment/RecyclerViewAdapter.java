@@ -16,7 +16,7 @@ import butterknife.ButterKnife;
 /**
  * Created by admin on 07.09.2016.
  */
-public class OHLCAdapter extends RecyclerView.Adapter<OHLCAdapter.ViewHolder> {
+public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapter.ViewHolder> {
     private List<List<String>> dataset;
 
     public static class ViewHolder extends RecyclerView.ViewHolder {
@@ -36,13 +36,13 @@ public class OHLCAdapter extends RecyclerView.Adapter<OHLCAdapter.ViewHolder> {
     }
 
     // Provide a suitable constructor (depends on the kind of dataset)
-    public OHLCAdapter(List<List<String>> dataset) {
+    public RecyclerViewAdapter(List<List<String>> dataset) {
         this.dataset = dataset;
     }
 
     // Create new views (invoked by the layout manager)
     @Override
-    public OHLCAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
+    public RecyclerViewAdapter.ViewHolder onCreateViewHolder(ViewGroup parent,
                                                    int viewType) {
         View v = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.recycler_view_item, parent, false);
@@ -68,5 +68,11 @@ public class OHLCAdapter extends RecyclerView.Adapter<OHLCAdapter.ViewHolder> {
 
     public void addItems(List<List<String>> dataset) {
         this.dataset.addAll(dataset);
+    }
+
+    public void clearAdapter() {
+        if (dataset != null) {
+            dataset.clear();
+        }
     }
 }
