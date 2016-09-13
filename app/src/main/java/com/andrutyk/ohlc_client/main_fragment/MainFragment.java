@@ -4,6 +4,7 @@ import android.app.Fragment;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.widget.ContentLoadingProgressBar;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -61,6 +62,9 @@ public class MainFragment extends Fragment implements MVPView {
     @BindView(R.id.tvNoResults)
     TextView tvNoResults;
 
+    @BindView(R.id.clProgress)
+    ContentLoadingProgressBar clProgress;
+
     private RecyclerViewAdapter adapter;
     private LinearLayoutManager layoutManager;
 
@@ -103,7 +107,9 @@ public class MainFragment extends Fragment implements MVPView {
 
     @Override
     public void showData(List<List<String>> data) {
+        clProgress.setVisibility(View.GONE);
         addDateForPagination();
+        showLoading(false);
         setAdapterData(data);
     }
 
@@ -128,6 +134,7 @@ public class MainFragment extends Fragment implements MVPView {
     public void showError(String error) {
         Toast.makeText(getActivity(), error, Toast.LENGTH_SHORT).show();
         showEmptyView(true);
+        showLoading(false);
     }
 
     @Override
@@ -177,6 +184,7 @@ public class MainFragment extends Fragment implements MVPView {
             showEmptyData();
         } else {
             presenter.onSearch();
+            showLoading(true);
         }
     }
 
@@ -211,6 +219,7 @@ public class MainFragment extends Fragment implements MVPView {
             int updatePosition = totalItemCount - 1 - (PAGINATION_DATE_LIMIT / 2);
 
             if (position >= updatePosition) {
+                showLoading(true);
                 presenter.onSearch();
             }
         }
@@ -261,5 +270,13 @@ public class MainFragment extends Fragment implements MVPView {
                 startActivityForResult(new Intent(android.provider.Settings.ACTION_SETTINGS), 0));
         builder.setNegativeButton(R.string.dismiss, (dialog, which) -> dialog.cancel());
         builder.create().show();
+    }
+
+    private void showLoading(boolean isLoading) {
+        if (isLoading) {
+            clProgress.setVisibility(View.VISIBLE);
+        } else {
+            clProgress.setVisibility(View.GONE);
+        }
     }
 }
